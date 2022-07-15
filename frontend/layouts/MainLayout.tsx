@@ -8,7 +8,7 @@ import { LayoutProps } from '../interfaces/layout'
 
 //* Components
 import Header from '../components/Nav/Header'
-
+import Footer from '../components/Footer/Footer'
 /**
  * @author Jorge Salgado
  * @name MainLayout
@@ -43,6 +43,7 @@ const MainLayout: NextPage<LayoutProps> = ({ title, description, children }) => 
 
 			<Header />
 			{children}
+			<Footer />
 
 		</>
 
