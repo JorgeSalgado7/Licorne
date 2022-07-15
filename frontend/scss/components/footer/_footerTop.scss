@@ -1,0 +1,73 @@
+.footerTop{
+	width: 100%;
+	background: $licorne_BrightTurquoise;
+    overflow: hidden;
+    z-index: 95;
+	height: 60%;
+	
+
+	.container{
+
+		@media(max-width:767px){
+			@include flex-a-center;
+		}
+		
+	}
+
+	&__text{
+		@include flex-a-center;
+
+			@media(max-width:767px){
+				display: block;
+			}
+	
+		h1{
+			width: 63%;
+			font-size: 30px;
+
+			@media (max-width:991px){
+				width: 100%;
+			}
+			@media (min-width: 576px) {
+				font-size: 40px;
+			}
+			@media (max-width: 300px) {
+				font-size: 25px;
+			}
+		}
+
+		&__botones{
+			width: 100%;
+			position: absolute;
+    		bottom: 40px;
+	
+			&__boton_testimoniales{
+				width: 50%;
+				text-align: center;
+				h1{
+					font-size: 12px;
+					color: #000;
+				}
+				@media (min-width: 1200px) {
+					font-size: 16px;
+				}
+			} 
+	
+			&__boton_proyectos{
+				width: 100%;
+				
+				h1{
+					font-size: 12px;
+					color: #000;
+				}
+				@media (min-width: 1200px) {
+					display: none;
+				}
+			}
+		}
+	
+	
+	}
+
+
+}

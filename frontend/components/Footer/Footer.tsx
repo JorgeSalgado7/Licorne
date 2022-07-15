@@ -2,6 +2,9 @@
 import type { NextPage } from 'next'
 import Link from 'next/link'
 
+//*COMPONENTS
+import FooterTop from '../Footer/FooterTop'
+
 //*IMAGE
 import Facebook from '../../svg/footer/Facebook'
 import Twitter from '../../svg/footer/Twitter'
@@ -10,7 +13,6 @@ import Instagram from '../../svg/footer/Instagram'
 import Tiktok from '../../svg/footer/Tiktok'
 import Youtube from '../../svg/footer/Youtube'
 import Spoty from '../../svg/footer/Spoty'
-
 
 
 /**
@@ -29,32 +31,7 @@ const Footer = () => {
 			
 				<div className='footer '>
 
-					<div className="footer__superior">
-
-						<div className="footer__superior__cambio_texto">
-							<h1>Llegó el momento de decir &quot;Hola Licorne&quot;.</h1>
-						</div>
-
-						<div className="footer__superior__botones">
-
-							<div className="footer__superior__botones__boton_proyectos">
-								<Link href="/portafolio">
-									<a>
-										<h1>ÚLTIMOS PROYECTOS +</h1>
-									</a>
-								</Link>
-							</div>
-
-						</div>
-
-						{/* <div className="footer__superior__boton_contacto">
-							<LinkPersonalizado
-								url="/contacto"
-								texto="CONTACTO"
-							/>
-						</div> */}
-
-					</div>
+					<FooterTop/>
 
 					<div className="footer__inferior">
 
