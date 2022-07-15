@@ -4,6 +4,7 @@ import type { NextPage } from 'next'
 //* Components
 import MainLayout from '../layouts/MainLayout'
 
+
 /**
  * @author Jorge Salgado
  * @name Home
