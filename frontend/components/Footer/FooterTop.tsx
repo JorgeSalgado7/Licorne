@@ -12,16 +12,16 @@ const FooterTop = () => {
 	return (
 
 		<>
-			<div className='footerTop'>
+			<div className='footer_top'>
 
 				<div className='container'>
 
-					<div className="footerTop__text">
+					<div className="footer_top__text">
 						<h1>Llegó el momento de decir &quot;Hola Licorne&quot;.</h1>
 						
-							<div className="footerTop__text__botones">
+							<div className="footer_top__text__botones">
 
-							<div className="footerTop__text__botones__boton_proyectos">
+							<div className="footer_top__text__botones__boton_proyectos">
 								<Link href="/portafolio">
 									<a>
 										<h1>ÚLTIMOS PROYECTOS +</h1>
@@ -30,7 +30,7 @@ const FooterTop = () => {
 							</div>
 
 					</div>
-				</div>
+					</div>
 
 					
 
