@@ -8,6 +8,11 @@
 		@media(max-width: 767px){
 			display: none;
 		}
+
+		svg{
+			width: 75px;
+			height: 75px;
+		}
 	
 	}
 	
@@ -27,10 +32,9 @@
 		&__imgBx {
 			padding-right: 20px;
 	
-			svg {
+			img {
 				transform: rotate(90deg);
-				width: 75px;
-				height: 75px;
+				
 			}
 	
 		}

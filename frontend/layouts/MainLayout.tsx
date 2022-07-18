@@ -9,6 +9,9 @@ import { LayoutProps } from '../interfaces/layout'
 //* Components
 import Header from '../components/Nav/Header'
 import Footer from '../components/Footer/Footer'
+import Lateral from '../components/Nav/Lateral'
+import MenuMovil from '../components/Nav/MenuMovil'
+
 /**
  * @author Jorge Salgado
  * @name MainLayout
@@ -41,8 +44,10 @@ const MainLayout: NextPage<LayoutProps> = ({ title, description, children }) => 
 				<meta name="description" content={description} />
 			</Head>
 
+			<Lateral />
 			<Header />
 			{children}
+			<MenuMovil />
 			<Footer />
 
 		</>
