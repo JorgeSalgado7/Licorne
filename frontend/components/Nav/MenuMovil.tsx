@@ -3,10 +3,18 @@ import { useState } from 'react'
 
 //*Components
 import Menu from './Menu/Menu'
+import Buscador from './Buscador'
+
+/**
+ * @author Maria Meza
+ * @name MenuMovil
+ * @description Menu Movil general 
+ */
 
 const MenuMovil = () => {
 
 	const [openMenu, setOpenMenu]= useState(false)
+	const [openSearch, setOpenSearch]= useState(false)
 
 	return (
 		<>
@@ -30,12 +38,14 @@ const MenuMovil = () => {
 				</a>
 			</Link>
 
-			<button className={'menu_movil_licorne__icono ' + (openMenu? 'menu_movil_licorne__icono--active': '')}>
+
+			<button  className={'menu_movil_licorne__icono ' + (openMenu? 'menu_movil_licorne__icono--active': '')} onClick={ () => setOpenSearch(!openSearch) } >
 				<img src="https://licorne-web.s3.us-east-2.amazonaws.com/menu/lupa-blanca.png" alt="" />
 			</button>
+		
 
 			</nav>
-
+			<Buscador open={openSearch}/>
 			<Menu open={openMenu}/>
 		</>
 
