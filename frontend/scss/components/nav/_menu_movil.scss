@@ -1,0 +1,208 @@
+.menu_movil{
+    width: 100%;
+    height: 100%;
+    z-index: 110;
+
+    &__licorne{
+        position: fixed;
+        bottom: 0px;
+        left: 50%;
+        transform: translate(-180%, -50%);
+        background-color: transparent;
+        z-index: 100;
+        border-radius: 40px;
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 10px;
+        z-index: 100;
+        transition: 1s;
+    
+        &__icono{
+            width: 60px;
+            height: 60px;
+            padding: 5px 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1;
+    
+            img{
+                max-width: 100%;
+                max-height: 100%;
+            }
+    
+        }
+    
+        &__icono_abrir_menu{
+            background-color: $licorne_blue;
+            border-radius: 50%;
+            padding: 0;
+            margin-top: -60px;
+            cursor: pointer;
+    
+            img{
+                width: 60%;
+            }
+    
+        }
+    
+        @media(max-width: 576px){
+            display: flex;
+    
+            &__icono{
+                width: 55px;
+                height: 55px;
+            }
+    
+            &__icono_abrir_menu{
+                width: 70px;
+                height: 70px;
+        
+            }
+    
+    
+        }
+        @media(max-width: 320px){
+            display: flex;
+    
+            &__icono{
+                width: 45px;
+                height: 45px;
+            }
+    
+            &__icono_abrir_menu{
+                width: 60px;
+                height: 60px;
+        
+            }
+    
+    
+        }
+    
+    
+    }
+    
+    &__licorne_active{
+        background-color: $licorne_gray;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: 1s;
+        position: fixed;
+        bottom: 0px;
+        z-index: 100;
+        border-radius: 40px;
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 10px;
+        z-index: 100;
+    
+    
+        &__oculto{
+            display: none;
+        }
+    
+        &__icono{
+            width: 60px;
+            height: 60px;
+            padding: 5px 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1;
+    
+            img{
+                max-width: 100%;
+                max-height: 100%;
+            }
+    
+        }
+    
+        .icono-abrir-menu{
+            background-color: $licorne_blue;
+            border-radius: 50%;
+            padding: 0;
+            margin-top: -60px;
+            cursor: pointer;
+    
+            img{
+                width: 60%;
+            }
+    
+        }
+    
+        @media(max-width: 576px){
+            display: flex;
+    
+            &__icono{
+                width: 55px;
+                height: 55px;
+            }
+    
+            &__icono-abrir-menu{
+                width: 70px;
+                height: 70px;
+        
+            }
+    
+    
+        }
+
+        @media(max-width: 320px){
+            display: flex;
+    
+            &__icono{
+                width: 45px;
+                height: 45px;
+            }
+    
+            &__icono-abrir-menu{
+                width: 60px;
+                height: 60px;
+        
+            }
+    
+    
+        }
+    
+    
+    }
+    
+    &__oculto{
+        position: fixed;
+        background-color: transparent;
+        transition: 1s;
+        top: 95.5%;
+        left: -6%;
+        transform: translate(0%,-95.5%);
+        width: 60px;
+        height: 60px;
+        z-index: 100;
+        border-radius: 50%;
+        z-index: 110;
+		
+		svg{
+			width: 60px;
+			height: 60px;
+		}
+
+    }
+
+    &__oculto_deactivate{
+        position: fixed;
+        background-color: transparent;
+        transition: 1s;
+        opacity: 0;
+        top: 95.5%;
+        left: -6%;
+        transform: translate(0%,-95.5%);
+        width: 60px;
+        height: 60px;
+        z-index: 100;
+        border-radius: 50%;
+        z-index: 110;
+
+    }
+
+}

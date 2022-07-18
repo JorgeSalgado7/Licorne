@@ -14,13 +14,13 @@ const Lateral = () => {
 	return (
 		<>
 			<div className='lateral_general'>
-				<aside className="logo_pequeno">
+				<aside className="lateral_general__logo_pequeno">
 					
 					<div className="lateral_general__logo_pequeno__imgBx">
 						<a href='https://licorne.mx/'> <img src="https://licorne-web.s3.us-east-2.amazonaws.com/logo/logo-pequeno.svg" alt='' width={120} height={120} /></a> 
 					</div>
 
-					<div className="lateral_general__logo_pequeno__imgBx">
+					<div className="lateral_general__logo_pequeno__text">
 						<Link href="/portafolio">
 							<a>Últimos proyectos</a>
 						</Link>
