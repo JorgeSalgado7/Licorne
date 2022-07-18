@@ -84,7 +84,8 @@
 			}
 		}
 
-		&__amarilla{
+		&__amarilla{  
+            display: none;  
 			width: 25px;
 			height: 25px;
 			z-index: 2;
@@ -107,7 +108,21 @@
 			
 
 			&--active{
-			
+				width: 25px;
+			    height: 25px;
+                display: block;
+                position: absolute;
+                top: 17%;
+                left: 2%;
+
+                @media(max-width:1366px){
+                    left: 3%;
+                    }
+               
+                @media(max-width:767px){
+                top: 17%;
+                left: 10%;
+                }
 			}
 		}
 		
