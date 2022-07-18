@@ -23,7 +23,7 @@
     ],
 	"overrides": [
 		{
-		"files": ["*.jsx", "*.js"]
+		"files": ["*.tsx", "*.ts"]
 		}
 	],
 	"ignorePatterns": ["next.config.js"],

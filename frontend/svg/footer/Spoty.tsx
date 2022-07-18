@@ -1,7 +1,7 @@
 const Spoty = () => {
 
 	return (
-		<svg xmlns="http://www.w3.org/2000/svg" width="89.719" height="82.26" viewBox="0 0 89.719 82.26">
+		<svg xmlns="http://www.w3.org/2000/svg" width="100.719 " height="89.26" viewBox="0 0 100.719 89.26">
 			<g id="spoti" transform="translate(-5.136 -5.87)">
 				<circle id="Elipse_1" data-name="Elipse 1" cx="31.92" cy="31.92" r="31.92" transform="translate(18.22 6.7)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.66"/>
 				<path id="Trazado_1" data-name="Trazado 1" d="M31.15,24.83S28.23,26,28.58,28.37s1.51,3.36,4.87,2.66a52.44,52.44,0,0,1,19.19-1.42,48.79,48.79,0,0,1,16.53,4.78s2.48,1.76,4,.26c2-1.94.74-3.93-.35-5.13" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.66"/>
