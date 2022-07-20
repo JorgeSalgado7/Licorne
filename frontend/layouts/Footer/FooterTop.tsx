@@ -32,15 +32,6 @@ const FooterTop = () => {
 					</div>
 					</div>
 
-					
-
-							{/* <div className="footer__superior__boton_contacto">
-								<LinkPersonalizado
-									url="/contacto"
-									texto="CONTACTO"
-								/>
-							</div> */}
-
 				</div>
 
 			</div>

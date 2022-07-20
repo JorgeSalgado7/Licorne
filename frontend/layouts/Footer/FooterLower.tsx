@@ -1,4 +1,4 @@
-//*IMAGE
+//* SVG
 import Facebook from '../../svg/footer/Facebook'
 import Twitter from '../../svg/footer/Twitter'
 import Linkendl from '../../svg/footer/Linkendli'
@@ -12,8 +12,6 @@ import Spoty from '../../svg/footer/Spoty'
  * @name Footer
  * @description FooterLower general
  */
-
-
 const FooterLower = () => {
 
 	return (

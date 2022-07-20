@@ -1,6 +1,5 @@
 ///* React components
-import { useLayoutEffect } from 'react'
-import React from "react"
+import { useEffect, useRef } from 'react'
 
 //*Animation
 import { gsap } from "gsap/dist/gsap"
@@ -9,17 +8,18 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger"
 gsap.registerPlugin(ScrollTrigger);
 
 //*Components
-import Titulo from '../Text/Title'
+import Titulo from '../Common/Title'
 
 /**
  * @author Maria Meza
  * @name StartKings
  * @description component StartupKing
  */
-
  const StartKings = () => {
 
-	useLayoutEffect(() => {
+	const animacion = useRef(null)
+
+	useEffect(() => {
 		
 		/**
 		 * * @ANIMACIÓN_2
@@ -27,7 +27,7 @@ import Titulo from '../Text/Title'
 		*/
 		const ANIMACION_LEAN_STARTUP = gsap.timeline({
 			scrollTrigger: {
-				trigger: '.lean_startup',
+				trigger: animacion.current,
 				markers: false,
 				start: 'top',
 				end: '200%',
@@ -102,13 +102,13 @@ import Titulo from '../Text/Title'
 		return () => {
 			
 		
-		  };
+		}
 
 		}, [])
 
 	return (
 
-		<div className='lean_startup'>
+		<div className='lean_startup' ref={animacion}>
 
 			<div className='container'>
 

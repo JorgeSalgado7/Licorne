@@ -1,8 +1,8 @@
 //* Next components
 import Link from 'next/link'
 
-//*IMAGE
-import Whats from '../../svg/nav/Whats'
+//* SVG
+import Whats from '../svg/Whats'
 
 /**
  * @author Maria Meza
@@ -11,9 +11,12 @@ import Whats from '../../svg/nav/Whats'
  */
 
 const Lateral = () => {
+
 	return (
 		<>
+
 			<div className='lateral_general'>
+
 				<aside className="lateral_general__logo_pequeno">
 					
 					<div className="lateral_general__logo_pequeno__imgBx">
@@ -34,11 +37,13 @@ const Lateral = () => {
 						<Whats/>
 					</a>
 				</div>
+
 			</div>
 			
-
 		</>
+
 	)
+
 }
 
 export default Lateral

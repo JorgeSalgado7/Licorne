@@ -1,6 +1,5 @@
 ///* React components
-import { useLayoutEffect } from 'react'
-import React from "react";
+import { useEffect } from 'react'
 
 //*Animation
 import { gsap } from "gsap/dist/gsap"
@@ -8,7 +7,7 @@ import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 //*Components
-import Titulo from '../Text/Title'
+import Titulo from '../Common/Title'
 
 /**
  * @author Maria Meza
@@ -18,7 +17,7 @@ import Titulo from '../Text/Title'
 
  const StartKings = () => {
 
-	useLayoutEffect(() => {
+	useEffect(() => {
 		
 		/**
 		 * * @ANIMACIÓN_1

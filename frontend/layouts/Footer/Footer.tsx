@@ -1,6 +1,6 @@
 //*COMPONENTS
-import FooterTop from '../Footer/FooterTop'
-import FooterLower from '../Footer/FooterLower'
+import FooterTop from './FooterTop'
+import FooterLower from './FooterLower'
 
 /**
  * @author Maria Meza

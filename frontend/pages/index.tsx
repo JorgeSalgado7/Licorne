@@ -1,17 +1,12 @@
 //* Next components
 import type { NextPage } from 'next'
 
+//* Custom Hooks
+import { useViewheight } from '../hooks/useViewheight'
 
 //* Components
 import MainLayout from '../layouts/MainLayout'
-import FrontPage from '../components/Home/FrontPage'
-import StartKings from '../components/Home/StartupKings'
-import LeanStartup from '../components/Home/LeanStartup'
-
-//*Animation
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
-gsap.registerPlugin(ScrollTrigger)
+import Hero from '../components/Home/Hero'
 
 /**
  * @author Jorge Salgado
@@ -21,27 +16,16 @@ gsap.registerPlugin(ScrollTrigger)
 
 const Home: NextPage = () => {
 
-	
 	const title = 'Metodología Lean Startup aplicada a consolidar tu negocio'
 	const description = 'En Licorne Startup kings damos vida a ideas de negocio para consolidar marcas mediante consultoría, tecnología y marketing digital. ¡Iniciemos hoy mismo!'
-	
 
+	useViewheight()
 
 	return (
 
 		<MainLayout title={title} description={description}>
-			
-			<div className="index">
 
-				<FrontPage/>
-				
-				<StartKings/>
-
-				<LeanStartup/>
-
-			</div>
-		
-		
+			<Hero />
 
 		</MainLayout>
 

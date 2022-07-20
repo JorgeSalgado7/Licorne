@@ -3,7 +3,7 @@ import type { NextPage } from 'next'
 import Link from 'next/link'
 
 //* Custom Hooks
-import { usePathname } from '../../../hooks/usePathname'
+import { usePathname } from '../../hooks/usePathname'
 import Technology from './Submenu/Technology'
 import WeAre from './Submenu/WeAre'
 

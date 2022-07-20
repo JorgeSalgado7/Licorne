@@ -7,10 +7,10 @@ import Script from 'next/script'
 import { LayoutProps } from '../interfaces/layout'
 
 //* Components
-import Header from '../components/Nav/Header'
-import Footer from '../components/Footer/Footer'
-import Lateral from '../components/Nav/Lateral'
-import MenuMovil from '../components/Nav/MenuMovil'
+import Header from './Header'
+import Footer from './Footer/Footer'
+import Lateral from './Lateral'
+import MenuMovil from './Menu/MenuMovil'
 
 /**
  * @author Jorge Salgado

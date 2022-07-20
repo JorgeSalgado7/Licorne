@@ -2,8 +2,8 @@ import Link from 'next/link'
 import { useState } from 'react'
 
 //*Components
-import Menu from './Menu/Menu'
-import Buscador from './Buscador'
+import Menu from './Menu'
+import Buscador from '../Buscador'
 
 /**
  * @author Maria Meza
