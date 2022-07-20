@@ -1,0 +1,189 @@
+.lean_startup{
+	width: 100%;
+	height: 100vh;
+	background: $licorne_yellow;
+	@media (min-width: 500px) {
+		height: 70vh ;
+	}
+	@media (min-width: 700px) {
+		height: 83vh;
+	}
+	@media (min-width: 800px) {
+		height: 73vh;
+	}
+	@media (min-width: 900px) {
+		height: 95vh ;
+	}
+	@media (min-width: 1000px) {
+		height: 100vh ;
+	}
+	@media (min-width: 380px) and (max-width: 500px) {
+	.titulo {
+		width: 100%;
+		position: absolute;
+	}
+}
+
+	.link-personalizado{
+		@media (min-width: 1300px) and (max-height: 580px) {
+			top: 80%;
+		}
+	}
+
+	&__animacion{
+		position: absolute;
+		left: 60%;
+		top: 70%;
+		transform: translate(-50%,-50%);
+		width: 150px;
+		height: 210px;
+		@media (max-width: 300px) {
+			left: 30%;
+			top: 63%;
+			transform: translate(-30%,-63%);
+		}
+		@media (min-width: 380px) {
+			top: 54%;
+		}
+		@media (min-width: 500px) {
+			top: 60%;
+		}
+		@media (min-width: 1199px) {
+			width: 350px;
+			height: 350px;
+			left: 100%;
+			top: 50%;
+			transform: translate(-100%,-50%);
+		}
+
+		&__mosca{
+			position: absolute;
+			display: block;
+			width: 150px;
+			height: 70px;
+			left: 30%;
+			top: 0%;
+			opacity: 0;
+
+			&__image_logo_mosca{
+				width: 250px;
+				height: 150px;
+
+				@media(max-width: 991px){
+					width: 115px;
+				}
+
+				img{
+					width: 100%;
+				}
+			}
+
+			@media (min-width: 1199px) {
+				left: 40%;
+				top: -40%;
+				width: 250px;
+				height: 150px;
+			}
+			@media (max-width: 300px) {
+				opacity: 0;
+			}
+
+		}
+
+		&__ojoLean{
+			width: 30px;
+			height: 30px;
+			top: 50%;
+			position: absolute;
+			left: 0;
+			background-color: $white;
+
+			@media (min-width: 1199px) {
+				top: 30%;
+				width: 60px;
+				height: 60px;
+			}
+
+		}
+
+		&__ojoDosLean{
+			width: 30px;
+			height: 80px;
+			top: 35%;
+			position: absolute;
+			left: 0;
+			background-color: $white;
+			transform: rotate(-45deg);
+
+			@media (min-width: 1199px) {
+				top: 10%;
+				left: 0%;
+				width: 60px;
+				height: 160px;
+			}
+
+		}
+
+		&__ojoGuiñoDosLean{
+			width: 30px;
+			height: 80px;
+			top: 33%;
+			position: absolute;
+			right: 8%;
+			background-color: $white;
+			transform: rotate(-45deg);
+
+			@media (min-width: 1199px) {
+				top: 10%;
+				right: 25%;
+				width: 60px;
+				height: 160px;
+			}
+
+		}
+
+		&__ojoGuiñoLean{
+			position: absolute;
+			top: 50%;
+			right: 0%;
+			width: 80px;
+			height: 30px;
+			background-color: $white;
+			transform: skew(-30deg);
+
+			@media (min-width: 1199px) {
+				top: 30%;
+				right: 10%;
+				width: 160px;
+				height: 60px;
+			}
+
+		}
+
+		&__bocaLean{
+			position: absolute;
+			width: 150px;
+			height: 150px;
+			border: 30px solid $white;
+			border-top: 30px solid transparent;
+			border-left: 30px solid transparent;
+			border-radius: 100%;
+			transform: translate(-50%, -65%) rotate(45deg);
+			top: 95%;
+			left: 50%;
+
+			@media (min-width: 1199px) {
+				width: 300px;
+				height: 300px;
+				border: 60px solid $white;
+				border-top: 60px solid transparent;
+				border-left: 60px solid transparent;
+				top: 80%;
+				left: 45%;
+			}
+
+		}
+
+	}
+
+}
