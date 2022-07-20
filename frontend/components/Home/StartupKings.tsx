@@ -1,9 +1,9 @@
 ///* React components
-import { useEffect } from 'react'
+import { useLayoutEffect } from 'react'
 import React from "react";
 
 //*Animation
-import { gsap } from 'gsap'
+import { gsap } from "gsap/dist/gsap"
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
@@ -18,16 +18,18 @@ import Titulo from '../Text/Title'
 
  const StartKings = () => {
 
-	useEffect(() => {
+	useLayoutEffect(() => {
+		
 		/**
 		 * * @ANIMACIÓN_1
 		 * * CARITA STARTUP KINGS
 		*/
 		const ANIMACION_STARTUP_KINGS = gsap.timeline({
+
 			scrollTrigger: {
 				trigger: '.startup_kings',
 				markers: false,
-				start: 'top',
+				start: 'top top',
 				end: '200%',
 				scrub:true,
 				pin: true,
@@ -39,29 +41,28 @@ import Titulo from '../Text/Title'
 			'(max-width: 1200px)': function () {
 
 				ANIMACION_STARTUP_KINGS
-					.from('.startup_kings__animacion__ojo', { opacity: 0, duration: 3 })
-					.from('.startup_kings__animacion__ojoGuiño', { opacity: 0, duration: 3 })
-					.from('.startup_kings__animacion__boca', { opacity: 0, duration: 3 })
-					.from('.startup_kings__animacion__corona', { opacity: 0, duration: 3 })
-
-
+					.from('.startup_kings__animacion__ojo', { opacity: 0, duration: 1 })
+					.from('.startup_kings__animacion__ojoGuiño', { opacity: 0, duration: 1 })
+					.from('.startup_kings__animacion__boca', { opacity: 0, duration: 1 })
+					.from('.startup_kings__animacion__corona', { opacity: 0, duration: 1 })
 		
 				},
 
 			'(min-width: 1199px)': function () {
 				ANIMACION_STARTUP_KINGS
-				.from('.startup_kings__animacion__ojo', {top: '-200%', left: '-30%', opacity: 0, duration: 3 }, '+=1')
-				.from('.startup_kings__animacion__ojoGuiño', { top: '-200%', left: '20%', opacity: 0, duration: 3 }, '+=2')
-				.from('.startup_kings__animacion__boca', { top: '-200%', left: '35%', transform: 'rotate(0deg)', opacity: 0, duration: 3 }, '+=3')
-				.from('.startup_kings__animacion__corona', { opacity: 0, duration: 3 }, '+=1')	
+				.from('.startup_kings__animacion__ojo', {top: '-200%', left: '-30%', opacity: '0', duration: 3 }, '+=1')
+				.from('.startup_kings__animacion__ojoGuiño', { top: '-200%', left: '20%', opacity: '0', duration: 3 }, '+=2')
+				.from('.startup_kings__animacion__boca', { top: '-200%', left: '35%', transform: 'rotate(0deg)', opacity: '0', duration: 3 }, '+=3')
+				.from('.startup_kings__animacion__corona', { opacity: '0' , duration: 3 }, '+=1')	
 
-			},
+			
+
+			}
 
 		})
 
 
-
-	}, [])
+	})
 
 	return (
 			
