@@ -1,5 +1,5 @@
 ///* React components
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 import type { NextPage } from 'next'
 
 //*Animation
@@ -10,6 +10,10 @@ gsap.registerPlugin(ScrollTrigger)
 //*Components
 import Titulo from '../Common/Title'
 
+//*Image
+
+import Queen from '../../svg/home/Queen'
+
 /**
  * @author Maria Meza
  * @name StartKings
@@ -17,6 +21,8 @@ import Titulo from '../Common/Title'
  */
 
  const StartKings: NextPage = () => {
+
+	const animacion = useRef(null)
 
 	useEffect(() => {
 		
@@ -27,7 +33,7 @@ import Titulo from '../Common/Title'
 		const ANIMACION_STARTUP_KINGS = gsap.timeline({
 
 			scrollTrigger: {
-				trigger: '.startup_kings',
+				trigger: animacion.current,
 				markers: false,
 				start: 'top top',
 				end: '200%',
@@ -67,7 +73,7 @@ import Titulo from '../Common/Title'
 
 	return (
 			
-			<div className='startup_kings'>
+			<div className='startup_kings' ref={animacion}>
 
 				<div className='container'>
 
@@ -81,7 +87,7 @@ import Titulo from '../Common/Title'
 					<div className='startup_kings__animation'>
 						<div className='startup_kings__animation__queen'>
 							<div className='startup_kings__animation__queen__image_logo_queen'>
-								<img src="https://licorne-web.s3.us-east-2.amazonaws.com/home/coronas.svg" alt="marketing" />
+								<Queen/>
 							</div>
 						</div>
 						<div className='startup_kings__animation__eye'>.</div>
