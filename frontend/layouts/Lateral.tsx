@@ -20,7 +20,7 @@ const Lateral = () => {
 				<aside className="lateral_general__logo_pequeno">
 					
 					<div className="lateral_general__logo_pequeno__imgBx">
-						<a href='https://licorne.mx/'> <img src="https://licorne-web.s3.us-east-2.amazonaws.com/logo/logo-pequeno.svg" alt='' width={120} height={120} /></a> 
+						<a href='https://licorne.mx/'> <img src="https://licorne-web.s3.us-east-2.amazonaws.com/logo/logo-pequeno.png" alt='' width={120} height={120} /></a> 
 					</div>
 
 					<div className="lateral_general__logo_pequeno__text">
