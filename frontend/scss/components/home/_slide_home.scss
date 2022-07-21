@@ -12,7 +12,9 @@
              position: absolute;
              background-color: $white;
 
-                &__text{
+             .contenedor{
+
+                &__text_pag1{
                     width: 100%;
                     height: 50%;
                     @media (min-width: 1199px) {
@@ -89,7 +91,7 @@
                         }
                         
                 }
-             
+             }
 
              &__image_pag1{
                 width: 100%;
@@ -121,7 +123,7 @@
                     }
 
 
-                    svg{
+                    img{
                         width: 100%;
                     }
 
@@ -142,11 +144,12 @@
              transform: translate(-50%,0);
              transition-duration: 1500ms;
 
+            .contenedor{
                 @media (min-width:1199px) {
                     position: relative;
                 }
 
-                &__text{
+                &__text_pag2{
                     width: 100%;
                     height: 50%;
                     @media (min-width:1199px) {
@@ -232,7 +235,7 @@
 
                 }
                 
-                &__textDos{
+                &__textDos_pag2{
                     width: 45%;
                     height: 100%;
                     display: none;
@@ -307,13 +310,11 @@
                             transform: translate(-10%,-60%);
                         }
                         @media (min-width: 1300px) {
-                        width: 234px;
+                        width: 294px;
                         height: 234px;
                          }
                         img{
                             width: 100%;
-							height: 100%;
-							
                         }
 
                     }
@@ -349,6 +350,8 @@
                 }
 
 
+            }
+
         }
 
           // TECNOLOGÍA
@@ -360,12 +363,12 @@
              left: 150%;
              transform: translate(-50%,0);
              transition-duration: 1500ms;
-			 
              @media (min-width: 1199px) {
                 display: none;
             }
+            .contenedor{
 
-                &__image_pag3{
+                 &__image_pag3{
                     width: 100%;
                     height: 50%;
 
@@ -400,7 +403,7 @@
                     }
 
 
-                }
+                 }
 
                 &__text_pag3{
                     width: 100%;
@@ -472,7 +475,9 @@
                         }
                     }
 
-                }  
+                }
+
+            }
 
         }
 
@@ -485,11 +490,12 @@
              transition-duration: 1500ms;
              left: 150%;
              transform: translate(-50%,0);
-			 opacity: 0;
 
-			 @media (min-width:1199px) {
-				position: relative;
-			}
+             .contenedor{
+
+                @media (min-width:1199px) {
+                    position: relative;
+                }
 
                 &__text_pag4{
                     width: 100%;
@@ -603,13 +609,12 @@
                     }
                 } 
 
-                &__image_pag4{
+                 &__image_pag4{
                     width: 100%;
                     height: 50%;
                     @media (min-width: 410px) {
                         height: 100%;
                     }
-
                     &__image{
                         width: 250px;
                         height: 200px;
@@ -646,7 +651,10 @@
 
                     }
 
+
                  }
+
+            }
 
              h1{
                  position: absolute;
@@ -657,7 +665,7 @@
         }
 
         //TRABAJAMOS
-        &__pag5{
+        .pag5{
             min-width: 100%;
             height: 100%;
             position: absolute;
@@ -669,9 +677,11 @@
                 display: none;
             }
 
-            &__text_pag5{
-                width: 100%;
-                height: 50%;
+             .contenedor{
+
+                &__text_pag5{
+                    width: 100%;
+                    height: 50%;
 
                     p{
                         padding-left: 5px;
@@ -709,6 +719,8 @@
 
                 }
 
+            }
+
                 h1{
                     position: absolute;
                     top: 50%;
@@ -717,7 +729,7 @@
                 }
         }
 
-        &__cubo{
+        .cubo{
             width: 30px;
             height: 30px;
             position: absolute;
