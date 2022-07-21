@@ -8,6 +8,8 @@ import { useViewheight } from '../hooks/useViewheight'
 import MainLayout from '../layouts/MainLayout'
 import Hero from '../components/Home/Hero'
 import StartKings from '../components/Home/StartupKings'
+import LeanStartup from '../components/Home/LeanStartup'
+import Slide from '../components/Home/SlideHome'
 
 /**
  * @author Jorge Salgado
@@ -28,6 +30,8 @@ const Home: NextPage = () => {
 
 			<Hero />
 			<StartKings/>
+			<LeanStartup/>
+			<Slide/>
 
 		</MainLayout>
 

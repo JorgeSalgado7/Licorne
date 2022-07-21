@@ -1,5 +1,6 @@
 ///* React components
 import { useEffect, useRef } from 'react'
+import type { NextPage } from 'next'
 
 //*Animation
 import { gsap } from "gsap/dist/gsap"
@@ -15,7 +16,7 @@ import Titulo from '../Common/Title'
  * @name StartKings
  * @description component StartupKing
  */
- const StartKings = () => {
+ const StartKings: NextPage = () => {
 
 	const animacion = useRef(null)
 
@@ -50,14 +51,10 @@ import Titulo from '../Common/Title'
 
 				.from('.lean_startup__animacion__bocaLean', { top: '-100%', left: '35%', opacity: '0', duration: 1 }, '-=3')
 				.to('.lean_startup__animacion__bocaLean', { top: '50%', left: '15%', opacity: '1', duration: 1 }, '-=3')
-
-			
-				
-				
+	
 				.to('.lean_startup__animacion__ojoLean', { height: '80px', transform: 'rotate(45deg)', top: '10%', opacity: '1'  }, '+=1')
 				.to('.lean_startup__animacion__bocaLean', { left: '-30%', top: '70%', transform: 'rotate(225deg)', opacity: '1' })
 				.to('.lean_startup__animacion__ojoGuiñoLean', { height: '30px', width: '80px', transform: 'rotate(-45deg)', top: '25%' , opacity: '1' }, '+=1')
-				.to('.lean_startup__animacion__mosca', { opacity: '1', top: '-50%', left: '15%' }, '+=1')
 				
 				.from('.lean_startup__animacion__ojoDosLean', { opacity: '0' }, '+=1')
 				.to('.lean_startup__animacion__ojoDosLean', { opacity: '1', left: '-30%', top:'10%'}, '+=1')
@@ -65,6 +62,8 @@ import Titulo from '../Common/Title'
 				.to('.lean_startup__animacion__ojoGuiñoDosLean', { opacity: '1', left: '35%', top:'10%'  }, '+=1')
 
 				.to('.lean_startup__animacion__bocaLean', { left: '-30%', top: '70%', transform: 'rotate(225deg)', opacity: '1' })
+
+				.to('.lean_startup__animacion__mosca', { opacity: '1', top: '-50%', left: '15%' }, '+=1')
 				},
 
 			'(min-width: 1199px)': function () {
@@ -78,9 +77,6 @@ import Titulo from '../Common/Title'
 
 					.from('.lean_startup__animacion__bocaLean', { top: '-100%', left: '35%', opacity: '0', duration: 1 }, '-=3')
 					.to('.lean_startup__animacion__bocaLean', { top: '50%', left: '15%', opacity: '1', duration: 1 }, '-=3')
-
-					.from('.lean_startup__animacion__mosca', { opacity: '0' }, '+=1')
-					.to('.lean_startup__animacion__mosca', { opacity: '1', top: '-50%', left: '15%' }, '+=1')
 					
 					.to('.lean_startup__animacion__ojoLean', { height: '160px', transform: 'rotate(45deg)', top: '10%', opacity: '1'  }, '+=1')
 					.to('.lean_startup__animacion__bocaLean', { left: '-30%', top: '70%', transform: 'rotate(225deg)', opacity: '1' })
@@ -93,7 +89,9 @@ import Titulo from '../Common/Title'
 					.to('.lean_startup__animacion__ojoGuiñoDosLean', { opacity: '1', left: '35%'  }, '+=1')
 
 					.to('.lean_startup__animacion__bocaLean', { left: '-30%', top: '70%', transform: 'rotate(225deg)', opacity: '1' })
-				
+					
+					.from('.lean_startup__animacion__mosca', { opacity: '0' }, '+=1')
+					.to('.lean_startup__animacion__mosca', { opacity: '1', top: '-50%', left: '15%' }, '+=1')
 
 				},
 
