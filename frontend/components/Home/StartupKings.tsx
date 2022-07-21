@@ -1,8 +1,9 @@
 ///* React components
 import { useEffect } from 'react'
+import type { NextPage } from 'next'
 
 //*Animation
-import { gsap } from "gsap/dist/gsap"
+import { gsap } from "gsap"
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
@@ -15,7 +16,7 @@ import Titulo from '../Common/Title'
  * @description component StartupKing
  */
 
- const StartKings = () => {
+ const StartKings: NextPage = () => {
 
 	useEffect(() => {
 		
@@ -36,32 +37,33 @@ import Titulo from '../Common/Title'
 		})
 
 
-		ScrollTrigger.matchMedia({
-			'(max-width: 1200px)': function () {
+			ScrollTrigger.matchMedia({
+
+			//*responsive 
+
+			'(min-width: 1200px)': function () {
 
 				ANIMACION_STARTUP_KINGS
-					.from('.startup_kings__animacion__ojo', { opacity: 0, duration: 1 })
-					.from('.startup_kings__animacion__ojoGuiño', { opacity: 0, duration: 1 })
-					.from('.startup_kings__animacion__boca', { opacity: 0, duration: 1 })
-					.from('.startup_kings__animacion__corona', { opacity: 0, duration: 1 })
-		
+					.to('.startup_kings__animation__queen', { top: '-65%',opacity: 1, duration: 1 })
+					.to('.startup_kings__animation__eye', {  top: '40%', opacity: 1, duration: 1 })
+					.to('.startup_kings__animation__eye_wink', { top: '20%', opacity: 1, duration: 1 })
+					.to('.startup_kings__animation__mouth', { top: '90%', opacity: 1, duration: 1 })
 				},
 
-			'(min-width: 1199px)': function () {
+			'(max-width: 1199px)': function () {
+
 				ANIMACION_STARTUP_KINGS
-				.from('.startup_kings__animacion__ojo', {top: '-200%', left: '-30%', opacity: '0', duration: 3 }, '+=1')
-				.from('.startup_kings__animacion__ojoGuiño', { top: '-200%', left: '20%', opacity: '0', duration: 3 }, '+=2')
-				.from('.startup_kings__animacion__boca', { top: '-200%', left: '35%', transform: 'rotate(0deg)', opacity: '0', duration: 3 }, '+=3')
-				.from('.startup_kings__animacion__corona', { opacity: '0' , duration: 3 }, '+=1')	
+					.to('.startup_kings__animation__queen', { top: '-25%',opacity: 1, duration: 1 })
+					.to('.startup_kings__animation__eye', {  top: '60%', opacity: 1, duration: 1 })
+					.to('.startup_kings__animation__eye_wink', { opacity: 1, duration: 1 })
+					.to('.startup_kings__animation__mouth', { opacity: 1, duration: 1 })
+				},
+	
 
-			
+	
+			})
 
-			}
-
-		})
-
-
-	})
+		}, [])
 
 	return (
 			
@@ -76,15 +78,15 @@ import Titulo from '../Common/Title'
 						invertido={false}
 					/>
 
-					<div className='startup_kings__animacion'>
-						<div className='startup_kings__animacion__corona'>
-							<div className='startup_kings__animacion__corona__image_logo_corona'>
+					<div className='startup_kings__animation'>
+						<div className='startup_kings__animation__queen'>
+							<div className='startup_kings__animation__queen__image_logo_queen'>
 								<img src="https://licorne-web.s3.us-east-2.amazonaws.com/home/coronas.svg" alt="marketing" />
 							</div>
 						</div>
-						<div className='startup_kings__animacion__ojo'>.</div>
-						<div className='startup_kings__animacion__ojoGuiño'>.</div>
-						<div className='startup_kings__animacion__boca'>.</div>
+						<div className='startup_kings__animation__eye'>.</div>
+						<div className='startup_kings__animation__eye_wink'>.</div>
+						<div className='startup_kings__animation__mouth'>.</div>
 					</div>
 
 					{/* <LinkPersonalizado
