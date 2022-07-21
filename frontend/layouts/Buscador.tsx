@@ -12,7 +12,7 @@ interface MenuProps {
  * @description Buscador General 
  */
 
-const buscador : NextPage<MenuProps> = ({ open }) => {
+const buscador: NextPage<MenuProps> = ({ open }) => {
 
 	const [openPanel, setOpenPanel] = useState(false)
 
