@@ -30,7 +30,6 @@ const slide: NextPage = () => {
 					scrollTrigger: {
 						trigger: animation.current,
 						markers: false,
-						refresh: true,
 						start: 'top',
 						end: '600%',
 						scrub: true,
@@ -52,7 +51,6 @@ const slide: NextPage = () => {
 					scrollTrigger: {
 						trigger: animation.current,
 						markers: false,
-						refresh: true,
 						start: 'top',
 						end: '200%',
 						scrub: true,
