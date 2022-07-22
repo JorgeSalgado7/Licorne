@@ -1,7 +1,6 @@
 ///* Next components
 import type { NextPage } from 'next'
 
-
 //* Interfaces
 import { Title } from '../../interfaces/title'
 

@@ -22,7 +22,7 @@ const Footer = () => {
 
 					<FooterLower/>
 
-					</div>
+				</div>
 
 			</footer>
 
