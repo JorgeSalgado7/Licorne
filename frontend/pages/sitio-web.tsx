@@ -12,6 +12,7 @@ import { useViewheight } from '../hooks/useViewheight'
 //* Components
 import MainLayout from '../layouts/MainLayout'
 import Hero from '../components/Web/Hero'
+import Creative from '../components/Web/Creative'
 
 /**
  * @author Maria Meza
@@ -30,6 +31,7 @@ const Web: NextPage = () => {
 
 		<MainLayout title={title} description={description}>
 			<Hero/>
+			<Creative/>
 		
 		</MainLayout>
 

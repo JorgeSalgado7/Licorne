@@ -1,7 +1,7 @@
 //* Next components
 import type { NextPage } from 'next'
 
-//* Next components
+//* Image
 import Bottle from '../../svg/web/Bottle'
 import BottleTwo from '../../svg/web/BottleTwo'
 import Button from '../../svg/web/Button'

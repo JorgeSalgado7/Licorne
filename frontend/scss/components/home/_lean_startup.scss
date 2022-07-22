@@ -1,13 +1,13 @@
 .title{
 	width: 90%;
-	&__superior{
+	&__top{
 		@media (max-width:767px){
 			font-size: 27px;
 		   
 		}
 	}
 
-	&__inferior{
+	&__low{
 		@media (max-width:767px){
 			font-size: 30px;
 		   
