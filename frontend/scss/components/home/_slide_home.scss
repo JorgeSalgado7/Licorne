@@ -17,6 +17,9 @@
                 &__text_pag1{
                     width: 100%;
                     height: 50%;
+                    top: 700%;
+
+                   
                     @media (min-width: 1199px) {
                         width: 50%;
                         height: 70%;
@@ -65,14 +68,15 @@
                             color: $licorne_blue;
                             font-weight: 700;
                         }
-                        @media (min-width: 100px) {
+                        @media (min-width: 100px) and (max-width:280px) {
                             font-size: 18px;
-                            top: 50%;
+                            top: 67%;
                             left: 50%;
                             transform: translate(-50%,-50%);
                         }
+                      
                         @media (min-width: 310px) {
-                            font-size: 18px;
+                            font-size: 16px;
                         }
                         @media (min-width: 410px) {
                             font-size: 22px;
@@ -117,12 +121,19 @@
                     top: 20%;
                     left: 40%;
                     transform: translate(-50%,-50%);
-
+                    @media (min-width: 280px) and (max-width:309px) {
+                        top: 60%;
+                        left: 40%;
+                        width: 206px;
+                    }
                     @media (min-width: 310px) {
                         top: 33%;
+                        left: 40%;
                         width: 206px;
                     }
                     @media (min-width: 410px) {
+                        top: 43%;
+                        left: 50%;
                         width: 280px;
                         height: 280px;
                     }
@@ -309,11 +320,17 @@
                         left: 50%;
                         transform: translate(-50%,-50%);
 
-                        @media (min-width: 310px) {
+                        @media (min-width: 280px) and (max-width: 309px)  {
+                            top: 50%;
+                            width: 250px;
+                        }
+                        @media (min-width: 320px) and (max-width:376px) {
                             top: 40%;
                             width: 250px;
                         }
+                     
                         @media (min-width: 410px) {
+                            top: 15%;
                             width: 350px;
                             height: 300px;
                         }
@@ -497,7 +514,7 @@
 
          // MARKETING DIGITAL
         &__pag4{
-             min-width: 100%;
+             width: 100%;
              height: 100%;
              position: absolute;
              background: $white;
@@ -638,16 +655,16 @@
                         left: 50%;
                         transform: translate(-50%,-50%);
 
-                        @media (min-width: 310px) {
+                        @media (min-width: 310px) and (max-width:309px){
                             top: 10%;
                             width: 250px;
                         }
-                        @media (min-width: 410px) {
+                        @media (min-width: 410px) and (max-width:499px){
                             width: 350px;
                             height: 300px;
                         }
                         @media (min-height: 500px) {
-                            width: 300px;
+                            width: 250px;
                             height: 250px;
                         }
                         @media (min-width: 1199px) {

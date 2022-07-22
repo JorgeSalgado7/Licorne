@@ -11,6 +11,7 @@ import StartKings from '../components/Home/StartupKings'
 import LeanStartup from '../components/Home/LeanStartup'
 import Slide from '../components/Home/SlideHome'
 import Focus from '../components/Home/Focus'
+import Know from '../components/Home/Know'
 
 /**
  * @author Jorge Salgado
@@ -34,6 +35,7 @@ const Home: NextPage = () => {
 			<LeanStartup/>
 			<Slide/>
 			<Focus/>
+			<Know/>
 
 		</MainLayout>
 
