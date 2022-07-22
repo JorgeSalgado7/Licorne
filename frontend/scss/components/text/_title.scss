@@ -8,7 +8,7 @@
         width: 50%;
     }
 
-    &__superior{
+    &__top{
         color: $black;
         font-size: 47px;
         width: fit-content;
@@ -32,7 +32,7 @@
 
     }
 
-    &__inferior{
+    &__low{
         font-size: 37px;
         -webkit-text-stroke-color: $black;
         -webkit-text-stroke-width: 1px;

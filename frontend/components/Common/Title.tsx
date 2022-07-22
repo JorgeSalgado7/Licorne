@@ -14,16 +14,16 @@ const Title: NextPage <Title>  = ({ superior, inferior, alternativo, invertido }
 					<div className="title">
 						<p>{alternativo}</p>
 						<div className='display'>
-							<h1 className='title__superior'>{superior}</h1>
-							<h1 className='title__inferior'>{inferior}</h1>
+							<h1 className='title__top'>{superior}</h1>
+							<h1 className='title__low'>{inferior}</h1>
 						</div>
 					</div>
 				) : (
 					<div className='title'>
 						<p>{alternativo}</p>
 						<div className='display'>
-							<h1 className='title__inferior'>{superior}</h1>
-							<h1 className='title__superior'>{inferior}</h1>
+							<h1 className='title__low'>{superior}</h1>
+							<h1 className='title__top'>{inferior}</h1>
 						</div>
 					</div>
 				)
