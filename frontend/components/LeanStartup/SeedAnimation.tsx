@@ -2,7 +2,7 @@
 import type { NextPage } from 'next'
 
 //* React components
-import { useEffect } from 'react'
+import { useLayoutEffect, useRef } from 'react'
 
 //* SVG
 import PlantOne from '../svg/LeanStartup/PlantOne'
@@ -23,12 +23,14 @@ gsap.registerPlugin(ScrollTrigger)
  * @description Animacion de etapas de una semilla
  */
 const SeedAnimation: NextPage = () => {
+
+	const seed = useRef<HTMLDivElement>(null)
 	
-	useEffect(() => {
+	useLayoutEffect(() => {
 
 		const SEED_ANIMATION = gsap.timeline({
 			scrollTrigger: {
-				trigger: '.seed',
+				trigger: seed.current,
 				markers: false,
 				start: 'top',
 				end: '200%',
@@ -36,21 +38,22 @@ const SeedAnimation: NextPage = () => {
 				pin: true
 			}
 		})
+
 		SEED_ANIMATION
-			.to('.seed__container__animation__one', { opacity: 0, duration: 1 }, '+=1')
-			.to('.seed__container__animation__two', { opacity: 1, duration: 1 }, '+=1')
-			.to('.seed__container__animation__two', { opacity: 0, duration: 1 }, '+=1')
-			.to('.seed__container__animation__three', { opacity: 1, duration: 1 }, '+=1')
-			.to('.seed__container__animation__three', { opacity: 0, duration: 1 }, '+=1')
-			.to('.seed__container__animation__four', { opacity: 1, duration: 1 }, '+=1')
-			.to('.seed__container__animation__four', { opacity: 0, duration: 1 }, '+=1')
-			.to('.seed__container__animation__five', { opacity: 1, duration: 1 }, '+=1')
+			.to('seed__container__animation__one', { opacity: 0, duration: 1 }, '+=1')
+			.to('seed__container__animation__two', { opacity: 1, duration: 1 }, '+=1')
+			.to('seed__container__animation__two', { opacity: 0, duration: 1 }, '+=1')
+			.to('seed__container__animation__three', { opacity: 1, duration: 1 }, '+=1')
+			.to('seed__container__animation__three', { opacity: 0, duration: 1 }, '+=1')
+			.to('seed__container__animation__four', { opacity: 1, duration: 1 }, '+=1')
+			.to('seed__container__animation__four', { opacity: 0, duration: 1 }, '+=1')
+			.to('seed__container__animation__five', { opacity: 1, duration: 1 }, '+=1')
 
 	}, [])
 	
 	return (
 
-		<div className='seed'>
+		<div  className='seed' ref={seed}>
 			<div className='seed__container container'>
 				<div className='seed__container__text'>
 					<div className='seed__container__text__title'>
