@@ -100,17 +100,22 @@
                     width: 50%;
                     height: auto;
                     position: absolute;
-                    top: 60%;
+                    top: 70%;
                     left: 0%;
                     transform: translate(0,-60%);
                 }
+
+                @media (max-height:681px){
+                    top: 85%;
+                }
+
                 &__image{
                     width: 180px;
                     height: 200px;
                     position: relative;
 					display: block;
                     top: 20%;
-                    left: 50%;
+                    left: 40%;
                     transform: translate(-50%,-50%);
 
                     @media (min-width: 310px) {
@@ -118,8 +123,14 @@
                         width: 206px;
                     }
                     @media (min-width: 410px) {
-                        width: 250px;
-                        height: 250px;
+                        width: 280px;
+                        height: 280px;
+                    }
+
+                    @media (min-width: 767px) {
+                        top: 33%;
+                        width: 350px;
+                        height: 370px;
                     }
 
 
@@ -235,7 +246,7 @@
 
                 }
                 
-                &__textDos_pag2{
+                &__text_two_pag2{
                     width: 45%;
                     height: 100%;
                     display: none;
@@ -325,7 +336,7 @@
 
                 }
 
-                &__imageDos_pag2{
+                &__image_two_pag2{
                     width: 50%;
                     height: 100%;
                     position: absolute;
@@ -588,7 +599,7 @@
 
                  }
                 
-                &__textDos_pag4{
+                &__text_two_pag4{
                     width: 45%;
                     height: 100%;
                     position: absolute;
@@ -732,7 +743,7 @@
                 }
         }
 
-        &__cubo{
+        &__cube{
             width: 30px;
             height: 30px;
             position: absolute;

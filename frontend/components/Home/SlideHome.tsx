@@ -105,7 +105,7 @@ const slide: NextPage = () => {
 							<p>Los cracks en lean startup, estrategia de negocio y por supuesto, digital ¡están aquí! </p>
 						</div>
 
-						<div className='contenedor__textDos_pag2'>
+						<div className='contenedor__text_two_pag2'>
 							<h3>TECNOLOGÍA</h3>
 							<p>¿Buscas desarrollo de aplicaciones, ecommerce o sitios web para tu MVP? Estás en el sitio correcto a la hora exacta.</p>
 						</div>
@@ -117,9 +117,9 @@ const slide: NextPage = () => {
 							</div>
 
 						</div>
-						<div className='contenedor__imageDos_pag2'>
+						<div className='contenedor__image_two_pag2'>
 
-							<div className='contenedor__imageDos_pag2__image'>
+							<div className='contenedor__image_two_pag2__image'>
 								<img src="https://licorne-web.s3.us-east-2.amazonaws.com/home/tecno.png" alt=""/>
 							</div>
 
@@ -157,7 +157,7 @@ const slide: NextPage = () => {
 							<p>Más de 10 años en el negocio nos han permitido boostear el inbound y el outbound marketing.</p>
 						</div>
 
-						<div className='contenedor__textDos_pag4'>
+						<div className='contenedor__text_two_pag4'>
 							<h3>Trabajamos juntos en el <span> problem solution fit </span> para generar tu MVP.
 				Proponemos y probamos <span> hipótesis lean, </span> las validamos con métricas lean
 				para accionar, pivotar y así lograr tracción para llegar al ansiado <span> product market fit. </span></h3>
@@ -185,7 +185,7 @@ const slide: NextPage = () => {
 
 				</div>
 
-				<div className='slide_home__slide__cubo'></div>
+				<div className='slide_home__slide__cube'></div>
 
 			</div>
 		</div>
