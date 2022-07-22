@@ -2,14 +2,14 @@
 import type { NextPage } from 'next'
 
 //* React components
-import { useLayoutEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 
 //* SVG
-import PlantOne from '../svg/LeanStartup/PlantOne'
-import PlantTwo from '../svg/LeanStartup/PlantTwo'
-import PlantThree from '../svg/LeanStartup/PlantThree'
-import PlantFour from '../svg/LeanStartup/PlantFour'
-import PlantFive from '../svg/LeanStartup/PlantFive'
+import PlantOne from '../../svg/LeanStartup/PlantOne'
+import PlantTwo from '../../svg/LeanStartup/PlantTwo'
+import PlantThree from '../../svg/LeanStartup/PlantThree'
+import PlantFour from '../../svg/LeanStartup/PlantFour'
+import PlantFive from '../../svg/LeanStartup/PlantFive'
 
 //* Animations components
 import { gsap } from 'gsap'
@@ -26,7 +26,7 @@ const SeedAnimation: NextPage = () => {
 
 	const seed = useRef<HTMLDivElement>(null)
 	
-	useLayoutEffect(() => {
+	useEffect(() => {
 
 		const SEED_ANIMATION = gsap.timeline({
 			scrollTrigger: {

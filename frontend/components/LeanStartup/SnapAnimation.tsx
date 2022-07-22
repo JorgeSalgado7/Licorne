@@ -2,9 +2,9 @@
 import type { NextPage } from 'next'
 
 //* SVG
-import Snap from '../svg/LeanStartup/Snap'
-import Finger from '../svg/LeanStartup/Finger'
-import Hand from '../svg/LeanStartup/Hand'
+import Snap from '../../svg/LeanStartup/Snap'
+import Finger from '../../svg/LeanStartup/Finger'
+import Hand from '../../svg/LeanStartup/Hand'
 
 /**
  * @author Iván Sánchez
