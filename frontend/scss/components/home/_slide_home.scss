@@ -299,7 +299,7 @@
                         transform: translate(-50%,-50%);
 
                         @media (min-width: 310px) {
-                            top: 10%;
+                            top: 40%;
                             width: 250px;
                         }
                         @media (min-width: 410px) {
@@ -668,7 +668,7 @@
         }
 
         //TRABAJAMOS
-        .pag5{
+        &__pag5{
             min-width: 100%;
             height: 100%;
             position: absolute;
@@ -732,7 +732,7 @@
                 }
         }
 
-        .cubo{
+        &__cubo{
             width: 30px;
             height: 30px;
             position: absolute;

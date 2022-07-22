@@ -174,7 +174,7 @@ const slide: NextPage = () => {
 					</div>
 				</div>
 
-				<div className='pag5'>
+				<div className='slide_home__slide__pag5'>
 					<div className='contenedor container'>
 
 						<div className='contenedor__text_pag5'>
@@ -185,7 +185,7 @@ const slide: NextPage = () => {
 
 				</div>
 
-				<div className='cubo'></div>
+				<div className='slide_home__slide__cubo'></div>
 
 			</div>
 		</div>
