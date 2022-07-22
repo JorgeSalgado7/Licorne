@@ -2,13 +2,13 @@
 import type { NextPage } from 'next'
 
 //* SVG
-import Point from '../svg/LeanStartup/Point'
-import Data from '../svg/LeanStartup/Data'
-import Developing from '../svg/LeanStartup/Developing'
-import Strategy from '../svg/LeanStartup/Strategy'
-import Implementation from '../svg/LeanStartup/Implementation'
-import Measuring from '../svg/LeanStartup/Measuring'
-import Relationship from '../svg/LeanStartup/Relationship'
+import Point from '../../svg/LeanStartup/Point'
+import Data from '../../svg/LeanStartup/Data'
+import Developing from '../../svg/LeanStartup/Developing'
+import Strategy from '../../svg/LeanStartup/Strategy'
+import Implementation from '../../svg/LeanStartup/Implementation'
+import Measuring from '../../svg/LeanStartup/Measuring'
+import Relationship from '../../svg/LeanStartup/Relationship'
 
 /**
  * @author Iván Sánchez

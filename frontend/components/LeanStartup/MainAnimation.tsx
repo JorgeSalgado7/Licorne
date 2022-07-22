@@ -5,10 +5,10 @@ import type { NextPage } from 'next'
 import Titulo from '../Common/Title'
 
 //* SVG
-import Lens from '../svg/LeanStartup/Leans'
-import Arrow from '../svg/LeanStartup/Arrow'
-import Wall from '../svg/LeanStartup/Wall'
-import Ruler from '../svg/LeanStartup/Ruler'
+import Lens from '../../svg/LeanStartup/Leans'
+import Arrow from '../../svg/LeanStartup/Arrow'
+import Wall from '../../svg/LeanStartup/Wall'
+import Ruler from '../../svg/LeanStartup/Ruler'
 
 /**
  * @author Iván Sánchez

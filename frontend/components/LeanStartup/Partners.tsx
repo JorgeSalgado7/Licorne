@@ -15,15 +15,15 @@ import 'swiper/css/navigation'
 import Titulo from '../Common/Title'
 
 //* SVG
-import GooglePartners from '../svg/SlidePartners/GooglePartners'
-import Paypal from '../svg/SlidePartners/Paypal'
-import Hubspot from '../svg/SlidePartners/Hubspot'
-import GoogleAnalytics from '../svg/SlidePartners/GoogleAnalytics'
-import DraculaStudio from '../svg/SlidePartners/DraculaStudio'
-import RDStation from '../svg/SlidePartners/RDStation'
-import Shopify from '../svg/SlidePartners/Shopify'
-import FacebookCertification from '../svg/SlidePartners/FacebookCertification'
-import FacebookPlanner from '../svg/SlidePartners/FacebookPlanner'
+import GooglePartners from '../../svg/SlidePartners/GooglePartners'
+import Paypal from '../../svg/SlidePartners/Paypal'
+import Hubspot from '../../svg/SlidePartners/Hubspot'
+import GoogleAnalytics from '../../svg/SlidePartners/GoogleAnalytics'
+import DraculaStudio from '../../svg/SlidePartners/DraculaStudio'
+import RDStation from '../../svg/SlidePartners/RDStation'
+import Shopify from '../../svg/SlidePartners/Shopify'
+import FacebookCertification from '../../svg/SlidePartners/FacebookCertification'
+import FacebookPlanner from '../../svg/SlidePartners/FacebookPlanner'
 
 /**
  * @author Iván Sánchez
