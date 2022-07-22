@@ -73,3 +73,22 @@ const Home: NextPage = () => {
 
 export default Home
 ```
+//* Next components
+import type { NextPage } from 'next'
+
+/**
+ * @author Iván Sánchez
+ * @name SVG_Arrow
+ * @description Imagen SVG
+ */
+const Arrow: NextPage = () => {
+
+	return (
+
+		
+
+	)
+
+}
+
+export default Arrow

@@ -1,0 +1,207 @@
+.main_animation{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	background: linear-gradient(
+		$licorne_blue,
+		$licorne_BrightTurquoise
+	);
+
+	@media(min-width: 1000px){
+		height: 100vh;
+	} 
+
+	&__container{
+
+		.title{
+			position: absolute;
+			top: 50%;
+			left: 0%;
+			transform: translate(0%,-50%);
+			@media (max-width: 1200px) {
+				top: 15%;
+				transform: translate(0,0);
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+			}
+		}
+
+		&__animation{
+			width: 270px;
+			height: 270px;
+			position: absolute;
+			left: 50%;
+			top: 83%;
+			transform: translate(-50%,-80%);
+			overflow: hidden;
+
+			@media (min-width: 350px) {
+				width: 300px;
+				height: 300px;
+			}
+
+			@media (min-width: 380px) {
+			top: 70%;
+			}
+
+			@media (min-width: 530px) {
+				top: 80%;
+			}
+			
+			@media (min-width: 700px) {
+				width: 508px;
+				height: 508px;
+			}
+
+			@media (min-width: 1000px) {
+				width: 400px;
+				height: 400px;
+				top: 87%;
+			}
+
+			@media (min-width: 1200px) {
+				width: 380px;
+				height: 380px;
+				left: 100%;
+				top: 50%;
+				transform: translate(-100%,-50%);
+			}
+
+			@media (min-width: 1900px) {
+				width: 500px;
+				height: 500px;
+				left: 100%;
+				top: 50%;
+				transform: translate(-100%,-50%);
+			}
+
+			&__cycle{
+
+				&__lens{
+					width: 30%;
+					height: 30%;
+					position: absolute;
+					top: 70%;
+					left: 0%;
+					opacity: 0;
+					transform: translate(0%,-70%);
+					animation-name: lupa;
+					animation-duration: 2s;
+					animation-delay: 200ms;
+					animation-iteration-count: 1;
+					animation-fill-mode: forwards;
+					@keyframes lupa {0% {opacity: 0;} 100% {opacity: 1;}}
+					svg{
+						width: 100%;
+						height: 100%;
+					}
+				}
+
+				&__arrow_one{
+					width: 20%;
+					height: 20%;
+					position: absolute;
+					top: 30%;
+					left: 5%;
+					opacity: 0;
+					transform: translate(-5%,-30%);
+					animation-name: lupa;
+					animation-duration: 2s;
+					animation-iteration-count: 1;
+					animation-delay: 2s;
+					animation-fill-mode: forwards;
+					@keyframes lupa {0% {opacity: 0;} 100% {opacity: 1;}}
+					svg{
+						width: 100%;
+						height: 100%;
+					}
+				}
+
+				&__wall{
+					width: 40%;
+					height: 50%;
+					position: absolute;
+					top: 10%;
+					left: 50%;
+					opacity: 0;
+					transform: translate(-50%,-10%);
+					animation-name: lupa;
+					animation-duration: 2s;
+					animation-iteration-count: 1;
+					animation-delay: 3s;
+					animation-fill-mode: forwards;
+					@keyframes lupa {0% {opacity: 0;} 100% {opacity: 1;}}
+					svg{
+						width: 100%;
+					}
+				}
+
+				&__arrow_two{
+					width: 20%;
+					height: 20%;
+					position: absolute;
+					top: 30%;
+					left: 95%;
+					opacity: 0;
+					transform: translate(-95%,-30%) rotate(90deg);
+					animation-name: lupa;
+					animation-duration: 2s;
+					animation-iteration-count: 1;
+					animation-delay: 4s;
+					animation-fill-mode: forwards;
+					@keyframes lupa {0% {opacity: 0;} 100% {opacity: 1;}}
+					svg{
+						width: 100%;
+						height: 100%;
+					}
+				}
+
+				&__ruler{
+					width: 40%;
+					height: 10%;
+					position: absolute;
+					top: 70%;
+					left: 100%;
+					opacity: 0;
+					transform: translate(-100%,-70%);
+					animation-name: lupa;
+					animation-duration: 2s;
+					animation-iteration-count: 1;
+					animation-delay: 5s;
+					animation-fill-mode: forwards;
+					@keyframes lupa {0% {opacity: 0;} 100% {opacity: 1;}}
+					svg{
+						width: 100%;
+					}
+				}
+
+				&__arrow_three{
+					width: 20%;
+					height: 20%;
+					position: absolute;
+					top: 100%;
+					left: 55%;
+					opacity: 0;
+					transform: translate(-55%,-100%) rotate(210deg);
+					animation-name: lupa;
+					animation-duration: 2s;
+					animation-iteration-count: 1;
+					animation-delay: 6s;
+					animation-fill-mode: forwards;
+					@keyframes lupa {0% {opacity: 0;} 100% {opacity: 1;}}
+					svg{
+						width: 100%;
+						height: 100%;
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
