@@ -4,10 +4,10 @@ import type { NextPage } from 'next'
 import React from 'react'
 
 //*Animation
-import { gsap } from "gsap"
+import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
+import Mano from '../../svg/home/Mano'
 gsap.registerPlugin(ScrollTrigger)
-
 
 /**
  * @author Maria Meza
@@ -16,7 +16,6 @@ gsap.registerPlugin(ScrollTrigger)
  */
 
 const slide: NextPage = () => {
-
 
 	const animation = useRef(null)
 
@@ -65,7 +64,6 @@ const slide: NextPage = () => {
 
 			},
 
-
 		})
 
 	}, [])
@@ -90,7 +88,7 @@ const slide: NextPage = () => {
 						<div className='slide_home__slide__pag1__image_pag1'>
 
 							<div className='slide_home__slide__pag1__image_pag1__image'>
-								<img src="https://licorne-web.s3.us-east-2.amazonaws.com/home/mano.svg"	alt=""/>
+								<Mano/>
 							</div>
 
 						</div>
@@ -115,14 +113,14 @@ const slide: NextPage = () => {
 						<div className='contenedor__image_pag2'>
 
 							<div className='contenedor__image_pag2__image'>
-								<img src="https://licorne-web.s3.us-east-2.amazonaws.com/home/consultorias.svg" alt=""/>
+								<img src="https://licorne-web.s3.us-east-2.amazonaws.com/home/consultorias.png" alt=""/>
 							</div>
 
 						</div>
 						<div className='contenedor__imageDos_pag2'>
 
 							<div className='contenedor__imageDos_pag2__image'>
-								<img src="https://licorne-web.s3.us-east-2.amazonaws.com/home/tecno.svg" alt=""/>
+								<img src="https://licorne-web.s3.us-east-2.amazonaws.com/home/tecno.png" alt=""/>
 							</div>
 
 						</div>
@@ -137,7 +135,7 @@ const slide: NextPage = () => {
 						<div className='contenedor__image_pag3'>
 
 							<div className='contenedor__image_pag3__image'>
-								<img src="https://licorne-web.s3.us-east-2.amazonaws.com/home/tecno.svg" alt=""/>
+								<img src="https://licorne-web.s3.us-east-2.amazonaws.com/home/tecno.png" alt=""/>
 							</div>
 
 						</div>
@@ -168,7 +166,7 @@ const slide: NextPage = () => {
 						<div className='contenedor__image_pag4'>
 
 							<div className='contenedor__image_pag4__image'>
-								<img src="https://licorne-web.s3.us-east-2.amazonaws.com/home/imanes.svg" width='284px' height='326px' alt=""/>
+								<img src="https://licorne-web.s3.us-east-2.amazonaws.com/home/imanes.png" width='284px' height='326px' alt=""/>
 
 							</div>
 
