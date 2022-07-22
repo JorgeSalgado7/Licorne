@@ -10,6 +10,7 @@ import Hero from '../components/Home/Hero'
 import StartKings from '../components/Home/StartupKings'
 import LeanStartup from '../components/Home/LeanStartup'
 import Slide from '../components/Home/SlideHome'
+import Focus from '../components/Home/Focus'
 
 /**
  * @author Jorge Salgado
@@ -32,6 +33,7 @@ const Home: NextPage = () => {
 			<StartKings/>
 			<LeanStartup/>
 			<Slide/>
+			<Focus/>
 
 		</MainLayout>
 
