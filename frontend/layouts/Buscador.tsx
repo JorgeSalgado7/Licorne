@@ -26,7 +26,6 @@ const buscador: NextPage<MenuProps> = ({ open }) => {
 					<img className={'licorne_buscador__search__amarilla ' + (openPanel? 'licorne_buscador__search__amarilla--active' : '')} src="https://licorne-web.s3.us-east-2.amazonaws.com/menu/centro-lupa.png" alt="" /> 
 				</button>
 				
-				
 			</div>
 
 			<div className="licorne_buscador__shazam">

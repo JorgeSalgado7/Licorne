@@ -62,7 +62,7 @@ const FooterLower = () => {
 								<a href="/aviso-de-privacidad">  <p>Aviso de Privacidad</p></a>
 							</div>
 
-							</div>
+						</div>
 					</div>
 
 				</div>

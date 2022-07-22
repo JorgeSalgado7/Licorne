@@ -3,7 +3,7 @@ import { useEffect, useRef } from 'react'
 import type { NextPage } from 'next'
 
 //*Animation
-import { gsap } from "gsap"
+import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
@@ -20,7 +20,7 @@ import Queen from '../../svg/home/Queen'
  * @description component StartupKing
  */
 
- const StartKings: NextPage = () => {
+const StartKings: NextPage = () => {
 
 	const animacion = useRef(null)
 
@@ -42,68 +42,64 @@ import Queen from '../../svg/home/Queen'
 			}
 		})
 
-
-			ScrollTrigger.matchMedia({
+		ScrollTrigger.matchMedia({
 
 			//*responsive 
 
 			'(min-width: 1200px)': function () {
 
 				ANIMACION_STARTUP_KINGS
-					.to('.startup_kings__animation__queen', { top: '-65%',opacity: 1, duration: 1 })
+					.to('.startup_kings__animation__queen', { top: '-65%', opacity: 1, duration: 1 })
 					.to('.startup_kings__animation__eye', {  top: '40%', opacity: 1, duration: 1 })
 					.to('.startup_kings__animation__eye_wink', { top: '20%', opacity: 1, duration: 1 })
 					.to('.startup_kings__animation__mouth', { top: '90%', opacity: 1, duration: 1 })
-				},
+			},
 
 			'(max-width: 1199px)': function () {
 
 				ANIMACION_STARTUP_KINGS
-					.to('.startup_kings__animation__queen', { top: '-25%',opacity: 1, duration: 1 })
+					.to('.startup_kings__animation__queen', { top: '-45%', opacity: 1, duration: 1 })
 					.to('.startup_kings__animation__eye', {  top: '60%', opacity: 1, duration: 1 })
 					.to('.startup_kings__animation__eye_wink', { opacity: 1, duration: 1 })
 					.to('.startup_kings__animation__mouth', { opacity: 1, duration: 1 })
-				},
+			},
 	
+		})
 
-	
-			})
-
-		}, [])
+	}, [])
 
 	return (
 			
-			<div className='startup_kings' ref={animacion}>
+		<div className='startup_kings' ref={animacion}>
 
-				<div className='container'>
+			<div className='container'>
 
-					<Titulo
-						superior="Licorne"
-						inferior="Startup Kings"
-						alternativo="LA DIFERENCIA ENTRE"
-						invertido={false}
-					/>
+				<Titulo
+					superior="Licorne"
+					inferior="Startup Kings"
+					alternativo="LA DIFERENCIA ENTRE"
+					invertido={false}
+				/>
 
-					<div className='startup_kings__animation'>
-						<div className='startup_kings__animation__queen'>
-							<div className='startup_kings__animation__queen__image_logo_queen'>
-								<Queen/>
-							</div>
+				<div className='startup_kings__animation'>
+					<div className='startup_kings__animation__queen'>
+						<div className='startup_kings__animation__queen__image_logo_queen'>
+							<Queen/>
 						</div>
-						<div className='startup_kings__animation__eye'>.</div>
-						<div className='startup_kings__animation__eye_wink'>.</div>
-						<div className='startup_kings__animation__mouth'>.</div>
 					</div>
+					<div className='startup_kings__animation__eye'>.</div>
+					<div className='startup_kings__animation__eye_wink'>.</div>
+					<div className='startup_kings__animation__mouth'>.</div>
+				</div>
 
-					{/* <LinkPersonalizado
+				{/* <LinkPersonalizado
 						url="/contacto"
 						texto="¡QUIERO INICIAR!"
 					/> */}
 
-				</div>
+			</div>
 
-			</div>	
-		
+		</div>	
 
 	)
 }

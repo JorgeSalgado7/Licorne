@@ -19,7 +19,7 @@ const FooterTop = () => {
 					<div className="footer_top__text">
 						<h1>Llegó el momento de decir &quot;Hola Licorne&quot;.</h1>
 						
-							<div className="footer_top__text__botones">
+						<div className="footer_top__text__botones">
 
 							<div className="footer_top__text__botones__boton_proyectos">
 								<Link href="/portafolio">
@@ -29,7 +29,7 @@ const FooterTop = () => {
 								</Link>
 							</div>
 
-					</div>
+						</div>
 					</div>
 
 				</div>
