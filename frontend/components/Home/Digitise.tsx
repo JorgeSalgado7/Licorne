@@ -28,7 +28,7 @@ const Digitise: NextPage = () => {
 
 					<div className="digitise__menu__links">
 
-						<Link href="/consultoria-lean-startup">
+						<Link href="./../consultoria-lean-startup">
 							<div className="digitise__menu__links__option">
 								<div className="digitise__menu__links__option__selection"></div>
 								<div className="digitise__menu__links__option__text"><a> Lean Startup </a></div>
@@ -36,7 +36,7 @@ const Digitise: NextPage = () => {
 							</div>
 						</Link>
 
-						<Link href="/desarrollo-de-aplicaciones-web">
+						<Link href="./../desarrollo-de-aplicaciones-web">
 							<div className="digitise__menu__links__option">
 								<div className="digitise__menu__links__option__selection"></div>
 								<div className="digitise__menu__links__option__text"><a> Desarrollo </a></div>
@@ -44,7 +44,7 @@ const Digitise: NextPage = () => {
 							</div>
 						</Link>
 
-						<Link href="/sitio-web">
+						<Link href="../../sitio-web">
 							<div className="digitise__menu__links__option">
 								<div className="digitise__menu__links__option__selection"></div>
 								<div className="digitise__menu__links__option__text"><a> Web </a></div>
@@ -52,7 +52,7 @@ const Digitise: NextPage = () => {
 							</div>
 						</Link>
 
-						<Link href="/ecommerce">
+						<Link href="./../ecommerce">
 							<div className="digitise__menu__links__option">
 								<div className="digitise__menu__links__option__selection"></div>
 								<div className="digitise__menu__links__option__text"><a> Ecommerce </a></div>
@@ -60,7 +60,7 @@ const Digitise: NextPage = () => {
 							</div>
 						</Link>
 
-						<Link href="/app">
+						<Link href="./../app">
 							<div className="digitise__menu__links__option">
 								<div className="digitise__menu__links__option__selection"></div>
 								<div className="digitise__menu__links__option__text"><a> APP </a></div>
@@ -68,7 +68,7 @@ const Digitise: NextPage = () => {
 							</div>
 						</Link>
 
-						<Link href="/mantenimiento">
+						<Link href="./../mantenimiento">
 							<div className="digitise__menu__links__option">
 								<div className="digitise__menu__links__option__selection"></div>
 								<div className="digitise__menu__links__option__text"><a> Mantenimiento </a></div>
@@ -76,7 +76,7 @@ const Digitise: NextPage = () => {
 							</div>
 						</Link>
 
-						<Link href="/inbound-marketing">
+						<Link href="./../inbound-marketing">
 							<div className="digitise__menu__links__option">
 								<div className="digitise__menu__links__option__selection"></div>
 								<div className="digitise__menu__links__option__text"><a className="a2"> Inbound marketing </a></div>
@@ -84,7 +84,7 @@ const Digitise: NextPage = () => {
 							</div>
 						</Link>
 
-						<Link href="/seo">
+						<Link href="./../seo">
 							<div className="digitise__menu__links__option">
 								<div className="digitise__menu__links__option__selection"></div>
 								<div className="digitise__menu__links__option__text"><a> SEO </a></div>
@@ -92,7 +92,7 @@ const Digitise: NextPage = () => {
 							</div>
 						</Link>
 
-						<Link href="/social-media">
+						<Link href="./../social-media">
 							<div className="digitise__menu__links__option">
 								<div className="digitise__menu__links__option__selection"></div>
 								<div className="digitise__menu__links__option__text"><a> Social Media </a></div>
