@@ -1,0 +1,161 @@
+.digitise{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(
+		$licorne_yellow,
+		$licorne_yellow,
+		$licorne_BrightTurquoise
+	);
+	@media (min-width: 380px) {
+		height: 80vh ;
+	}
+	@media (min-width: 500px) {
+		height: 66vh ;
+	}
+	@media (min-width: 900px) {
+		height: 84vh ;
+	}
+	@media (min-width: 1000px) {
+		height: 100vh ;
+	}
+	@media(min-width: 1400px){
+		height: 78vh;
+	}
+	&__menu{
+		position: relative;
+		top: 80%;
+		left: 50%;
+		transform: translate(-50%,-80%);
+		width: 100%;
+		height: 500px;
+		@media(min-width: 647px){
+			width: 60%;
+		}
+		@media(min-width: 1000px){
+			top: 50%;
+			left: 100%;
+			transform: translate(-100%,-50%);
+			width: 50%;
+			height: 600px;
+		}
+
+		&__links{
+			position: absolute;
+			left: 20%;
+			top: 40%;
+			width: 90%;
+			height: auto;
+			transform: translate(-20%, -40%);
+
+			@media(max-width: 650px){
+				left: 50%;
+				transform: translate(-40%, -40%);
+			}
+
+			&__option{
+				cursor: pointer;
+				position: relative;
+
+				&:hover{
+					a{
+						transition: all 500ms;
+						font-weight: 700;
+						font-size: 40px;
+						margin-left: 55%;
+
+						@media(max-width: 650px){
+							font-size: 30px;
+							margin-left: 50%;
+						}
+
+						@media(max-width: 500px){
+							font-size: 25px;
+						}
+
+						@media(max-width: 400px){
+							font-size: 20px;
+							margin-left: 40%;
+						}
+					}
+				}
+
+				a{
+					margin-left: 10%;
+					color: black;
+					font-size: 25px;
+					animation: 3s;
+					@media (max-width: 300px) {
+						font-size: 16px;
+					}
+
+				}
+
+				&__separating{
+					width: 80%;
+					height: 2px;
+					background-image: linear-gradient(
+						to left,
+						$licorne_blue,
+						$licorne_BrightTurquoise
+					);
+
+				}
+
+				&__text{
+					z-index: 2;
+					position: relative;
+				}
+
+				&__selection{
+					transition: all 500ms;
+					position: absolute;
+					top: 50%;
+					width: 0%;
+					height: 0%;
+					z-index: 0;
+					border-radius: 5px;
+					background: linear-gradient( to left , $licorne_blue , $licorne_BrightTurquoise);
+					transform: translate(0%, -50%);
+				}
+
+				&:hover{
+
+					.a2{
+						transition: all 500ms;
+						font-weight: 700;
+						font-size: 40px;
+						margin-left: 25%;
+
+						@media(max-width: 650px){
+							font-size: 30px;
+							margin-left: 15%;
+						}
+
+						@media(max-width: 500px){
+							font-size: 25px;
+						}
+
+						@media(max-width: 400px){
+							font-size: 20px;
+							margin-left: 15%;
+						}
+
+						@media(max-width: 300px){
+							font-size: 18px;
+							margin-left: 15%;
+						}
+
+					}
+
+					.digitise__menu__links__option__selection{
+						width: 80%;
+						height: 40%;
+					}
+
+				}
+
+			}
+
+		}
+	}
+}
