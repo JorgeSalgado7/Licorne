@@ -5,12 +5,12 @@ import type { NextPage } from 'next'
 import Titulo from '../Common/Title'
 
 //* SVG
-import Test from '../svg/Development/Test'
-import Research from '../svg/Development/Research'
-import Support from '../svg/Development/Support'
-import Wireframing from '../svg/Development/Wireframing'
-import Prototyping from '../svg/Development/Prototyping'
-import Desing from '../svg/Development/Design'
+import Test from '../../svg/Development/Test'
+import Research from '../../svg/Development/Research'
+import Support from '../../svg/Development/Support'
+import Wireframing from '../../svg/Development/Wireframing'
+import Prototyping from '../../svg/Development/Prototyping'
+import Desing from '../../svg/Development/Design'
 
 /**
  * @author Iván Sánchez
