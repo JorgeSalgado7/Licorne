@@ -2,7 +2,7 @@
 import type { NextPage } from 'next'
 
 //* React components
-import { useLayoutEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 
 //* SVG
 import PlantOne from '../svg/LeanStartup/PlantOne'
@@ -26,12 +26,12 @@ const SeedAnimation: NextPage = () => {
 
 	const seed = useRef<HTMLDivElement>(null)
 	
-	useLayoutEffect(() => {
+	useEffect(() => {
 
 		const SEED_ANIMATION = gsap.timeline({
 			scrollTrigger: {
-				trigger: seed.current,
-				markers: false,
+				trigger: '.seed',
+				markers: true,
 				start: 'top',
 				end: '200%',
 				scrub: true,
@@ -53,7 +53,7 @@ const SeedAnimation: NextPage = () => {
 	
 	return (
 
-		<div  className='seed' ref={seed}>
+		<div className='seed' ref={seed}>
 			<div className='seed__container container'>
 				<div className='seed__container__text'>
 					<div className='seed__container__text__title'>
