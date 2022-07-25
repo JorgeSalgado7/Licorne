@@ -122,7 +122,7 @@
 					&__imagenWorkshopsBlock{
 						width: 17px;
 						height: 17px;
-						img{
+						svg{
 							width: 50%;
 							position: absolute;
 							top: 50%;
@@ -138,7 +138,7 @@
 					transform: translate(-120%,-50%);
 					opacity: 1;
 					transition-duration: 300ms;
-					img{
+					svg{
 						width: 50%;
 					}
 				}
@@ -164,7 +164,7 @@
 					&__imagenUxBlock{
 						width: 17px;
 						height: 17px;
-						img{
+						svg{
 							width: 50%;
 							position: absolute;
 							top: 50%;
@@ -181,7 +181,7 @@
 					transform: translate(-120%,-50%);
 					opacity: 0;
 					transition-duration: 300ms;
-					img{
+					svg{
 						width: 60%;
 					}
 				}
@@ -208,7 +208,7 @@
 					&__imagenUiBlock{
 						width: 17px;
 						height: 17px;
-						img{
+						svg{
 							width: 50%;
 							position: absolute;
 							top: 50%;
@@ -225,7 +225,7 @@
 					transform: translate(-120%,-50%);
 					opacity: 0;
 					transition-duration: 300ms;
-					img{
+					svg{
 						width: 60%;
 					}
 				}
@@ -252,7 +252,7 @@
 					&__imagenIllustrationBlock{
 						width: 17px;
 						height: 17px;
-						img{
+						svg{
 							width: 50%;
 							position: absolute;
 							top: 50%;
@@ -269,8 +269,8 @@
 					transform: translate(-110%,-50%);
 					opacity: 0;
 					transition-duration: 300ms;
-					img{
-						width: 30%;
+					svg{
+						width: 50%;
 					}
 				}
 			}

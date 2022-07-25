@@ -1,8 +1,12 @@
 //* Next components
 import type { NextPage } from 'next'
-import Image from 'next/image'
+import Illustration from '../../svg/web/Illustration'
 
 //* Image
+import Point from '../../svg/web/Point'
+import Ui from '../../svg/web/Ui'
+import Ux from '../../svg/web/Ux'
+import WorkShops from '../../svg/web/Workshop'
 
 //*Components
 import Titulo from '../Common/Title'
@@ -34,95 +38,47 @@ const Creative: NextPage = () => {
 					<div className="creative__contenedor__menuCreative__workshops">
 						<div className="creative__contenedor__menuCreative__workshops__imgWorkshops">
 							<div className='creative__contenedor__menuCreative__workshops__imgWorkshops__imagenWorkshopsBlock'>
-								<Image
-									src="https://licorne-web.s3.us-east-2.amazonaws.com/consultoria+/punto.svg"
-									width="17.22px"
-									height="17.22px"
-									layout="responsive"
-									alt=""
-								/>
+								<Point/>
 							</div>
 						</div>
 						<h3>WORKSHOPS & BRAINSTORMING</h3>
 						<div className="creative__contenedor__menuCreative__workshops__imagenWorkshops">
-							<Image
-								src="https://licorne-web.s3.us-east-2.amazonaws.com/web/workshops.svg"
-								width="159px"
-								height="132px"
-								layout="responsive"
-								alt=""
-							/>
+							<WorkShops/>
 						</div>
 					</div>
 					<div className="creative__contenedor__menuCreative__ux">
 						<div className="creative__contenedor__menuCreative__ux__imgUx">
 							<div className='creative__contenedor__menuCreative__ux__imgUx__imagenUxBlock'>
-								<Image
-									src="https://licorne-web.s3.us-east-2.amazonaws.com/consultoria+/punto.svg"
-									width="17.22px"
-									height="17.22px"
-									layout="responsive"
-									alt=""
-								/>
+								<Point/>
 							</div>
 						</div>
 						<h3>WIREFRAMING & UX DESING</h3>
 						<div className="creative__contenedor__menuCreative__ux__imagenUx"> 
-							<Image
-								src="https://licorne-web.s3.us-east-2.amazonaws.com/web/ux.svg"
-								width="159px"
-								height="95px"
-								layout="responsive"
-								alt=""
-							/>
+							<Ux/>
 						</div>
 					</div>
 
 					<div className="creative__contenedor__menuCreative__ui">
 						<div className="creative__contenedor__menuCreative__ui__imgUi">
 							<div className='creative__contenedor__menuCreative__ui__imgUi__imagenUiBlock'>
-								<Image
-									src="https://licorne-web.s3.us-east-2.amazonaws.com/consultoria+/punto.svg"
-									width="17.22px"
-									height="17.22px"
-									layout="responsive"
-									alt=""
-								/>
+								<Point/>
 							</div>
 						</div>
 						<h3>UI DESING CONCEPT & PROTOTYPING</h3>
 						<div className="creative__contenedor__menuCreative__ui__imagenUi"> 
-							<Image
-								src="https://licorne-web.s3.us-east-2.amazonaws.com/web/ui.svg"
-								width="159px"
-								height="110px"
-								layout="responsive"
-								alt=""
-							/>
+							<Ui/>
 						</div>
 					</div>
 
 					<div className="creative__contenedor__menuCreative__illustration">
 						<div className="creative__contenedor__menuCreative__illustration__imgIllustration">
 							<div className='creative__contenedor__menuCreative__illustration__imgIllustration__imagenIllustrationBlock'>
-								<Image
-									src="https://licorne-web.s3.us-east-2.amazonaws.com/consultoria+/punto.svg"
-									width="17.22px"
-									height="17.22px"
-									layout="responsive"
-									alt=""
-								/>
+								<Point/>
 							</div>  
 						</div>
 						<h3>ICONOGRAPHY & ILLUSTRATION</h3>
 						<div className="creative__contenedor__menuCreative__illustration__imagenIllustration"> 
-							<Image
-								src="https://licorne-web.s3.us-east-2.amazonaws.com/web/illustration.svg"
-								width="69px"
-								height="100px"
-								layout="responsive"
-								alt=""
-							/>
+							<Illustration/>
 						</div>
 					</div>
 				</div>
