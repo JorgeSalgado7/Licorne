@@ -31,7 +31,7 @@ const SeedAnimation: NextPage = () => {
 		const SEED_ANIMATION = gsap.timeline({
 			scrollTrigger: {
 				trigger: seed.current,
-				markers: true,
+				markers: false,
 				start: 'top',
 				end: '200%',
 				scrub: true,
