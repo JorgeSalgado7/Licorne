@@ -1,11 +1,6 @@
 //* Next components
 import type { NextPage } from 'next'
 
-//*Animation
-import { gsap } from 'gsap/dist/gsap'
-import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
-gsap.registerPlugin(ScrollTrigger)
-
 //* Custom Hooks
 import { useViewheight } from '../hooks/useViewheight'
 
