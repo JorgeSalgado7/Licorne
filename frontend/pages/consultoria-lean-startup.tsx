@@ -30,6 +30,8 @@ const Consultoria: NextPage = () => {
 		<MainLayout title={title} description={description}>
 			<MainAnimation />
 			<SeedAnimation />
+			<SnapAnimation />
+			<WeDo />
 			<Partners />
 		</MainLayout>
 

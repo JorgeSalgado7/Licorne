@@ -10,6 +10,9 @@ import Stages from '../components/Development/Stages'
 import AppDevelopment from '../components/Development/AppDevelopment'
 import Ux from '../components/Development/Ux'
 import Cloud from '../components/Development/Cloud'
+import Analytics from '../components/Development/Analytics'
+import Cybersecurity from '../components/Development/Cybersecurity'
+import Audit from '../components/Development/Audit'
 
 /**
  * @author Iván Sánchez
@@ -27,15 +30,13 @@ const Desarrollo: NextPage = () => {
 	return (
 
 		<MainLayout title={title} description={description}>
-			
 			<Stages />
-
 			<AppDevelopment />
-
 			<Ux />
-
 			<Cloud />
-
+			<Analytics />
+			<Cybersecurity />
+			<Audit />
 		</MainLayout>
 
 	)
