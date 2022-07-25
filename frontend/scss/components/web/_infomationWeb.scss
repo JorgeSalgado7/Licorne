@@ -1,0 +1,32 @@
+.information{
+	&__web{
+        background: $white;
+        height: 100vh;
+
+            &__parrafoInformacion{
+                width: 95%;
+                position: relative;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                p{
+                    font-weight: 300;
+                    font-size: 18px;
+                    span{
+                        color: $licorne_blue; 
+                        font-weight: 700;
+                    }
+                    @media(min-width: 320px) and (min-height: 200px){
+                        font-size: 20px;
+                    }
+                    @media(min-width: 320px) and (min-height: 620px){
+                        font-size: 22px;
+                    }
+                    @media(min-width: 1199px){
+                        font-size: 28px;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+    }

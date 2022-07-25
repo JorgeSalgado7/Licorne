@@ -7,18 +7,38 @@
 	);
 	overflow: hidden;
 	
-	.titulo{
+	.title{
 		top: 10%;
 		transform: translate(0,-10%);
 		@media (min-width: 300px) {
-			top: 16%;
 			transform: translate(0, -10%);
 			text-align: -webkit-center;
+
 		}
 		@media (min-width: 800px) {
 			top: 50%;
 			transform: translate(0,-50%);
 			text-align: left;
+		}
+
+		@media (min-width:1200px){
+			width: 100%;
+		}
+
+		&__top{
+			@media (max-width:1200px){
+				font-size: 45px;
+				line-height: 48px
+			}
+			
+		}
+
+		&__low{
+			@media (max-width:1200px){
+				font-size: 45px;
+				line-height: 48px
+			}
+			
 		}
 	}
 

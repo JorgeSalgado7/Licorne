@@ -2,13 +2,13 @@
 import type { NextPage } from 'next'
 
 //* Image
-import Bottle from '../../svg/web/Bottle'
-import BottleTwo from '../../svg/web/BottleTwo'
-import Button from '../../svg/web/Button'
-import Circle from '../../svg/web/Circle'
-import Closing from '../../svg/web/Closing'
-import Cookie from '../../svg/web/Cookie'
-import CookieTwo from '../../svg/web/CookiesTwo'
+import Bottle from '../../svg/Web/Bottle'
+import BottleTwo from '../../svg/Web/BottleTwo'
+import Button from '../../svg/Web/Button'
+import Circle from '../../svg/Web/Circle'
+import Closing from '../../svg/Web/Closing'
+import Cookie from '../../svg/Web/Cookie'
+import CookieTwo from '../../svg/Web/CookiesTwo'
 
 //*Components
 import Titulo from '../Common/Title'
@@ -33,6 +33,7 @@ const Hero: NextPage = () => {
 					invertido={false}
 					
 				/>
+				
 				<div className="hero__figCirculo"></div>
 				<div className="hero__imgCirculo">
 					<Circle/>

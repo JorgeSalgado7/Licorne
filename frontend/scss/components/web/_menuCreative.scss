@@ -1,0 +1,227 @@
+.menu_creactive{
+	width: 100%;
+	height: 70vh;
+	background: linear-gradient(
+		$licorne_yellow,
+		$licorne_BrightTurquoise
+	);
+	@media(min-width: 1199px){
+		display: none;
+	}
+	&__contenedor{
+
+		&__creatives{
+			position: relative;
+			width: 100%;
+			top: 7%;
+			transform: translate(0,0%);
+			h3{
+				width: 60%;
+				font-size: 16px;
+				letter-spacing: 1px;
+				font-weight: 300;
+			}
+
+			&:hover{
+				.menu_creactive__contenedor__creatives__workshops{
+					h3{
+						font-weight: 300;
+					}
+					cursor: pointer;
+					.menu_creactive__contenedor__creatives__workshops__imgWorkshops{
+						opacity: 0;
+					}
+					.menu_creactive__contenedor__creatives__workshops__imageWorkshops{
+						opacity: 0;
+					}
+				}
+			}
+			
+			.menu_creactive__contenedor__creatives__workshops:hover{
+				h3{
+					font-weight: 500;
+				}
+				.menu_creactive__contenedor__creatives__workshops__imgWorkshops{
+					opacity: 1;
+				}
+				.menu_creactive__contenedor__creatives__workshops__imageWorkshops{
+					opacity: 1;
+					
+				}
+			}
+
+			.menu_creactive__contenedor__creatives__ux:hover{
+				h3{
+					font-weight: 500;
+				}
+				.menu_creactive__contenedor__creatives__ux__imgUx{
+					opacity: 1;
+				}
+				.menu_creactive__contenedor__creatives__ux__imageUx{
+					opacity: 1;
+				}
+			}
+
+			.menu_creactive__contenedor__creatives__ui:hover{
+				h3{
+					font-weight: 500;
+				}
+				.menu_creactive__contenedor__creatives__ui__imgUi{
+					opacity: 1;
+				}
+				.menu_creactive__contenedor__creatives__ui__imageUi{
+					opacity: 1;
+				}
+			}
+
+			.menu_creactive__contenedor__creatives__illustration:hover{
+				h3{
+					font-weight: 500;
+				}
+				.menu_creactive__contenedor__creatives__illustration__imgIllustration{
+					opacity: 1;
+				}
+				.menu_creactive__contenedor__creatives__illustration__imageIllustration{
+					opacity: 1;
+				}
+			}
+			
+			&__workshops{
+				display: flex;
+				transition-duration: 500ms;
+				width: 70%;
+				margin-bottom: 10%;
+				h3{
+					font-weight: 500;
+				}
+				&__imgWorkshops{
+					padding-right: 5%;
+					transition-duration: 500ms;
+					opacity: 1;
+
+					svg{
+						width: 70%;
+						position: relative;
+						top: 50%;
+						transform: translate(0,-50%);
+					}
+				}
+
+				&__imageWorkshops{
+					position: absolute;
+					width: 40%;
+					right: 0%;
+					top: 50%;
+					left: 95%;
+					transform: translate(-95%,-50%);
+					opacity: 1;
+					transition-duration: 300ms;
+
+					svg{
+						width: 90%;
+					}
+				}
+			}
+
+			&__ux{
+				display: flex;
+				transition-duration: 500ms;
+				width: 70%;
+				margin-bottom: 10%;
+
+				&__imgUx{
+					padding-right: 5%;
+					transition-duration: 500ms;
+					opacity: 0;
+
+					svg{
+						width: 70%;
+						position: relative;
+						top: 50%;
+						transform: translate(0,-50%);
+					}
+				}
+
+				&__imageUx{
+					position: absolute;
+					width: 50%;
+					right: 0%;
+					top: 50%;
+					left: 100%;
+					transform: translate(-95%,-50%);
+					opacity: 0;
+					transition-duration: 300ms;
+					svg{
+						width: 90%;
+					}
+				}
+			}
+
+			&__ui{
+				display: flex;
+				transition-duration: 500ms;
+				width: 70%;
+				margin-bottom: 10%;
+
+				&__imgUi{
+					padding-right: 5%;
+					transition-duration: 500ms;
+					opacity: 0;
+					svg{
+						width: 70%;
+						position: relative;
+						top: 50%;
+						transform: translate(0,-50%);
+					}
+				}
+
+				&__imageUi{
+					position: absolute;
+					width: 40%;
+					right: 0%;
+					top: 50%;
+					left: 95%;
+					transform: translate(-95%,-50%);
+					opacity: 0;
+					transition-duration: 300ms;
+					svg{
+						width: 90%;
+					}
+				}
+			}
+
+			&__illustration{
+				display: flex;
+				transition-duration: 500ms;
+				width: 70%;
+
+				&__imgIllustration{
+					padding-right: 5%;
+					transition-duration: 500ms;
+					opacity: 0;
+					svg{
+						width: 70%;
+						position: relative;
+						top: 50%;
+						transform: translate(0,-50%);
+					}
+				}
+				&__imageIllustration{
+					position: absolute;
+					width: 40%;
+					right: 0%;
+					top: 50%;
+					left: 95%;
+					transform: translate(-95%,-50%);
+					opacity: 0;
+					transition-duration: 300ms;
+					svg{
+						width: 45%;
+					}
+				}
+			}
+		}
+		
+	}
+
+}  
