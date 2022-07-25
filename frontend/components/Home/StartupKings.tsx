@@ -27,21 +27,21 @@ const StartKings: NextPage = () => {
 
 	useEffect(() => {
 
-		const tl = gsap.timeline({
-
-			scrollTrigger: {
-				trigger: animation.current,
-				markers: false,
-				start: 'top top',
-				end: '200%',
-				scrub: true,
-				pin: true,
-			}
-		})
-
 		ScrollTrigger.matchMedia({
 
 			'(min-width: 1200px)': function () {
+
+				const tl = gsap.timeline({
+
+					scrollTrigger: {
+						trigger: animation.current,
+						markers: false,
+						start: 'top top',
+						end: '200%',
+						scrub: true,
+						pin: true,
+					}
+				})
 
 				tl
 					.to('.startup_kings__animation__queen', { top: '-65%', opacity: 1, duration: 1 })
@@ -51,6 +51,18 @@ const StartKings: NextPage = () => {
 			},
 
 			'(max-width: 1199px)': function () {
+
+				const tl = gsap.timeline({
+
+					scrollTrigger: {
+						trigger: animation.current,
+						markers: false,
+						start: 'top top',
+						end: '200%',
+						scrub: true,
+						pin: true,
+					}
+				})
 
 				tl
 					.to('.startup_kings__animation__queen', { top: '-45%', opacity: 1, duration: 1 })
