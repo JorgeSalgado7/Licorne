@@ -5,7 +5,7 @@ import type { NextPage } from 'next'
 import Titulo from '../Common/Title'
 
 //* SVG
-import AmazonS3 from '../svg/Development/AmazonS3'
+import AmazonS3 from '../../svg/Development/AmazonS3'
 
 /**
  * @author Iván Sánchez

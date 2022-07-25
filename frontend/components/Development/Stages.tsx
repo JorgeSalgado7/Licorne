@@ -2,12 +2,12 @@
 import type { NextPage } from 'next'
 
 //* SVG
-import Ship from '../svg/Development/Ship'
-import ShipTwo from '../svg/Development/ShipTwo'
-import Paper from '../svg/Development/Paper'
-import Smoke from '../svg/Development/Smoke'
-import Planet from '../svg/Development/Planet'
-import Landing from '../svg/Development/Landing'
+import Ship from '../../svg/Development/Ship'
+import ShipTwo from '../../svg/Development/ShipTwo'
+import Paper from '../../svg/Development/Paper'
+import Smoke from '../../svg/Development/Smoke'
+import Planet from '../../svg/Development/Planet'
+import Landing from '../../svg/Development/Landing'
 
 /**
  * @author Iván Sánchez
