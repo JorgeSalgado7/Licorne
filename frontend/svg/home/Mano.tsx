@@ -1,7 +1,7 @@
 const Mano = () => {
 
 	return (
-		<svg id="uuid-f93b14fe-68d4-408b-9250-aba702c81481" xmlns="http://www.w3.org/2000/svg" width="250" height="s30" viewBox="0 0 250 344">
+		<svg id="uuid-f93b14fe-68d4-408b-9250-aba702c81481" xmlns="http://www.w3.org/2000/svg" width="250" height="370" viewBox="0 0 250 370">
 			<g id="uuid-8efffffa-e6a5-4953-acd3-54539b8f87d4">
 				<g id="uuid-8b532b13-7b6f-45ea-a8e7-164203e87fcf">
 					<g id="Grupo_2" data-name="Grupo 2">

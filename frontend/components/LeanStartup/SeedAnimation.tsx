@@ -25,12 +25,12 @@ gsap.registerPlugin(ScrollTrigger)
 const SeedAnimation: NextPage = () => {
 
 	const seed = useRef<HTMLDivElement>(null)
-	
+
 	useEffect(() => {
 
 		const SEED_ANIMATION = gsap.timeline({
 			scrollTrigger: {
-				trigger: '.seed',
+				trigger: seed.current,
 				markers: true,
 				start: 'top',
 				end: '200%',
@@ -40,45 +40,49 @@ const SeedAnimation: NextPage = () => {
 		})
 
 		SEED_ANIMATION
-			.to('seed__container__animation__one', { opacity: 0, duration: 1 }, '+=1')
-			.to('seed__container__animation__two', { opacity: 1, duration: 1 }, '+=1')
-			.to('seed__container__animation__two', { opacity: 0, duration: 1 }, '+=1')
-			.to('seed__container__animation__three', { opacity: 1, duration: 1 }, '+=1')
-			.to('seed__container__animation__three', { opacity: 0, duration: 1 }, '+=1')
-			.to('seed__container__animation__four', { opacity: 1, duration: 1 }, '+=1')
-			.to('seed__container__animation__four', { opacity: 0, duration: 1 }, '+=1')
-			.to('seed__container__animation__five', { opacity: 1, duration: 1 }, '+=1')
+			.to('.seed__container__animation__one', { opacity: 0, duration: 1 }, '+=1')
+			.to('.seed__container__animation__two', { opacity: 1, duration: 1 }, '+=1')
+			.to('.seed__container__animation__two', { opacity: 0, duration: 1 }, '+=1')
+			.to('.seed__container__animation__three', { opacity: 1, duration: 1 }, '+=1')
+			.to('.seed__container__animation__three', { opacity: 0, duration: 1 }, '+=1')
+			.to('.seed__container__animation__four', { opacity: 1, duration: 1 }, '+=1')
+			.to('.seed__container__animation__four', { opacity: 0, duration: 1 }, '+=1')
+			.to('.seed__container__animation__five', { opacity: 1, duration: 1 }, '+=1')
 
 	}, [])
-	
+
 	return (
 
-		<div className='seed' ref={seed}>
-			<div className='seed__container container'>
-				<div className='seed__container__text'>
-					<div className='seed__container__text__title'>
-						<p>DISEÑAMOS ESTRATEGIAS PARA LOS CREADORES DE UN MEJOR FUTURO.</p>
+		<div>
+
+			<div className='seed' ref={seed}>
+				<div className='seed__container container'>
+					<div className='seed__container__text'>
+						<div className='seed__container__text__title'>
+							<p>DISEÑAMOS ESTRATEGIAS PARA LOS CREADORES DE UN MEJOR FUTURO.</p>
+						</div>
+						<h3>En licorne® Startup Kings llevamos tu startup de la mano durante cada fase, desde <span>&quot;seed&quot;</span> hasta <span>&quot;scale up&quot;.</span></h3>
 					</div>
-					<h3>En licorne® Startup Kings llevamos tu startup de la mano durante cada fase, desde <span>&quot;seed&quot;</span> hasta <span>&quot;scale up&quot;.</span></h3>
-				</div>
-				<div className='seed__container__animation'>
-					<div className="seed__container__animation__one">
-						<PlantOne />
-					</div>
-					<div className="seed__container__animation__two">
-						<PlantTwo />
-					</div>
-					<div className="seed__container__animation__three">
-						<PlantThree />
-					</div>
-					<div className="seed__container__animation__four">
-						<PlantFour />
-					</div>
-					<div className="seed__container__animation__five">
-						<PlantFive />
+					<div className='seed__container__animation'>
+						<div className="seed__container__animation__one">
+							<PlantOne />
+						</div>
+						<div className="seed__container__animation__two">
+							<PlantTwo />
+						</div>
+						<div className="seed__container__animation__three">
+							<PlantThree />
+						</div>
+						<div className="seed__container__animation__four">
+							<PlantFour />
+						</div>
+						<div className="seed__container__animation__five">
+							<PlantFive />
+						</div>
 					</div>
 				</div>
 			</div>
+
 		</div>
 
 	)

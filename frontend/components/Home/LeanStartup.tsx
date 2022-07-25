@@ -22,10 +22,6 @@ const StartKings: NextPage = () => {
 
 	useEffect(() => {
 		
-		/**
-		 * * @ANIMACIÓN_2
-		 * * CARITA LEAN STARTUP
-		*/
 		const ANIMACION_LEAN_STARTUP = gsap.timeline({
 			scrollTrigger: {
 				trigger: animacion.current,

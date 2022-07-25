@@ -28,17 +28,9 @@ const Consultoria: NextPage = () => {
 	return (
 
 		<MainLayout title={title} description={description}>
-			
 			<MainAnimation />
-			
 			<SeedAnimation />
-
-			<SnapAnimation />
-
-			<WeDo />
-
 			<Partners />
-
 		</MainLayout>
 
 	)

@@ -41,7 +41,7 @@ const slide: NextPage = () => {
 					.to('.slide_home__slide__pag3', { left: '50%', duration: 0 }, '+=6')
 					.to('.slide_home__slide__pag4', { left: '50%', duration: 0 }, '+=6')
 					.to('.slide_home__slide__pag5', { left: '50%', duration: 0 }, '+=6')
-					.to('.slide_home__slide__cubo', { top: '100%' }, '+=2')
+					.to('.slide_home__slide__cube', { top: '100%' }, '+=2')
 			},
 
 			'(min-width: 1199px)': function () {
@@ -60,7 +60,7 @@ const slide: NextPage = () => {
 				ANIMACION_SLIDE
 					.to('.slide_home__slide__pag2', { left: '50%', duration: 0 }, '+=6')
 					.to('.slide_home__slide__pag4', { left: '50%', duration: 0 }, '+=6')
-					.to('.slide_home__slide__cubo', { top: '100%' }, '+=6')
+					.to('.slide_home__slide__cube', { top: '100%' }, '+=6')
 
 			},
 

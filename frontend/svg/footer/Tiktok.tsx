@@ -1,7 +1,7 @@
 const Tiktok = () => {
 
 	return (
-		<svg xmlns="http://www.w3.org/2000/svg" width="59.035" height="52" viewBox="0 0 59.0 35 52">
+		<svg xmlns="http://www.w3.org/2000/svg" width="59.035" height="52">
 			<g id="Capa_2" data-name="Capa 2" transform="translate(0.009)">
 				<g id="Capa_1" data-name="Capa 1">
 					<path id="Trazado_1" data-name="Trazado 1" d="M.51,4.5V40.68S0,48.35,6.86,48.5H46.31s7.6-.41,7.2-8.94V27.5" fill="none" stroke="#fff" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" />
