@@ -1,0 +1,193 @@
+.conversion{
+	width: 100%;
+	height: 120vh;
+	overflow: hidden;
+	background: linear-gradient(
+		$licorne_BrightTurquoise,
+		$licorne_yellow
+	);
+
+	@media (min-width: 300px) and (min-height: 700px) {
+		height: 100vh;
+	}
+
+	@media (min-width: 650px) and (min-height: 500px) {
+		height: 100vh;
+	}
+
+	&__container{
+
+		&__animation{
+			width: 250px;
+			height: 250px;
+			position: absolute;
+			top: 90%;
+			left: 50%;
+			transform: translate(-50%,-90%);
+	
+			@media (min-width: 200px) and (min-height: 500px) {
+				top: 83%;
+			}
+	
+			@media (min-width: 750px) and (min-height: 1000px) {
+				width: 500px;
+				height: 500px;
+				top: 63%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+			}
+	
+			@media (min-width: 1199px){
+				width: 300px;
+				height: 300px;
+				top: 50%;
+				left: 90%;
+				transform: translate(-90%,-50%);
+			}
+	
+			@media (min-width: 1599px){
+				width: 400px;
+				height: 400px;
+			}
+
+			&__car{
+
+				&__eye{
+					background: $white;
+					width: 20%;
+					height: 20%;
+					border-radius: 100%;
+					position: absolute;
+					top: 90%;
+					left: 35%;
+					transform: translate(-35%,-90%);
+				}
+		
+				&__eye_two{
+					background: $white;
+					width: 20%;
+					height: 20%;
+					border-radius: 100%;
+					position: absolute;
+					top: 90%;
+					left: 75%;
+					transform: translate(-75%,-90%);
+				}
+		
+				&__smile{
+					position: absolute;
+					top: 25%;
+					left: 55%;
+					transform: translate(-55%, -25%) rotate(45deg);
+					width: 62%;
+					height: 62%;
+					border: 30px solid $white;
+					border-top: 30px solid transparent;
+					border-left: 30px solid transparent;
+					border-radius: 100%;
+		
+					@media (min-width: 750px) and (min-height: 1000px) {
+						border: 55px solid $white;
+						border-top: 55px solid transparent;
+						border-left: 55px solid transparent;
+					}
+		
+					@media (min-width: 1199px){
+						border: 38px solid $white;
+						border-top: 38px solid transparent;
+						border-left: 38px solid transparent;
+					}
+		
+					@media (min-width: 1599px){
+						border: 45px solid $white;
+						border-top: 45px solid transparent;
+						border-left: 45px solid transparent;
+					}
+		
+				}
+				
+				&__hand{
+					background: $white;
+					width: 12%;
+					height: 35%;
+					position: absolute;
+					top: 10%;
+					left: 13%;
+					transform: translate(-12%,-10%) skew(30deg);
+				}
+				
+				&__cube{
+					background: $white;
+					width: 20%;
+					height: 20%;
+					position: absolute;
+					top: 40%;
+					left: 50%;
+					transform: translate(-50%,-40%);
+				}
+		
+				&__cube_two{
+					background: $white;
+					width: 10%;
+					height: 10%;
+					position: absolute;
+					top: 30%;
+					left: 60%;
+					transform: translate(-60%,-30%);
+				}
+		
+				&__hashtag{
+					position: absolute;
+					display: block;
+					z-index: 1;
+					width: 40%;
+					height: auto;
+					top: 45%;
+					left: 50%;
+					transform: translate(-50%,-45%);
+		
+					svg{
+						width: 100%;
+					}
+		
+				}
+		
+				&__streak{
+					position: absolute;
+					display: block;
+					z-index: 1;
+					width: 50%;
+					height: auto;
+					top: 90%;
+					left: -30%;
+					transform: translate(0%,-90%);
+		
+					svg{
+						width: 100%;
+					}
+		
+				}
+		
+				&__card{
+					position: absolute;
+					display: block;
+					z-index: 1;
+					width: 50%;
+					height: auto;
+					top: -10%;
+					left: -10%;
+					opacity: 0;
+		
+					svg{
+						width: 100%;
+					}
+		
+				}
+
+			}
+	
+		}
+
+	}
+
+}

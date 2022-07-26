@@ -62,19 +62,13 @@
 @import 'components/app/requirements';
 @import 'components/app/we_know';
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+//*Ecommerce
+@import 'components/ecommerce/conversion';
+@import 'components/ecommerce/management';
+@import 'components/ecommerce/responsive';
+@import 'components/ecommerce/shop';
+@import 'components/ecommerce/wireframing';
+@import 'components/ecommerce/workshop';
 
 //*Maintenance
 @import 'components/maintenance/hero';
