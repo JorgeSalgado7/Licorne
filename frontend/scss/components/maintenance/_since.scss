@@ -1,0 +1,75 @@
+.since{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	background:$licorne_yellow;
+	&__container{
+
+		&__text{
+			width: 100%;
+			position: absolute;
+			top: 10%;
+			transform: translate(0,-10%);
+
+			@media (min-width: 1199px){
+				top: 35%;
+			}
+			p.tit {
+				font-size: 18px;
+				font-weight: 300;
+				letter-spacing: 1px;
+			}
+
+			p,li{
+				font-size: 20px;
+				font-weight: 300;
+				@media (max-width: 500px){
+					font-size: 15px;
+					font-weight: 300;
+			}
+		}
+		   
+			p{
+				margin-bottom: 20px;
+			}
+			li{
+				margin-left: 20px;
+			}
+		}
+		
+		&__animation{
+			width: 310px;
+			height: 310px;
+			position: absolute;
+			top: 95%;
+			left: 50%;
+			transform: translate(-50%,-95%);
+
+			@media (min-width: 412px){
+				top: 80%;
+				width: 410px;
+				height: 410px;
+			  
+			}
+
+			@media (min-width: 540px){
+				top: 80%;
+				width: 310px;
+				height: 310px;
+			  
+			}
+
+			@media (min-width: 1199px){
+				width: 410px;
+				height:410px;
+				top: 50%;
+				left: 100%;
+				transform: translate(-100%,-50%);
+			}
+			img{
+				width: 100%;
+			}
+		}
+
+	}
+}

@@ -1,0 +1,108 @@
+.hero_mantenance{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	background: linear-gradient(
+		$licorne_blue,
+		$licorne_BrightTurquoise
+	);
+
+	&__container{
+
+		@media (min-width: 100px){
+			.title {
+				width: 100%;
+				position: absolute;
+				top: 163px;
+				text-align: -webkit-center;
+			}
+		}
+		@media (min-width: 600px){
+			.title{
+				width: 100%;
+				position: absolute;
+				top: 221px;
+				text-align: -webkit-center;
+			}
+		}
+
+		@media (min-width: 1200px){
+			.title {
+				 top: 40%;
+				 width: 50%;
+				 text-align: left;
+		}
+	}
+
+		&__animacionPortada{
+			width: 270px;
+			height: 270px;
+			position: absolute;
+			top: 80%;
+			left: 50%;
+			transform: translate(-50%,-80%);
+			z-index: 2;
+			
+			@media (min-width:370px) {
+				top: 60%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+				width: 340px;
+				height: 340px;
+			}
+			@media (min-width:650px){
+				top: 57%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				width: 540px;
+				height: 540px;
+			}
+			@media (min-width: 1200px){
+				top: 50%;
+				left: 100%;
+				transform: translate(-100%,-50%);
+				width: 450px;
+				height: 450px;
+			}
+			@media (min-width: 1599px){
+				width: 500px;
+				height: 500px;
+			}
+			&__cruces{
+				width: 100%;
+				position: absolute;
+				display: block;
+				top: 100%;
+				transform: translate(0,-100%);
+
+				svg{
+					width: 100%;
+					height: 100%;
+				}
+			}
+
+			&__mano{
+				overflow: hidden;
+				display: block;
+				width: 38%;
+				height: 80%;
+				position: absolute;
+				top: 60%;
+				left: 50%;
+				transform: translate(-50%,-44%);
+
+				svg{
+					width: 100%;
+					height: 100%;
+				}
+				
+		
+			
+				
+			
+
+			}
+
+		}
+	}
+}
