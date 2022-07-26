@@ -31,12 +31,12 @@ const Hero: NextPage = () => {
 						superior="Diseño" 
 						inferior="Web"
 						invertido={false}
-				/>
+					/>
 				
-				<div className="hero__figCirculo"></div>
-				<div className="hero__imgCirculo">
-					<Circle/>
-				</div>
+					<div className="hero__figCirculo"></div>
+					<div className="hero__imgCirculo">
+						<Circle/>
+					</div>
 
 					<div className="hero__uiux">
 						<div className="hero__uiux__izquierda">
