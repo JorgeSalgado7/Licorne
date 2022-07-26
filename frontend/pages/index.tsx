@@ -33,6 +33,11 @@ const Home: NextPage = () => {
 
 			<Hero />
 			<StartKings/>
+			<LeanStartup/>
+			<Slide/>
+			<Focus/>
+			<Know/>
+			<Digitise/>
 
 		</MainLayout>
 

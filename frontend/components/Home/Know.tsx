@@ -15,31 +15,32 @@ import Titulo from '../Common/Title'
 const Home: NextPage = () => {
 
 	return (
+		<div>
+			<div className='know'>
 
-		<div className='know'>
+				<div className='container'>
 
-			<div className='container'>
+					<Titulo
+						alternativo=""
+						superior="¡Sí le"
+						inferior="Sabemos!"
+						invertido={true}
+					/>
 
-				<Titulo
-					alternativo=""
-					superior="¡Sí le"
-					inferior="Sabemos!"
-					invertido={true}
-				/>
-
-				<div className='know__animation'>
-					<img src="https://licorne-web.s3.us-east-2.amazonaws.com/home/telefono.svg"	alt="tecnologia digital"/>
-					<div className='know__animation__conversations'>
-						<div className="know__animation__conversations__scroll">
-									
-							<Conversation1/>
-								
-							<Conversation2/>
-							
+					<div className='know__animation'>
+						<img src="https://licorne-web.s3.us-east-2.amazonaws.com/home/telefono.svg"	alt="tecnologia digital"/>
+						<div className='know__animation__conversations'>
+							<div className="know__animation__conversations__scroll">
+						
+								<Conversation1/>
+					
+								<Conversation2/>
+				
+							</div>
 						</div>
 					</div>
-				</div>
 
+				</div>
 			</div>
 		</div>
 

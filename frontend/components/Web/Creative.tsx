@@ -20,7 +20,6 @@ import Titulo from '../Common/Title'
 const Creative: NextPage = () => {
 
 	return (
-		
 		<div>
 			<div className='creative'>
 				<div className='container'>
@@ -86,7 +85,6 @@ const Creative: NextPage = () => {
 									<Illustration/>
 								</div>
 							</div>
-						
 						</div>
 					</div>
 				</div>
