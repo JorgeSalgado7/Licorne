@@ -36,20 +36,28 @@
 @import 'components/web/creative';
 
 //* LeanStartup
-@import 'components/leanStartup/mainAnimation';
-@import 'components/leanStartup/seedAnimation';
-@import 'components/leanStartup/snapAnimation';
+@import 'components/leanStartup/main_animation';
+@import 'components/leanStartup/snap_animation';
+@import 'components/leanStartup/seed_animation';
 @import 'components/leanStartup/weDo';
 @import 'components/leanStartup/partners';
 
 //* Development
 @import 'components/development/stages';
-@import 'components/development/appDevelopments';
+@import 'components/development/app_developments';
 @import 'components/development/ux';
 @import 'components/development/cloud';
 @import 'components/development/analytics';
 @import 'components/development/cybersecurity';
 @import 'components/development/audit';
+
+//* Ecommerce
+@import 'components/ecommerce/conversion';
+@import 'components/ecommerce/responsive';
+@import 'components/ecommerce/workshop';
+@import 'components/ecommerce/wireframing';
+@import 'components/ecommerce/management';
+@import 'components/ecommerce/shop';
 
 //* Tipografía
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
