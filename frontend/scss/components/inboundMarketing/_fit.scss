@@ -1,0 +1,563 @@
+.fit{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	background: linear-gradient(
+		$licorne_blue,
+		$licorne_BrightTurquoise
+	);
+
+	&__container{
+		height: 100%;
+
+		&__section{
+			width: 100%;
+			position: absolute;
+			top: 43%;
+			left: 50%;
+			transform: translate(-50%,-43%);
+			padding: 1px;
+			animation-name: circulo-inb;
+			animation-duration: 2s;
+			animation-delay: 6s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+			text-align: -webkit-center;
+
+			@media (min-width: 380px) and (min-height: 800px) {
+				top: 35%;
+				left: 50%;
+				transform: translate(-50%,-35%);
+				text-align: -webkit-center;
+			}
+
+			@media (min-width: 750px) and (min-height: 1000px) {
+				width: 70%;
+				top: 30%;
+				left: 50%;
+				transform: translate(-50%,-30%);
+			}
+
+			@media (min-width: 1199px) { 
+				width: 50%;
+				top: 61%;
+				left: 0%;
+				transform: translate(0%,-50%);
+			}
+			
+			@media (min-width: 1200px) { 
+				width: 50%;
+				top: 71%;
+				left: 0%;
+				transform: translate(0%,-50%);
+				text-align: left;
+			}
+
+			@media (min-width: 1599px) { 
+				top: 59%;
+				text-align: left;
+			}
+
+			p{
+				font-size: 16px;
+				font-weight: 300;
+
+				@media (min-width: 380px) and (min-height: 800px) {
+					font-size: 16px;
+				}
+
+				@media (min-width: 750px) and (min-height: 1000px) {
+					font-size: 20px;
+				}
+
+				@media (min-width: 1199px) { 
+					font-size: 20px;
+				}
+
+				span {
+					font-weight: 700;
+				}
+
+			}
+
+		}
+
+		&__section_two{
+			width: 100%;
+			position: absolute;
+			top: 43%;
+			left: 50%;
+			transform: translate(-50%,-43%);
+			padding: 1px;
+			opacity: 0;
+			animation-name: parrafoDos;
+			animation-duration: 6s;
+			animation-delay: 7s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+			text-align: -webkit-center;
+
+			@keyframes parrafoDos {
+				0% {opacity: 0} 
+				50% {opacity: 1}
+				100% {opacity: 0}
+			}
+
+			@media (min-width: 380px) and (min-height: 800px) {
+				top: 35%;
+				left: 50%;
+				transform: translate(-50%,-35%);
+				text-align: -webkit-center;
+			}
+
+			@media (min-width: 750px) and (min-height: 1000px) {
+				width: 70%;
+				top: 30%;
+				left: 50%;
+				transform: translate(-50%,-30%);
+			}
+
+			@media (min-width: 1199px) { 
+				width: 50%;
+				top: 61%;
+				left: 0%;
+				transform: translate(0%,-50%);
+			}
+
+			@media (min-width: 1200px) { 
+				width: 50%;
+				top: 71%;
+				left: 0%;
+				transform: translate(0%,-50%);
+				text-align: left;
+			}
+
+			@media (min-width: 1599px) { 
+				top: 59%;
+				text-align: left;
+			}
+
+			p{
+				font-size: 16px;
+				font-weight: 300;
+
+				@media (min-width: 380px) and (min-height: 800px) {
+					font-size: 16px;
+				}
+
+				@media (min-width: 750px) and (min-height: 1000px) {
+					font-size: 20px;
+					padding-right: 20px;
+				}
+
+				@media (min-width: 1199px) { 
+					font-size: 20px;
+					padding-right: 20px;
+				}
+
+				span {
+					font-weight: 700;
+				}
+
+			}
+
+		}
+
+		&__section_three{
+			width: 100%;
+			position: absolute;
+			top: 43%;
+			left: 50%;
+			transform: translate(-50%,-43%);
+			padding: 1px;
+			opacity: 0;
+			animation-name: parrafoTres;
+			animation-duration: 6s;
+			animation-delay: 12s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+			text-align: -webkit-center;
+
+			@keyframes parrafoTres {
+				0% {opacity: 0} 
+				50% {opacity: 1}
+				100% {opacity: 0}
+			}
+
+			@media (min-width: 380px) and (min-height: 800px) {
+				top: 35%;
+				left: 50%;
+				transform: translate(-50%,-35%);
+				text-align: -webkit-center;
+			}
+
+			@media (min-width: 750px) and (min-height: 1000px) {
+				width: 70%;
+				top: 30%;
+				left: 50%;
+				transform: translate(-50%,-30%);
+			}
+
+			@media (min-width: 1199px) { 
+				width: 50%;
+				top: 61%;
+				left: 0%;
+				transform: translate(0%,-50%);
+			}
+
+			@media (min-width: 1200px) { 
+				width: 50%;
+				top: 71%;
+				left: 0%;
+				transform: translate(0%,-50%);
+				text-align: left;
+			}
+
+			@media (min-width: 1200px) { 
+				width: 50%;
+				top: 71%;
+				left: 0%;
+				transform: translate(0%,-50%);
+				text-align: left;
+			}
+
+			@media (min-width: 1599px) { 
+				top: 59%;
+				text-align: left;
+			}
+
+			p{
+				font-size: 16px;
+				font-weight: 600;
+
+				@media (min-width: 380px) and (min-height: 800px) {
+					font-size: 16px;
+				}
+
+				@media (min-width: 750px) and (min-height: 1000px) {
+					font-size: 20px;
+				}
+
+				@media (min-width: 1199px) { 
+					font-size: 20px;
+				}
+
+			}
+
+		}
+
+		&__section_four{
+			width: 100%;
+			position: absolute;
+			top: 43%;
+			left: 50%;
+			transform: translate(-50%,-43%);
+			padding: 1px;
+			opacity: 0;
+			animation-name: parrafoCuatro;
+			animation-duration: 3s;
+			animation-delay: 17s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+			text-align: -webkit-center;
+
+			@keyframes parrafoCuatro {
+				0% {opacity: 0} 
+				100% {opacity: 1}
+			}
+
+			@media (min-width: 380px) and (min-height: 800px) {
+				top: 35%;
+				left: 50%;
+				transform: translate(-50%,-35%);
+				text-align: -webkit-center;
+			}
+
+			@media (min-width: 750px) and (min-height: 1000px) {
+				width: 70%;
+				top: 30%;
+				left: 50%;
+				transform: translate(-50%,-30%);
+			}
+
+			@media (min-width: 1199px) { 
+				width: 50%;
+				top: 61%;
+				left: 0%;
+				transform: translate(0%,-50%);
+				text-align: left;
+			}
+
+			@media (min-width: 1200px) { 
+				width: 46%;
+				top: 74%;
+				left: 0%;
+				transform: translate(0%, -50%);
+				text-align: left;
+			}
+
+			@media (min-width: 1400px) { 
+				width: 50%;
+				top: 71%;
+				left: 0%;
+				transform: translate(0%,-50%);
+				text-align: left;
+			}
+
+			@media (min-width: 1599px) { 
+				top: 59%;
+				text-align: left;
+			}
+
+			p{
+				font-size: 16px;
+				font-weight: 300;
+			
+				@media (min-width: 380px) and (min-height: 800px) {
+					font-size: 16px;
+				}
+
+				@media (min-width: 750px) and (min-height: 1000px) {
+					font-size: 20px;
+				}
+				
+				@media (min-width: 1199px) { 
+					font-size: 20px;
+				}
+
+				span {
+					font-weight: 700;
+				}
+
+			}
+
+		}
+
+		&__animation{
+			width: 270px;
+			height: 270px;
+			position: absolute;
+			top: 95%;
+			left: 50%;
+			transform: translate(-50%,-95%);
+
+			@media (min-width: 380px) and (min-height: 800px) {
+				width: 380px;
+				height: 380px;
+				top: 80%;
+				left: 50%;
+				transform: translate(-50%,-80%);
+			}
+
+			@media (min-width: 750px) and (min-height: 1000px) {
+				width: 600px;
+				height: 450px;
+			}
+
+			@media (min-width: 1199px) { 
+				width: 500px;
+				height: 500px;
+				top: 50%;
+				left: 100%;
+				transform: translate(-100%,-50%);
+			}
+
+			@media (min-width: 1599px) { 
+				width: 600px;
+				height: 600px;
+			}
+
+			&__decor{
+				position: absolute;
+				display: block;
+				width: 100%;
+
+				svg{
+					width: 100%;
+				}
+
+			}
+
+			&__circle {
+				position: absolute;
+				display: block;
+				width: 60%;
+				left: 50%;
+				top: 100%;
+				transform: translate(-50%,-100%);
+				animation-name: circulo-inb;
+				animation-duration: 2s;
+				animation-delay: 6s;
+				animation-iteration-count: 1;
+				animation-fill-mode: forwards;
+
+				svg{
+					width: 100%;
+				}
+
+				@keyframes circulo-inb {
+					0% {opacity: 1} 
+					30% {opacity: 1}
+					70% {opacity: 1}
+					100% {opacity: 0}
+				}
+
+			}
+
+			&__eye{
+				position: absolute;
+				display: block;
+				width: 3%;
+				left: 45%;
+				top: 52%;
+				transform: translate(-45%,-52%);
+				animation-name: ojo;
+				animation-duration: 6s;
+				animation-delay: 2s;
+				animation-iteration-count: 1;
+				animation-fill-mode: forwards;
+				
+				svg{
+					width: 100%;
+				}
+
+				@keyframes ojo {
+					0% {width: 3%; opacity: 1} 
+					25% {width: 10%; opacity: 1}
+					75% {width: 10%; opacity: 1}
+					100% {width: 10%; opacity: 0}
+				}
+
+			}
+
+			&__eye_two{
+				position: absolute;
+				display: block;
+				width: 3%;
+				left: 58%;
+				top: 51%;
+				transform: translate(-51%,-58%);
+				animation-name: ojo;
+				animation-duration: 6s;
+				animation-delay: 2s;
+				animation-iteration-count: 1;
+				animation-fill-mode: forwards;
+				
+				svg{
+					width: 100%;
+				}
+
+			}
+
+			&__marriage{
+				position: absolute;
+				display: block;
+				width: 100%;
+				left: 50%;
+				top: 90%;
+				transform: translate(-50%,-90%);
+				opacity: 0;
+				animation-name: matrimonio;
+				animation-duration: 5s;
+				animation-delay: 8s;
+				animation-iteration-count: 1;
+				animation-fill-mode: forwards;
+
+				svg{
+					width: 100%;
+				}
+
+				@keyframes matrimonio {
+					0% {opacity: 0} 
+					25% {opacity: 1}
+					75% {opacity: 1}
+					100% {opacity: 0}
+				}
+
+			}
+
+			&__marriage_two{
+				position: absolute;
+				display: block;
+				width: 100%;
+				left: 50%;
+				top: 90%;
+				transform: translate(-50%,-90%);
+				opacity: 0;
+				animation-name: matrimonioDos;
+				animation-duration: 5s;
+				animation-delay: 13s;
+				animation-iteration-count: 1;
+				animation-fill-mode: forwards;
+
+				svg{
+					width: 100%;
+				}
+
+				@keyframes matrimonioDos {
+					0% {opacity: 0} 
+					25% {opacity: 1}
+					75% {opacity: 1}
+					100% {opacity: 0}
+				}
+
+			}
+
+			&__bat{
+				position: absolute;
+				display: block;
+				width: 60%;
+				left: 30%;
+				top: 40%;
+				transform: translate(-90%,-70%) rotate(40deg);
+				opacity: 0;
+				animation-name: bat;
+				animation-delay: 17s;
+				animation-duration: 6s;
+				animation-iteration-count: 1;
+				animation-fill-mode: forwards;
+
+				svg{
+					width: 100%;
+				}
+
+				@keyframes bat {
+					0%{opacity: 0;}
+					50% {opacity: 1; transform: rotate(40deg);} 
+					100% {opacity: 1; transform: rotate(0deg);}
+				}
+
+			}
+
+			&__ball{
+				position: absolute;
+				display: block;
+				width: 15%;
+				left: 30%;
+				top: 42%;
+				transform: translate(-30%,-42%);
+				opacity: 0;
+				animation-name: pelota;
+				animation-delay: 17s;
+				animation-duration: 8s;
+				animation-iteration-count: 1;
+				animation-fill-mode: forwards;
+
+				svg{    
+					margin: 0 auto;
+					width: 100%;
+				}
+
+				@keyframes pelota {
+					0%{opacity: 0; top: 40%; width: 15%;}
+					50% {opacity: 1;top: 40%; width: 15%;} 
+					100% {opacity: 1;top: 50%; width: 60%;}
+				}
+
+			}
+
+		}
+
+	}
+
+}
