@@ -1,0 +1,269 @@
+.hero_social_ads {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	background: linear-gradient($licorne_blue,
+			$licorne_BrightTurquoise);
+
+	&__contenedor {
+
+		.title {
+			opacity: 0;
+
+			@media (max-width: 576px) {
+				top: 80px;
+				text-align: center;
+
+				&__top {
+					font-size: 45px;
+				}
+
+				&__low {
+					font-size: 45px;
+				}
+			}
+
+			@media (max-width: 500px) and (min-height: 820px) {
+				&__top {
+					font-size: 45px;
+				}
+
+				&__low {
+					font-size: 45px;
+				}
+			}
+
+			@media (min-width: 750px) and (min-height: 1000px) {
+				&__top {
+					font-size: 55px;
+				}
+
+				&__low {
+					font-size: 55px;
+				}
+			}
+
+			@media (min-width: 767px) {
+				top: 175px;
+				text-align: center;
+
+				&__top{
+					width: auto;
+					line-height: 80px;
+				}
+			}
+
+			@media (min-width: 992px) {
+				top: 105px;
+				text-align: center;}
+				@media (min-width: 1400px) {
+					top: 275px;
+
+				&__top{
+					width: auto;
+					line-height: 80px;
+				}
+			}
+
+			@media (min-width: 1199px) {
+				text-align: inherit;
+				&__top{
+					font-size: 70px;
+					line-height: 77px;
+				}
+
+				&__low{
+					font-size: 65px;
+					 line-height: 79px;
+				}
+			}
+		}
+
+		&__animation{
+			width: 330px;
+			height: 100%;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+
+			@media (min-width: 380px) and (min-height: 820px) {
+				width: 350px;
+			}
+
+			@media (min-width: 750px) and (min-height: 1000px) {
+				width: 500px;
+			}
+
+			@media (min-width: 1199px) {
+				width: 100%;
+			}
+
+			&__magnet {
+				width: 60%;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%) rotate(-90deg);
+
+				@media (min-width: 1199px) {
+					width: 30%;
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%) rotate(0deg);
+				}
+				svg{
+					width: 100%;
+					height: 100%;
+				}
+			}
+
+			&__one {
+				width: 20%;
+				position: absolute;
+				top: 72%;
+				left: 50%;
+				transform: translate(-50%, -72%) rotate(-90deg);
+				opacity: 0;
+
+				@media (min-width: 1199px) {
+					width: 10%;
+					top: 50%;
+					left: 25%;
+					transform: translate(-25%, -50%) rotate(0deg);
+				}
+
+				svg{
+					width: 100%;
+					height: 100%;
+				}
+			}
+
+			&__two{
+				width: 15%;
+				position: absolute;
+				top: 28%;
+				left: 50%;
+				transform: translate(-50%, -28%) rotate(-90deg);
+				opacity: 0;
+
+				@media (min-width: 1199px) {
+					width: 10%;
+					top: 50%;
+					left: 76%;
+					transform: translate(-76%, -50%) rotate(0deg);
+				}
+
+				svg{
+					width: 100%;
+					height: 100%;
+				}
+			}
+
+			&__heart {
+				width: 30%;
+				position: absolute;
+				top: -20%;
+				left: 50%;
+				transform: translate(-50%, 0%);
+
+				@media (min-width: 1199px) {
+					width: 20%;
+					top: 50%;
+					left: 250%;
+					transform: translate(-100%, -50%);
+				}
+
+				svg{
+					width: 100%;
+					height: 100%;
+				}
+			}
+
+			&__brain {
+				width: 30%;
+				position: absolute;
+				top: 120%;
+				left: 50%;
+				transform: translate(-50%, -100%);
+
+				@media (min-width: 1199px) {
+					width: 20%;
+					top: 50%;
+					left: -200%;
+					transform: translate(0%, -50%);
+				}
+
+				svg{
+					width: 100%;
+					height: 100%;
+				}
+			}
+
+		}
+
+		&__animation_two {
+			width: 100%;
+			position: absolute;
+			top: 70%;
+			left: 50%;
+			transform: translate(-50%, -70%);
+			opacity: 0;
+			@media (max-width: 700px) {
+				top: 80%;
+			}
+
+			@media (min-width: 767px) {
+				width: 80%;
+			}
+
+			@media (min-width: 992px) {
+				width: 60%;
+			}
+
+			@media (min-width: 1199px) {
+				width: 50%;
+				top: 50%;
+				left: 100%;
+				transform: translate(-100%, -50%);
+			}
+
+			&__heart_two {
+				width: 35%;
+				position: absolute;
+				top: 50%;
+				left: 100%;
+				transform: translate(-100%, -50%);
+
+				@media (min-width: 1199px) {
+					width: 40%;
+				}
+
+				svg{
+					width: 100%;
+					height: 100%;
+				}
+			}
+
+			&__brain_two {
+				width: 43%;
+				position: absolute;
+				top: 50%;
+				left: 0%;
+				transform: translate(0%, -50%);
+
+				@media (min-width: 1199px) {
+					width: 40%;
+				}
+
+				svg{
+					width: 100%;
+					height: 100%;
+				}
+			}
+
+		}
+
+	}
+}

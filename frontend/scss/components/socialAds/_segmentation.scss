@@ -1,0 +1,173 @@
+.segmentation{
+	width: 100%;
+	height: 100vh;
+	background: $white;
+	overflow: hidden;
+
+	&__container {
+
+		&__animation {
+			width: 270px;
+			height: 270px;
+			position: absolute;
+			top: 75%;
+			left: 50%;
+			transform: translate(-50%, -75%);
+
+			@media (min-width: 380px) and (min-height: 820px) {
+				width: 330px;
+				height: 330px;
+			}
+
+			@media (min-width: 750px) and (min-height: 1000px) {
+				width: 450px;
+				height: 450px;
+			}
+
+			@media (min-width: 1199px) {
+				top: 50%;
+				left: 100%;
+				transform: translate(-100%, -50%);
+				width: 350px;
+				height: 350px;
+			}
+
+			@media (min-width: 1599px) {
+				width: 450px;
+				height: 450px;
+			}
+
+			img {
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+
+			&__one {
+				opacity: 0;
+			}
+
+			&__two {
+				opacity: 0;
+			}
+
+			&__three{
+				opacity: 0;
+			}
+
+			&__four {
+				opacity: 0;
+			}
+
+			&__five {
+				opacity: 0;
+			}
+
+			&__six {
+				opacity: 0;
+			}
+
+			&__seven {
+				opacity: 0;
+			}
+
+			&__eight{
+				opacity: 0;
+			}
+			
+		}
+
+		&__queen{
+			width: 270px;
+			height: 270px;
+			position: absolute;
+			top: 75%;
+			left: 50%;
+			transform: translate(-50%, -75%);
+			opacity: 0;
+
+			@media (min-width: 380px) and (min-height: 820px) {
+				width: 330px;
+				height: 330px;
+			}
+
+			@media (min-width: 750px) and (min-height: 1000px) {
+				width: 450px;
+				height: 450px;
+			}
+
+			@media (min-width: 1199px) {
+				top: 50%;
+				left: 100%;
+				transform: translate(-100%, -50%);
+				width: 350px;
+				height: 350px;
+			}
+
+			@media (min-width: 1599px) {
+				width: 450px;
+				height: 450px;
+			}
+
+			img {
+				width: 100%;
+			}
+		}
+
+		&__text{
+			width: 100%;
+			position: absolute;
+			top: 20%;
+			left: 50%;
+			transform: translate(-50%, -20%);
+
+			@media (min-width: 992px) {
+				width: 85%;
+				text-align: center;
+			}
+
+			@media (min-width: 1199px) {
+				top: 50%;
+				left: 0%;
+				transform: translate(0%, -50%);
+				width: 50%;
+				text-align: inherit;
+			}
+
+			p {
+				font-size: 29px;
+				 font-weight: 300;
+				 line-height: 41px;
+
+				@media (min-width: 380px) and (min-height: 820px) {
+					font-size: 29px;
+					font-weight: 300;
+					line-height: 41px;
+				}
+
+				@media (min-width: 750px) and (min-height: 1000px) {
+					font-size: 32px;
+					font-weight: 300;
+				}
+
+				@media (min-width: 1199px) {
+					font-size: 45px;
+					font-weight: 300;
+					line-height: 52px;
+				}
+
+				@media (min-width: 1599px) {
+					font-size: 45px;
+					font-weight: 300;
+				}
+
+				span {
+					color: $licorne_blue;
+					font-weight: 700;
+				}
+			}
+		}
+	}
+}
