@@ -1,0 +1,143 @@
+.content{
+	width: 100%;
+	height: 100vh;
+	background: $licorne_yellow;
+	overflow: hidden;
+	position: relative;
+
+	&__container{
+
+		&__section{
+			width: 100%;
+			position: absolute;
+			top: 37%;
+			left: 50%;
+			transform: translate(-50%,-37%);
+
+			@media (min-width: 200px) {
+
+				p{
+					font-size: 18px;
+					font-weight: 300;
+				}
+				
+			}
+
+			@media (min-width: 370px) and (min-height: 810px) {
+
+				p{
+					font-size: 18px;
+					font-weight: 300;
+				}
+
+			}
+
+			@media (min-width: 750px) and (min-height: 1000px) {
+
+				p{
+					font-size: 18px;
+					font-weight: 300;
+				}
+
+			}
+
+			@media (min-width: 1599px){
+
+				p{
+					font-size: 18px;
+					font-weight: 300;
+				}
+
+			}
+
+			@media (min-width: 1199px){
+				width: 50%;
+				top: 64%;
+				left: 0%;
+				transform: translate(0%,-60%);
+			}
+
+		}
+
+		&__animation{
+			width: 230px;
+			height: 230px;
+			position: absolute;
+			top: 90%;
+			left: 50%;
+			transform: translate(-50%,-90%);
+
+			@media (min-width: 750px) and (min-height: 1000px) {
+				width: 350px;
+				height: 350px;
+				top: 80%;
+				left: 50%;
+				transform: translate(-50%,-80%);
+			}
+
+			@media (min-width: 1199px){
+				width: 400px;
+				height: 400px;
+				top: 50%;
+				left: 100%;
+				transform: translate(-100%,-50%);
+			}
+
+			&__image_pop{
+				width: 100%;
+
+				svg{
+					width: 100%;
+				}
+
+			}
+
+			&__image_person{
+				width: 50%;
+				height: 50%;
+				top: 30%;
+				left: 50%;
+				transform: translate(-50%,-30%);
+				position: absolute;
+				opacity: 0;
+
+				svg{
+					width: 100%;
+				}
+				
+			}
+
+			&__image_heart{
+				width: 50%;
+				height: 50%;
+				top: 30%;
+				left: 50%;
+				transform: translate(-50%,-30%);
+				position: absolute;
+
+				svg{
+					width: 100%;
+				}
+
+			}
+
+			&__image_coin{
+				width: 50%;
+				height: 50%;
+				top: 30%;
+				left: 50%;
+				transform: translate(-50%,-30%);
+				position: absolute;
+				opacity: 0;
+
+				svg{
+					width: 100%;
+				}
+				
+			}
+
+		}
+
+	}
+
+}
