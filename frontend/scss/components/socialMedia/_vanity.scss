@@ -1,0 +1,207 @@
+.vanity{
+	width: 100%;
+	height: 170vh;
+	overflow: hidden;
+	background: linear-gradient(
+		$licorne_yellow,
+		$licorne_BrightTurquoise
+	);
+   
+	@media (min-width: 370px) and (min-height: 810px) {
+		height: 100vh;
+	}
+	
+	@media (min-width: 1199px){
+		height: 100vh;
+	}
+
+	&__container{
+
+		&__section{
+			width: 100%;
+			position: absolute;
+			top: 90%;
+			left: 50%;
+			transform: translate(-50%,-90%);
+	
+			@media (max-height: 700px) {
+				top: 91%;
+			}
+	
+			p{
+				font-size:18px;
+				font-weight: 300;
+			}
+	
+			@media (min-width: 200px) {
+	
+				p{
+					font-size: 18px;
+					font-weight: 300;
+				}
+	
+			}
+	
+			@media (min-width: 600px) {
+	
+				p{
+					font-size: 18px;
+					font-weight: 300;
+				}
+	
+			}
+	
+			@media (min-width: 750px) and (min-height: 1000px) {
+	
+				p{
+					font-size: 18px;
+					font-weight: 300;
+				}
+	
+			}
+	
+			@media (min-width: 1699px){
+	
+				p{
+					font-size: 18px;
+					font-weight: 300;
+				}
+	
+			} 
+	
+			@media (min-width: 1199px){
+				width: 50%;
+				top: 79%;
+				left: 0%;
+				transform: translate(0%,-80%);
+			}
+	
+			@media (min-width: 1400px){
+				width: 50%;
+				top: 73%;
+				left: 0%;
+				transform: translate(0%,-80%);
+			}
+	
+			@media (min-width: 1699px){
+				top: 74%;
+				transform: translate(0%,-60%);
+			} 
+	
+		}
+	
+		&__animation{
+			width: 300px;
+			height: 300px;
+			position: absolute;
+			top: 56%;
+			left: 50%;
+			transform: translate(-50%,-55%);
+	
+			@media (max-height: 700px) {
+				top: 55%;
+			}
+	
+			@media (min-height: 700px) {
+				width: 400px;
+				height: 400px;
+			}
+	
+			@media (min-height: 1000px) {
+				width: 339px;
+				height: 322px;
+				top: 59%;
+			}
+	
+			@media (min-width: 1199px){
+				width: 400px;
+				height: 400px;
+				top: 50%;
+				left: 100%;
+				transform: translate(-100%,-50%);
+			} 
+	
+			@media (min-width: 1699px){
+				width: 500px;
+				height: 500px;
+			}
+
+			&__pack{
+				
+				svg{
+					width: 100%;
+				}
+
+				&__hand{
+
+					svg{
+						width: 65%;
+						position: absolute;
+						top: 30%;
+						left: 25%;
+						animation-name: animar;
+						animation-duration: 4s;
+						animation-iteration-count: infinite;
+		
+						@keyframes animar {
+							50% {
+								transform: rotate(-50deg);
+							}
+							100% {
+								transform: rotate(0deg);
+							}
+						}
+		
+					}
+
+				}
+
+				&__movement{
+
+					svg{
+						position: absolute;
+						top: 90%;
+						left: 50%;
+						transform: translate(-50%,-90%);
+						width: 100%;
+					}
+
+				}
+
+				&__hand_closed{
+
+					svg{
+						width: 65%;
+						position: absolute;
+						top: 30%;
+						left: 25%;
+					}
+
+				}
+
+				&__text{
+
+					svg{
+						width: 60%;
+						position: absolute;
+						top: 0;
+						left: 10%;
+					}
+
+				}
+
+			}
+	
+			.two{
+				opacity: 0;
+			}
+	
+			.three{
+				opacity: 0;
+			}		
+	
+		}
+
+	}
+	
+}
