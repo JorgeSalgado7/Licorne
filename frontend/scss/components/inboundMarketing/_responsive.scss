@@ -1,0 +1,71 @@
+.responsive_inbound{
+	width: 100%;
+	background: $licorne_yellow;
+	overflow: hidden;
+	padding-top: 20px;
+
+	@media (min-width: 1199px) {
+		display: none;
+	}
+
+	&__container{
+
+		&__title{
+			text-align: center;
+			font-size: 34px;
+			position: relative;
+			@media (max-width: 320px) {
+				top: 30%;
+			}
+	
+		}
+	
+		&__section{
+			width: 100%;
+			height: auto;
+			position: absolute;
+			top: 70%;
+			left: 50%;
+			transform: translate(-50%,-70%);
+	
+			@media (max-width: 700px) {
+				top: 64%;
+			}
+	
+			@media (min-width: 350px) and (min-height: 730px) {
+				top: 31%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+			}
+	
+			@media (min-width: 750px) and (min-height: 1000px) {
+				top: 40%;
+				left: 50%;
+				transform: translate(-50%,-40%);
+				width: 90%;
+			}
+	
+			p{
+				font-size: 16px;
+				font-weight: 300;
+				margin-top: 30px;
+	
+				span{
+					font-weight: 600;
+				}
+	
+				@media (min-width: 350px) and (min-height: 730px) {
+					font-size: 20px;
+				}
+	
+				@media (min-width: 750px) and (min-height: 1000px) {
+					font-size: 30px;
+				}
+	
+			}
+	
+		}
+
+	}
+
+}
