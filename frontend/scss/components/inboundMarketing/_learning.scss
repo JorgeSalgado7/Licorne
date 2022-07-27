@@ -1,0 +1,441 @@
+.embudo{
+	width: 100%;
+	height: 110vh;
+	overflow: hidden;
+	position: relative;
+	background: linear-gradient(
+		$licorne_yellow,
+		$licorne_BrightTurquoise
+	);
+
+	.container{
+
+		.aprendizaje{
+
+			p{
+				width: 100%;
+				font-size: 16px;
+				font-weight: 300;
+				position: absolute;
+				top: 30%;
+				transform: translate(0,-30%);
+
+				@media (min-width: 380px) and (min-height: 810px) {
+					top: 25%;
+					transform: translate(0,-25%);
+					font-size: 16px;
+				}
+
+				@media (min-width: 750px) and (min-height: 1000px) {
+					font-size: 22px;
+				}
+
+				@media (min-width: 1199px) { 
+					width: 50%;
+					top: 55%;
+					transform: translate(0%,-55%);
+					font-size: 22px;
+				}
+
+				@media (min-width: 1199px) and (max-height: 600px){
+					top: 65%;
+					transform: translate(0%,-65%);
+					font-size: 16px;
+				} 
+
+			}
+
+			small {
+				font-size: 18px;
+				letter-spacing: 1px;
+				font-weight: 300;
+			}
+
+			small{
+				width: 100%;
+				text-align: center;
+				position: absolute;
+				top: 90%;
+				left: 50%;
+				transform: translate(-50%,-90%);
+
+				@media (min-width: 1199px) { 
+					width: auto;
+					top: 80%;
+					left: 40%;
+					transform: translate(-40%,-80%);
+				}
+
+			}
+
+		}
+
+		.consideracion{
+			opacity: 0;
+
+			p{
+				width: 100%;
+				font-size: 16px;
+				font-weight: 300;
+				position: absolute;
+				top: 30%;
+				transform: translate(0,-30%);
+				@media (min-width: 380px) and (min-height: 810px) {
+					top: 25%;
+					transform: translate(0,-25%);
+					font-size: 16px;
+				}
+				@media (min-width: 750px) and (min-height: 1000px) {
+					font-size: 22px;
+				}
+				@media (min-width: 1199px) { 
+					width: 50%;
+					top: 55%;
+					transform: translate(0%,-55%);
+					font-size: 22px;
+				}
+				@media (min-width: 1199px) and (max-height: 600px){
+					top: 65%;
+					transform: translate(0%,-65%);
+					font-size: 16px;
+				} 
+			}
+
+			small {
+				font-size: 18px;
+				letter-spacing: 1px;
+				font-weight: 300;
+			}
+
+			small{
+				width: 100%;
+				text-align: center;
+				position: absolute;
+				top: 90%;
+				left: 50%;
+				transform: translate(-50%,-90%);
+
+				@media (min-width: 1199px) { 
+					width: auto;
+					top: 80%;
+					left: 40%;
+					transform: translate(-40%,-80%);
+				}
+
+			}
+
+		}
+
+		.reconocimiento{
+			opacity: 0;
+
+			p{
+				width: 100%;
+				font-size: 16px;
+				font-weight: 300;
+				position: absolute;
+				top: 30%;
+				transform: translate(0,-30%);
+
+				@media (min-width: 380px) and (min-height: 810px) {
+					top: 25%;
+					transform: translate(0,-25%);
+					font-size: 16px;
+				}
+
+				@media (min-width: 750px) and (min-height: 1000px) {
+					font-size: 22px;
+				}
+
+				@media (min-width: 1199px) { 
+					width: 50%;
+					top: 55%;
+					transform: translate(0%,-55%);
+					font-size: 22px;
+				}
+
+				@media (min-width: 1199px) and (max-height: 600px){
+					top: 65%;
+					transform: translate(0%,-65%);
+					font-size: 16px;
+				} 
+
+			}
+
+			small {
+				font-size: 18px;
+				font-weight: 300;
+				letter-spacing: 1px;
+			}
+
+			small{
+				width: 100%;
+				text-align: center;
+				position: absolute;
+				top: 90%;
+				left: 50%;
+				transform: translate(-50%,-90%);
+
+				@media (min-width: 1199px) { 
+					width: auto;
+					top: 80%;
+					left: 40%;
+					transform: translate(-40%,-80%);
+				}
+	   
+			}
+
+		}
+
+		.compra{
+			opacity: 0;
+
+			p{
+				width: 100%;
+				font-size: 16px;
+				font-weight: 300;
+				position: absolute;
+				top: 30%;
+				transform: translate(0,-30%);
+
+				@media (min-width: 380px) and (min-height: 810px) {
+					top: 25%;
+					transform: translate(0,-25%);
+					font-size: 16px;
+				}
+
+				@media (min-width: 750px) and (min-height: 1000px) {
+					font-size: 22px;
+				}
+
+				@media (min-width: 1199px) { 
+					width: 50%;
+					top: 55%;
+					transform: translate(0%,-55%);
+					font-size: 22px;
+				}
+
+				@media (min-width: 1199px) and (max-height: 600px){
+					top: 65%;
+					transform: translate(0%,-65%);
+					font-size: 16px;
+				} 
+
+			}
+
+			small {
+				font-size: 18px;
+				letter-spacing: 1px;
+				font-weight: 300;
+			}
+
+			small{
+				width: 100%;
+				text-align: center;
+				position: absolute;
+				top: 90%;
+				left: 50%;
+				transform: translate(-50%,-90%);
+
+				@media (min-width: 1199px) { 
+					width: auto;
+					top: 80%;
+					left: 40%;
+					transform: translate(-40%,-80%);
+				}
+
+			}
+			
+		}
+
+		.animacionEmbudo{
+			width: 260px;
+			height: 260px;
+			position: absolute;
+			top: 75%;
+			left: 50%;
+			transform: translate(-50%,-75%);
+
+			@media (min-width: 300px) and (max-height: 600px) {
+				width: 200px;
+				height: 200px;
+			}
+
+			@media (min-width: 380px) and (min-height: 810px) {
+				width: 350px;
+				height: 350px;
+				top: 70%;
+				left: 50%;
+				transform: translate(-50%,-70%);
+			}
+
+			@media (min-width: 750px) and (min-height: 1000px) {
+				width: 450px;
+				height: 450px;
+			}
+
+			@media (min-width: 1199px) { 
+				width: 400px;
+				height: 400px;
+				top: 50%;
+				left: 100%;
+				transform: translate(-100%,-50%);
+			}
+
+			@media (min-width: 1899px) { 
+				width: 550px;
+				height: 550px;
+			}
+
+			.aprendizajeAnimacion{
+
+				.pelotaAprendizaje{
+					width: 15%;
+					height: 15%;
+					position: absolute;
+					display: block;
+					left: 50%;
+					transform: translate(-50%,0);
+
+					svg{
+						width: 100%;
+					}
+
+				}
+
+				.pieza{
+					width: 80%;
+					position: absolute;
+					display: block;
+					left: 50%;
+					top: 20%;
+					transform: translate(-50%,-20%);
+
+					svg{
+						width: 100%;
+					}
+
+				}
+
+			}
+
+			.consideracionAnimacion{
+				opacity: 0;
+
+				.pelotaConsideracion{
+					width: 15%;
+					height: 15%;
+					position: absolute;
+					display: block;
+					left: 50%;
+					transform: translate(-50%,0);
+
+					svg{
+						width: 100%;
+					}
+
+				}
+
+				.pieza{
+					width: 65%;
+					position: absolute;
+					display: block;
+					left: 50%;
+					top: 50%;
+					transform: translate(-50%,-50%);
+
+					svg{
+						width: 100%;
+					}
+
+				}
+
+			}
+
+			.reconocimientoAnimacion{
+				opacity: 0;
+
+				.pelotaReconocimiento{
+					width: 15%;
+					height: 15%;
+					position: absolute;
+					display: block;
+					left: 50%;
+					transform: translate(-50%,0);
+
+					svg{
+						width: 100%;
+					}
+
+				}
+
+				.pieza{
+					width: 55%;
+					position: absolute;
+					display: block;
+					left: 50%;
+					top: 67%;
+					transform: translate(-50%,-67%);
+
+					svg{
+						width: 100%;
+					}
+
+				}
+
+			}
+
+			.compraAnimacion{
+				opacity: 0;
+
+				.pelotaCompra{
+					width: 15%;
+					height: 15%;
+					position: absolute;
+					display: block;
+					left: 50%;
+					transform: translate(-50%,0);
+
+					svg{
+						width: 100%;
+					}
+
+				}
+
+				.pieza{
+					width: 45%;
+					position: absolute;
+					display: block;
+					left: 50%;
+					top: 95%;
+					transform: translate(-50%,-95%);
+
+					svg{
+						width: 100%;
+					}
+
+				}
+
+			}
+
+			.dolar{
+				width: 6%;
+				height: 6%;
+				position: absolute;
+				display: block;
+				top: 100%;
+				left: 55%;
+				transform: translate(-100%,-55%);
+				opacity: 0;
+
+				svg{
+					width: 100%;
+				}
+				
+			}
+
+		}
+
+	}
+
+}
