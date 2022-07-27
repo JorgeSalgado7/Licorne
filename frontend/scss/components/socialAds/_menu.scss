@@ -1,0 +1,344 @@
+.menu {
+	width: 100%;
+	height: 100vh;
+	background: $licorne_yellow;
+	overflow: hidden;
+
+	&__contenedor {
+
+		&__text {
+			width: 100%;
+			position: absolute;
+			top: 10%;
+			left: 50%;
+			transform: translate(-50%, -10%);
+
+			@media (min-width: 992px) {
+				width: 45%;
+				top: 50%;
+				left: 15%;
+				transform: translate(-15%, -50%);
+			}
+
+			@media (min-width: 1199px) {
+				width: 50%;
+				top: 50%;
+				left: 0%;
+				transform: translate(0%, -50%);
+			}
+
+			p {
+				font-size: 16px;
+				margin-top: 30px;
+				font-weight: 300;
+
+				@media (min-width: 380px) and (min-height: 820px) {
+					font-size: 16px;
+				}
+
+				@media (min-width: 750px) and (min-height: 1000px) {
+					font-size: 24px;
+				}
+
+				@media (min-width: 1199px) {
+					font-size: 18px;
+				}
+
+				@media (min-width: 1599px) {
+					font-size: 20px;
+				}
+			}
+		}
+
+		&__container_menu {
+			width: 270px;
+			height: 150px;
+			position: absolute;
+			top: 87%;
+			left: 46%;
+			transform: translate(-50%, -95%);
+
+			@media (min-width: 380px) and (min-height: 820px) {
+				width: 350px;
+				height: 250px;
+			}
+
+			@media (min-width: 750px) and (min-height: 1000px) {
+				top: 75%;
+				left: 50%;
+				transform: translate(-50%, -75%);
+				width: 550px;
+			}
+
+			@media (min-width: 992px) {
+				top: 55%;
+				left: 87%;
+				transform: translate(-87%, -55%);
+			}
+
+			@media (min-width: 1199px) {
+				top: 52%;
+				left: 100%;
+				transform: translate(-100%, -60%);
+				width: 450px;
+				height: 300px;
+			}
+
+			@media (min-width: 1599px) {
+				width: 550px;
+				height: 300px;
+			}
+
+			&__option {
+				width: 100%;
+				position: relative;
+
+				h3 {
+					width: 60%;
+					font-size: 16px;
+					font-weight: 300;
+					letter-spacing: 1px;
+					margin-top: 5%;
+
+					@media (min-width: 750px) and (min-height: 1000px) {
+						font-size: 18px;
+					}
+
+					@media (min-width: 1199px) {
+						font-size: 16px;
+					}
+
+					@media (min-width: 1599px) {
+						font-size: 18px;
+					}
+				}
+
+				&:hover{
+					.menu__contenedor__container_menu__option__responsive {
+						h3 {
+							font-weight: 300;
+						}
+
+						.menu__contenedor__container_menu__option__responsive__img {
+							opacity: 0;
+						}
+
+						.menu__contenedor__container_menu__option__responsive__imagen {
+							opacity: 0;
+						}
+					}
+				}
+
+				.menu__contenedor__container_menu__option__responsive:hover {
+					h3 {
+						font-weight: 600;
+					}
+
+					cursor: pointer;
+
+					.menu__contenedor__container_menu__option__responsive__img {
+						opacity: 1;
+					}
+
+					.menu__contenedor__container_menu__option__responsive__imagen{
+						opacity: 1;
+					}
+				}
+
+				.menu__contenedor__container_menu__option__measure:hover {
+					h3 {
+						font-weight: 500;
+					}
+
+					cursor: pointer;
+
+					.menu__contenedor__container_menu__option__measure__img {
+						opacity: 1;
+					}
+
+					.menu__contenedor__container_menu__option__measure__imagen {
+						opacity: 1;
+					}
+				}
+
+				.menu__contenedor__container_menu__option__security:hover {
+					h3 {
+						font-weight: 500;
+					}
+
+					cursor: pointer;
+
+					.menu__contenedor__container_menu__option__security__img {
+						opacity: 1;
+					}
+
+					.menu__contenedor__container_menu__option__security__imagen {
+						opacity: 1;
+					}
+				}
+
+				.menu__contenedor__container_menu__option__support:hover {
+					h3 {
+						font-weight: 500;
+					}
+
+					cursor: pointer;
+
+					.menu__contenedor__container_menu__option__support__img {
+						opacity: 1;
+					}
+
+					.menu__contenedor__container_menu__option__support__imagen {
+						opacity: 1;
+					}
+				}
+
+				&__responsive {
+					display: flex;
+					color: black;
+					transition-duration: 500ms;
+					h3{
+						font-weight: 500;
+					}
+					&__img {
+						padding-right: 5%;
+						transition-duration: 500ms;
+						position: relative;
+						top: 60%;
+						transform: translate(0, 10%);
+						opacity: 1;
+
+						svg {
+							width: 50%;
+							position: absolute;
+							top: 50%;
+						}
+					}
+
+					&__imagen{
+						position: absolute;
+						width: 30%;
+						right: 0%;
+						top: 0%;
+						transform: translate(0%, 0%);
+						opacity: 1;
+						transition-duration: 300ms;
+
+						svg {
+							width: 100%;
+						}
+					}
+				}
+
+				&__measure{
+					display: flex;
+					color: black;
+					transition-duration: 500ms;
+					animation-duration: 2s;
+
+					&__img {
+						padding-right: 5%;
+						transition-duration: 500ms;
+						position: relative;
+						top: 60%;
+						transform: translate(0, 10%);
+						opacity: 0;
+
+						svg {
+							width: 50%;
+							position: absolute;
+							top: 50%;
+						}
+					}
+
+					&__imagen {
+						position: absolute;
+						width: 30%;
+						right: 0%;
+						top: 40%;
+						transform: translate(0%, -40%);
+						opacity: 0;
+						transition-duration: 300ms;
+
+						svg{
+							width: 100%;
+							height: 100%;
+						}
+					}
+				}
+
+				&__security {
+					display: flex;
+					transition-duration: 500ms;
+					color: black;
+
+					&__img{
+						padding-right: 5%;
+						transition-duration: 500ms;
+						position: relative;
+						top: 60%;
+						transform: translate(0, 10%);
+						opacity: 0;
+
+						svg {
+							width: 50%;
+							position: absolute;
+							top: 50%;
+						}
+					}
+
+					&__imagen{
+						position: absolute;
+						width: 20%;
+						right: 0%;
+						top: 70%;
+						transform: translate(0%, -70%);
+						opacity: 0;
+						transition-duration: 300ms;
+
+						svg {
+							width: 100%;
+							height: 100%;
+						}
+					}
+				}
+
+				&__support{
+					display: flex;
+					transition-duration: 500ms;
+					color: black;
+
+					&__img {
+						padding-right: 5%;
+						transition-duration: 500ms;
+						position: relative;
+						top: 60%;
+						transform: translate(0, 10%);
+						opacity: 0;
+
+						svg {
+							width: 50%;
+							position: absolute;
+							top: 50%;
+						}
+					}
+
+					&__imagen{
+						position: absolute;
+						width: 20%;
+						right: 0%;
+						top: 100%;
+						transform: translate(0%, -100%);
+						opacity: 0;
+						transition-duration: 300ms;
+
+						svg {
+							width: 100%;
+							height: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+}
