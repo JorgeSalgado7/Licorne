@@ -1,0 +1,167 @@
+.hero_mision{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	background: linear-gradient(
+		$licorne_blue,
+		$licorne_BrightTurquoise
+	);
+
+	.title{
+		@media (max-width: 500px) {
+			top: 45px !important;
+			text-align: center;
+
+		}
+		@media (max-width: 1199px) {
+			top: 178px;
+			width: 90%;
+			text-align: center;
+
+		}
+		 @media (min-width: 1200px) {
+			 top: 35%;
+			 width: 60%;
+
+		 }
+		@media (min-width: 1600px) {
+			width: 60%;
+			
+		}
+
+		@media (min-width: 1200px){
+			.titulo .inferior {
+			font-size: 63px;
+			padding-top: 10px;
+			}
+		}
+
+		&__top,
+		&__low{
+			@media (max-width: 1199px) {
+				width: auto;
+				font-size: 55px;
+			}
+
+			@media (max-width: 500px) {
+				font-size: 45px !important;
+				line-height: 55px !important;
+			}
+
+			 
+			@media (max-width: 1400px) {
+				font-size: 50px;
+			}
+		}
+	}
+	&__animation{
+		position: absolute;
+		top: 90%;
+		left: 50%;
+		transform: translate(-50%,-90%);
+		width: 270px;
+		height: 270px;
+		@media (min-width: 1199px) {
+			top: 45%;
+			left: 100%;
+			transform: translate(-100%,-40%);
+			width: 370px;
+			height: 370px;
+		}
+		@media (min-width: 1599px) {
+			width: 500px;
+			height: 500px;
+		}
+		&__face{
+			width: 48%;
+			height: 45%;
+			position: absolute;
+			display:block;
+			top: 80%;
+			left: 30%;
+			transform: translate(-30%,-80%);
+			z-index: 0;
+
+			svg{
+				width: 100%;
+				height: 100%;
+			}
+		}
+
+		&__head{
+			width: 98%;
+			height: 87%;
+			position: absolute;
+			display: block;
+			top: 0%;
+			left: 50%;
+			transform: translate(-50%,0%);
+			z-index: 1;
+
+			svg{
+				width: 100%;
+				height: 100%;
+			}
+		}
+
+		&__pc{
+			width: 60%;
+			height: 50%;
+			top: 105%;
+			left: 30%;
+			transform: translate(-30%,-90%);
+			position: absolute;
+			display: block;
+			z-index: 1;
+
+			svg{
+				width: 100%;
+				height: 100%;
+			}
+
+			@media(max-width: 1099px){
+				height: 25%;
+			}
+
+			@media(max-width: 450px){
+				height: 45%;
+			}
+
+
+		}
+
+		&__speaker{
+			width: 70%;
+			height: 40%;
+			position: absolute;
+			display: block;
+			top: 70%;
+			left: 50%;
+			transform: translate(0%,-70%);
+			z-index: 1;
+
+			svg{
+				width: 100%;
+				height: 100%;
+			}
+
+			@media(max-width: 768px){
+				width: 60%;
+				height: 25%;
+				top: 55%;
+				left: 37%;
+				transform: translate(0%,-55%);
+			}
+
+			@media(max-width: 576px){
+				width: 55%;
+				height: 40%;
+				top: 75%;
+				left: 45%;
+				transform: translate(0%,-75%);
+			}
+
+		}
+	}
+
+}
