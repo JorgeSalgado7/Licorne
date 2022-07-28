@@ -1,0 +1,166 @@
+.values{
+	width: 100%;
+	height: 100vh;
+	background: $licorne_yellow;
+
+	&__container{
+
+		.title{
+			left: 0;
+			top: 10%;
+			 text-align: center;
+			 @media (min-width: 200px) {
+				top: -10%;
+				text-align: center;
+				width: 100%
+			}
+			@media (min-width: 500px) {
+				top: 10%;
+				text-align: center;
+				width: 100%
+			}
+			@media (min-width: 1099px) {
+				top: 10%;
+				text-align: center;
+				width: 100%
+			}
+			p{
+				@media (max-width: 576px){
+				text-align: center;
+				}
+			}
+			&__top{
+				width: 100%;
+				
+				@media (max-width: 576px) {
+					width: 100%;
+					font-size: 45px;
+					text-align: center;
+				}
+			}
+			&__low{
+				@media (max-width: 576px) {
+					width: 100%;
+					font-size: 45px;
+					text-align: center;
+				}
+			}
+		}
+
+		&__animation{
+			width: 180px;
+			height: 180px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			@media (min-width: 200px) {
+				top: 35%;
+			}
+			@media (min-width: 500px) {
+				top: 45%;
+			}
+			 @media (min-width: 720px) {
+				 top: 45%;
+			 }
+			@media (min-width: 999px) {
+				width: 300px;
+				height: 300px;
+				top: 70%;
+				left: 20%;
+				transform: translate(-20%,-70%);
+			}
+			&__eye{
+				width: 40px;
+				height: 40px;
+				position: absolute;
+				top: 0%;
+				left: 0%;
+				background-color: $white;
+				@media (min-width: 999px) {
+					width: 70px;
+					height: 70px;
+				}
+			}
+			&__two{
+				width: 40px;
+				height: 40px;
+				position: absolute;
+				top: 0%;
+				right: 0%;
+				background-color: $white;
+				animation-name: guiño;
+				animation-duration: 4s;
+				animation-iteration-count: infinite;
+				@keyframes guiño {
+					0% {width: 50px}
+					50% {transform: skew(-30deg); width: 90px}
+					75% {width: 50px}
+					100% {width: 50px}
+				}
+				@media (min-width: 999px) {
+					width: 70px;
+					height: 70px;
+					@keyframes guiño {
+						0% {width: 70px}
+						50% {transform: skew(-30deg); width: 150px}
+						75% {width: 70px}
+						100% {width: 70px}
+					}
+				}
+			}
+			&__mouth{
+				position: absolute;
+				width: 170px;
+				height: 170px;
+				border: 40px solid $white;
+				border-top: 40px solid transparent;
+				border-left: 40px solid transparent;
+				border-radius: 100%;
+				transform: translate(-50%, -65%) rotate(45deg);
+				top: 66%;
+				left: 50%;
+				@media (min-width: 999px) {
+					width: 290px;
+					height: 290px;
+					border: 70px solid $white;
+					border-top: 70px solid transparent;
+					border-left: 70px solid transparent;
+				}
+			}
+		}
+
+		&__list{
+			position: absolute;
+			width: 90%;
+			height: auto;
+			top: 97%;
+			left: 50%;
+			transform: translate(-50%,-90%);
+			@media (min-width: 720px) {
+				top: 85%;
+			}
+			@media (min-width: 999px) {
+				width: 38%;
+				top: 70%;
+				left: 90%;
+				transform: translate(-90%,-70%);
+			}
+			@media (min-width: 300px) and (max-height: 600px){
+				top: 95%;
+				left: 90%;
+				transform: translate(-90%,-95%);
+			}
+			h2{
+				font-size: 18px;
+				font-weight: 600;
+				@media (min-width: 720px) {
+					font-size: 22px;
+				}
+				@media (min-width: 999px) {
+					font-size: 25px;
+				}
+			}
+		}
+	}
+}
