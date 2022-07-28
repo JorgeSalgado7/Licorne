@@ -14,7 +14,6 @@ import PlantFive from '../../svg/LeanStartup/PlantFive'
 //* Animations components
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
-
 gsap.registerPlugin(ScrollTrigger)
 
 /**
