@@ -1,0 +1,188 @@
+.market{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	background: linear-gradient(
+		$licorne_yellow,
+		$licorne_green
+	);
+	
+	&__container{
+
+		&__section{
+			width: 90%;
+			position: absolute;
+			top: 20%;
+			left: 50%;
+			transform: translate(-50%,-20%);
+
+			p{
+				font-size: 16px;
+				font-weight: 500;
+				letter-spacing: 1px;
+
+				@media (min-width: 750px) and (min-height: 900px) {
+					font-size: 23px;
+				}
+
+			}
+			
+			@media (min-width: 350px) and (min-height: 800px) {
+				width: 60%;
+				top: 20%;
+				left: 50%;
+				transform: translate(-50%,-20%);
+			}
+
+			@media (min-width: 1199px){
+				width: 25%;
+				top: 30%;
+				left: 0%;
+				transform: translate(0%,-30%);
+			}
+
+		}
+
+		&__section_two{
+			width: 90%;
+			position: absolute;
+			top: 20%;
+			left: 50%;
+			transform: translate(-50%,-20%);
+			opacity: 0;
+
+			p{
+				font-size: 16px;
+				font-weight: 500;
+				letter-spacing: 1px;
+
+				@media (min-width: 750px) and (min-height: 900px) {
+					font-size: 23px;
+				}
+
+			}
+
+			@media (min-width: 350px) and (min-height: 800px) {
+				width: 60%;
+				top: 20%;
+				left: 50%;
+				transform: translate(-50%,-20%);
+			}
+
+			@media (min-width: 1199px){
+				width: 25%;
+				top: 40%;
+				left: 100%;
+				transform: translate(-100%,-40%);
+			}
+
+		}
+
+		&__animation{
+			width: 260px;
+			height: 400px;
+			position: absolute;
+			top: 70%;
+			left: 50%;
+			transform: translate(-50%,-70%);
+
+			@media (min-width: 750px) and (min-height: 900px) {
+				width: 410px;
+				height: 550px;
+			}
+
+			@media (min-width: 1199px){
+				width: 430px;
+				height: 570px;
+			}
+
+			&__character{
+				position: absolute;
+				width: 65%;
+				top: 100%;
+				transform: translate(0,-100%);
+				z-index: 0;
+
+				svg{
+					width: 100%;
+				}
+
+			}
+
+			&__slingshot{
+				position: absolute;
+				width: 70%;
+				top: 90%;
+				left: 130%;
+				transform: translate(-100%,-90%);
+				z-index: 2;
+
+				svg{
+					width: 100%;
+				}
+
+			}
+
+			&__moon{
+				position: absolute;
+				width: 100px;
+				height: 100px;
+				top: 5%;
+				left: 90%;
+				z-index: 1;
+				transform: translate(-90%,-5%);
+				opacity: 0;
+
+				@media (min-width: 1199px){
+					width: 160px;
+					height: 160px;
+					top: -30%;
+					left: 160%;
+					transform: translate(-100%,0%);
+				}
+
+				@media (min-width: 1299px) and (max-height: 600px){
+					width: 100px;
+					height: 100px;
+					top: 20%;
+					left: 160%;
+					transform: translate(-100%,-20%);
+				}
+
+			}
+
+			&__circle{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background: $white;
+				border-radius: 100%;
+				top: 70%;
+				left: 66%;
+				z-index: 1;
+				transform: translate(-60%,-70%);
+
+				@media (min-width: 1199px){
+					width: 80px;
+					height: 80px;
+					top: 65%;
+					left: 66%;
+					transform: translate(-60%,-65%);
+				}
+
+			}
+
+			&__notebook{
+				position: absolute;
+				width: 30%;
+				top: 70%;
+				left: 66%;
+				z-index: 1;
+				transform: translate(-60%,-70%);
+			}
+
+		}
+
+	}
+
+}
