@@ -1,7 +1,6 @@
 //* Next components
 import type { NextPage } from 'next'
 import { useEffect, useRef } from 'react'
-import Image from 'next/image'
 
 //**Animation
 import { gsap } from 'gsap/dist/gsap'
@@ -9,12 +8,12 @@ import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 
 //*Components
 import Titulo from '../Common/Title'
+
+//*Image
 import Face from '../../svg/MisionVision/Face'
 import Head from '../../svg/MisionVision/Head'
 import Speaker from '../../svg/MisionVision/Speaker'
 import Pc from '../../svg/MisionVision/Pc'
-
-//*Image
 
 /**
  * @author Maria Meza
