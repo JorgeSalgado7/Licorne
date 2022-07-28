@@ -1,0 +1,146 @@
+.traditional {
+	width: 100%;
+	height: 100vh;
+	background: $white;
+	overflow: hidden;
+
+	&__container {
+
+		&__text {
+			width: 100%;
+			position: absolute;
+			top: 10%;
+			left: 50%;
+			transform: translate(-50%, -10%);
+			padding: 10px;
+
+			@media (min-width: 750px) and (min-height: 1000px) {
+				width: 60%;
+			}
+
+			@media (min-width: 992px) {
+				width: 85%;
+				top: 15%;
+				padding: 0px;
+			}
+
+			@media (min-width: 1199px) {
+				width: 50%;
+				top: 50%;
+				left: 0%;
+				transform: translate(0%, -50%);
+				
+			}
+
+			p {
+				font-weight: 300;
+				font-size: 29px;
+				text-align: left;
+
+				span {
+					color: $licorne_blue;
+					font-weight: 700;
+				}
+
+				@media (min-width: 380px) and (min-height: 820px) {
+					font-size: 29px;
+					font-weight: 300;
+				}
+
+				@media (min-width: 750px) and (min-height: 1000px) {
+					font-size: 32px;
+					font-weight: 300;
+					text-align: left;
+				}
+
+				@media (min-width: 992px) {
+					font-size: 32px;
+					font-weight: 300;
+					text-align: left;
+				}
+
+				@media (min-width: 1199px) {
+					font-size: 40px;
+					font-weight: 300;
+				 
+				}
+
+				@media (min-width: 1599px) {
+					font-size: 45px;
+					font-weight: 300;
+					line-height: 58px;
+					text-align: left;
+				   
+				}
+			}
+
+		}
+
+		&__animation {
+			width: 270px;
+			height: 270px;
+			position: absolute;
+			top: 70%;
+			left: 50%;
+			transform: translate(-50%, -70%);
+
+			@media (min-width: 380px) and (min-height: 820px) {
+				width: 350px;
+				height: 350px;
+			}
+
+			@media (min-width: 750px) and (min-height: 1000px) {
+				width: 450px;
+				height: 450px;
+				top: 60%;
+				left: 50%;
+				transform: translate(-50%, -60%);
+			}
+
+			@media (min-width: 1199px) {
+				width: 450px;
+				height: 450px;
+				top: 50%;
+				left: 100%;
+				transform: translate(-100%, -50%);
+			}
+
+			&__row {
+				width: 100%;
+				height: 50%;
+				display: flex;
+
+				&__column {
+					width: 50%;
+					height: 100%;
+					position: relative;
+					display: block;
+
+					&__bandaged {
+						opacity: 0;
+						
+						svg{
+							width: 100%;
+							height: 100%;
+						}
+					}
+
+					&__people_one, &__people_two, &__people_three, &__people_four{
+						position: absolute;
+						display: block;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+						width: 80%;
+
+						svg{
+							width: 100%;
+							height: 100%;
+						}
+					}
+				}
+			}
+		}
+
+	}
+}
