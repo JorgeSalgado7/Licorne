@@ -1,0 +1,166 @@
+.consultancy{
+	width: 100%;
+	height: 100vh;
+	background: $licorne_yellow;
+
+	&__container{
+
+		&__section{
+			width: 90%;
+			position: absolute;
+			top: 10%;
+			left: 50%;
+			transform: translate(-50%,-10%);
+
+			p{
+				font-size: 16px;
+				font-weight: 500;
+				letter-spacing: 1px;
+
+				@media (min-width: 750px) and (min-height: 900px) {
+					font-size: 23px;
+				}
+
+			}
+
+			@media (min-width: 350px) and (min-height: 800px) {
+				width: 60%;
+				top: 20%;
+				left: 50%;
+				transform: translate(-50%,-20%);
+			}
+
+			@media (min-width: 1199px){
+				width: 25%;
+				top: 30%;
+				left: 0%;
+				transform: translate(0%,-30%);
+			}
+
+		}
+
+		&__section_two{
+			width: 90%;
+			position: absolute;
+			top: 10%;
+			left: 50%;
+			transform: translate(-50%,-10%);
+			opacity: 0;
+
+			p{
+				font-size: 16px;
+				font-weight: 500;
+				letter-spacing: 1px;
+
+				@media (min-width: 750px) and (min-height: 900px) {
+					font-size: 23px;
+				}
+
+			}
+
+			@media (min-width: 350px) and (min-height: 800px) {
+				width: 60%;
+				top: 20%;
+				left: 50%;
+				transform: translate(-50%,-20%);
+			}
+
+			@media (min-width: 1199px){
+				width: 25%;
+				top: 30%;
+				left: 100%;
+				transform: translate(-100%,-30%);
+			}
+
+		}
+
+		&__animation{
+			width: 260px;
+			height: 400px;
+			position: absolute;
+			top: 70%;
+			left: 50%;
+			transform: translate(-50%,-70%);
+
+			@media (min-width: 750px) and (min-height: 900px) {
+				width: 410px;
+				height: 550px;
+			}
+
+			@media (min-width: 1199px){
+				width: 430px;
+				height: 570px;
+			}
+
+			&__character{
+				position: absolute;
+				width: 65%;
+				top: 100%;
+				transform: translate(0,-100%);
+				z-index: 1;
+
+				svg{
+					width: 100%;
+				}
+
+			}
+
+			&__dialog{
+				position: absolute;
+				width: 40%;
+				top: 35%;
+				left: 60%;
+				transform: translate(-60%,-35%);
+				z-index: 1;
+
+				svg{
+					width: 100%;
+				}
+
+			}
+
+			&__dialog_two{
+				position: absolute;
+				width: 45%;
+				top: 10%;
+				left: 85%;
+				transform: translate(-85%,-10%);
+				z-index: 1;
+
+				svg{
+					width: 100%;
+				}
+
+			}
+
+			&__pc{
+				position: absolute;
+				width: 55%;
+				top: 90%;
+				left: 85%;
+				transform: translate(-85%,-90%);
+				z-index: 0;
+				opacity: 0;
+
+				svg{
+					width: 100%;
+				}
+
+			}
+
+			&__circle{
+				width: 16px;
+				height: 16px;
+				position: absolute;
+				top: -100%;
+				left: 71%;
+				transform: translate(-70%,-15%);
+				border-radius: 100%;
+				background: $white;
+			}
+
+		}
+		
+	}
+
+}

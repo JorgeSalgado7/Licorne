@@ -1,0 +1,180 @@
+.maximize{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	background: linear-gradient(
+		$licorne_green,
+		$licorne_BrightTurquoise
+	);
+
+	&__container{
+
+		&__section{
+			width: 90%;
+			position: absolute;
+			top: 20%;
+			left: 50%;
+			transform: translate(-50%,-20%);
+
+			p{
+				font-size: 16px;
+				font-weight: 500;
+				letter-spacing: 1px;
+
+				@media (min-width: 750px) and (min-height: 900px) {
+					font-size: 23px;
+				}
+
+			}
+
+			@media (min-width: 350px) and (min-height: 800px) {
+				width: 60%;
+				top: 20%;
+				left: 50%;
+				transform: translate(-50%,-20%);
+			}
+
+			@media (min-width: 1199px){
+				width: 25%;
+				top: 30%;
+				left: 0%;
+				transform: translate(0%,-30%);
+			}
+
+		}
+
+		&__section_two{
+			width: 90%;
+			position: absolute;
+			top: 20%;
+			left: 50%;
+			transform: translate(-50%,-20%);
+			opacity: 0;
+
+			p{
+				font-size: 16px;
+				font-weight: 500;
+				letter-spacing: 1px;
+
+				@media (min-width: 750px) and (min-height: 900px) {
+					font-size: 23px;
+				}
+
+			}
+
+			@media (min-width: 350px) and (min-height: 800px) {
+				width: 60%;
+				top: 20%;
+				left: 50%;
+				transform: translate(-50%,-20%);
+			}
+
+			@media (min-width: 1199px){
+				width: 25%;
+				top: 40%;
+				left: 100%;
+				transform: translate(-100%,-40%);
+			}
+
+		}
+
+		&__animation{
+			width: 300px;
+			height: 400px;
+			position: absolute;
+			top: 70%;
+			left: 50%;
+			transform: translate(-50%,-70%);
+
+			@media (min-width: 750px) and (min-height: 900px) {
+				width: 410px;
+				height: 550px;
+			}
+
+			@media (min-width: 1199px){
+				width: 430px;
+				height: 570px;
+			}
+
+			&__character{
+				position: absolute;
+				width: 65%;
+				top: 200%;
+				transform: translate(0,-100%);
+				z-index: 1;
+
+				svg{
+					width: 100%;
+				}
+
+			}
+
+			&__graph{
+				position: absolute;
+				width: 55%;
+				top: 90%;
+				left: 100%;
+				transform: translate(-100%,-90%);
+				z-index: 0;
+
+				svg{
+					width: 100%;
+				}
+
+			}
+
+			&__rise{
+				position: absolute;
+				width: 45%;
+				top: 70%;
+				left: 100%;
+				transform: translate(-100%,-70%);
+				z-index: 0;
+
+				svg{
+					width: 100%;
+				}
+
+			}
+
+			&__streak{
+				top: -128%;
+				position: absolute;
+				width: 80%;
+				transform: translate(-57%,-100%);
+				z-index: 1;
+
+				svg{
+					width: 100%;
+				}
+
+			}
+
+			&__character_two{
+				left: -60%;
+				top: 200%;
+				position: absolute;
+				width: 65%;
+				transform: translate(-100%,-100%);
+				z-index: 1;
+
+				svg{
+					width: 100%;
+				}
+
+			}
+
+			&__circle{
+				width: 30px;
+				height: 30px;
+				background: $white;
+				border-radius: 100%;
+				position: absolute;
+				top: -100%;
+			}
+
+		}
+
+	}
+
+}
