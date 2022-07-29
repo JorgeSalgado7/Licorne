@@ -3,7 +3,8 @@ import type { NextPage } from 'next'
 import Link from 'next/link'
 
 //*Components
-import Titulo from '../Common/Title'
+import Title from '../Common/Title'
+
 /**
  * @author Maria Meza
  * @name Digitise
@@ -18,8 +19,7 @@ const Digitise: NextPage = () => {
 
 				<div className='container'>
 
-					<Titulo
-						text=""
+					<Title
 						title="Digitalízate"
 						subtitle=""
 						alternative={false}
