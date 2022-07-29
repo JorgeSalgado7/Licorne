@@ -1,0 +1,73 @@
+.success{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	background: linear-gradient(
+		$licorne_blue, 
+		$licorne_BrightTurquoise
+	);
+
+	&__container{
+
+		&__animation{
+			width: 300px;
+			height: 300px;
+			position: absolute;
+			top: 80%;
+			left: 50%;
+			transform: translate(-50%,-80%);
+
+			@media (min-width: 750px) {
+				width: 500px;
+				height: 500px;
+			}
+
+			@media (min-width: 1199px) {
+				top: 50%;
+				left: 100%;
+				transform: translate(-100%,-50%);
+			}
+
+			&__column{
+				width: 100%;
+				height: 50%;
+				position: relative;
+				display: flex;
+
+				&__raw{
+					width: 50%;
+					height: 100%;
+
+					&__image{
+						width: 100%;
+						height: 100%;
+						position: relative;
+						top: -300%;
+						left: 0;
+						padding: 15px;
+						margin-top: 10px;
+
+						svg{
+							width: 100%;
+							height: 90%;
+							position: absolute;
+							top: 50%;
+							left: 50%;
+							transform: translate(-50%,-50%);
+						}
+
+					}
+
+					.Cuatro{
+						top: 0%;
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}

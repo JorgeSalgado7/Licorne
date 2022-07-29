@@ -1,0 +1,57 @@
+.slide{
+	width: 100%;
+	height: 100vh;
+	height: calc(var(--vh, 1vh) * 100);
+	background: linear-gradient(
+		$licorne_BrightTurquoise,
+		$licorne_yellow,
+		$licorne_BrightTurquoise
+	);
+
+	@media (min-width: 1199px) {
+		display: none;
+	}
+
+	&__container{
+
+		.swiper{
+			width: 100%;
+			position: relative;
+
+			@media (min-width: 500px) {
+				width: 70%;
+			}
+
+			@media (min-width: 750px) {
+				width: 80%;
+			}
+
+			.swiper-button-prev {
+				left: 0%;
+				transform: translate(-5%,0);
+				color: #000 !important;
+
+				@media (min-width: 400px) {
+					left: 0%;	
+					transform: translate(0%,0);
+				}
+
+			}
+			
+			.swiper-button-next {
+				left: 100%;
+				transform: translate(-100%,0);
+				color: #000 !important;
+
+				@media (min-width: 400px) {
+					left: 100%;	
+					transform: translate(-100%,0);
+				}
+
+			}
+
+		}
+
+	}
+
+}
