@@ -1,0 +1,29 @@
+.table_team{
+	width: 100%;
+	height: auto;
+	padding-bottom: 100px;
+	background: linear-gradient(
+		$licorne_BrightTurquoise,
+		$licorne_yellow
+	);
+
+	@media (max-width: 1200px) {
+		display: none;
+	}
+
+	&__container{
+		
+		&__grid {
+			width: 100%;
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+
+			div{
+				margin-bottom: 20px;
+			}
+
+		}
+		
+	}
+
+}
