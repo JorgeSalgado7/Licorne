@@ -32,7 +32,7 @@ const Learning: NextPage = () => {
 
 	useEffect(() => {
 
-		const Tl = gsap.timeline({  
+		const Tl = gsap.timeline({
 			scrollTrigger: {
 				trigger: '.embudo',
 				markers: false,
@@ -43,7 +43,7 @@ const Learning: NextPage = () => {
 			}
 		})
 
-		const Tl2 = gsap.timeline({  
+		const Tl2 = gsap.timeline({
 			scrollTrigger: {
 				trigger: '.embudo',
 				markers: false,
@@ -83,9 +83,9 @@ const Learning: NextPage = () => {
 
 					<div className='aprendizaje'>
 
-						<Titulo 
-							superior="Aprendizaje y " 
-							inferior="descubrimiento"
+						<Titulo
+							title="Aprendizaje y "
+							subtitle="descubrimiento"
 							alternativo=""
 							invertido={false}
 						/>
@@ -97,9 +97,9 @@ const Learning: NextPage = () => {
 
 					<div className='consideracion'>
 
-						<Titulo 
-							superior="Consideración" 
-							inferior="de la solución"
+						<Titulo
+							title="Consideración"
+							subtitle="de la solución"
 							alternativo=""
 							invertido={false}
 						/>
@@ -111,9 +111,9 @@ const Learning: NextPage = () => {
 
 					<div className='reconocimiento'>
 
-						<Titulo 
-							superior="Reconocimiento" 
-							inferior="del problema"
+						<Titulo
+							title="Reconocimiento"
+							subtitle="del problema"
 							alternativo=""
 							invertido={false}
 						/>
@@ -125,9 +125,9 @@ const Learning: NextPage = () => {
 
 					<div className='compra'>
 
-						<Titulo 
-							superior="Decisión" 
-							inferior="de compra"
+						<Titulo
+							title="Decisión"
+							subtitle="de compra"
 							alternativo=""
 							invertido={false}
 						/>
@@ -188,7 +188,7 @@ const Learning: NextPage = () => {
 						</div>
 
 						<div className='dolar'>
-							<Dolar/>
+							<Dolar />
 						</div>
 
 					</div>

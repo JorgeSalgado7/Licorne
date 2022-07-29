@@ -1,8 +1,8 @@
 //* Next components
-import { useEffect, useRef } from 'react'
+import type { NextPage } from 'next'
 
 //* React components
-import type { NextPage } from 'next'
+import { useEffect, useRef } from 'react'
 
 //* GSAP
 import { gsap } from 'gsap'
@@ -13,6 +13,7 @@ import Titulo from '../Common/Title'
 
 //* SVG
 import Queen from '../../svg/home/Queen'
+import LicorneLink from '../Common/LicorneLink'
 
 /**
  * @author Maria Meza
@@ -86,10 +87,8 @@ const StartKings: NextPage = () => {
 				<div className='container'>
 
 					<Titulo
-						superior="Licorne"
-						inferior="Startup Kings"
-						alternativo="LA DIFERENCIA ENTRE"
-						invertido={false}
+						title="Licorne"
+						subtitle="Startup Kings"
 					/>
 
 					<div className='startup_kings__animation'>
@@ -103,10 +102,10 @@ const StartKings: NextPage = () => {
 						<div className='startup_kings__animation__mouth'>.</div>
 					</div>
 
-					{/* <LinkPersonalizado
-			url="/contacto"
-			texto="¡QUIERO INICIAR!"
-		/> */}
+					<LicorneLink 
+						url='/saludanos'
+						text='¡Quiero iniciar!'
+					/>
 
 				</div>
 

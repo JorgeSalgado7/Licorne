@@ -23,22 +23,22 @@ const WeKnow: NextPage = () => {
 
 					<Titulo
 						alternativo=""
-						superior="Sí le sabemos:"
-						inferior=""
+						title="Sí le sabemos:"
+						subtitle=""
 						invertido={false}
 					/>
-					
+
 					<div className='we_know__swift'>
-						<Swift/>
+						<Swift />
 					</div>
 					<div className='we_know__flutter'>
-						<Flutter/>
+						<Flutter />
 					</div>
 					<div className='we_know__React'>
-						<React/>
+						<React />
 					</div>
 					<div className='we_know__cordova'>
-						<Cordova/>
+						<Cordova />
 					</div>
 
 				</div>

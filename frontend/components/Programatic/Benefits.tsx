@@ -48,8 +48,8 @@ const Benefits: NextPage = () => {
 					<div className='benefits__contenedor'>
 						<Titulo
 							alternativo=""
-							superior="Beneficios del marketing programático"
-							inferior=""
+							title="Beneficios del marketing programático"
+							subtitle=""
 							invertido={false}
 						/>
 						<div className='benefits__contenedor__slide'>
@@ -69,7 +69,7 @@ const Benefits: NextPage = () => {
 									<div className="swiper-slide__imagen">
 
 										<div className='swiper-slide__imagen__img'>
-											<People/>
+											<People />
 
 										</div>
 
@@ -85,7 +85,7 @@ const Benefits: NextPage = () => {
 
 										<div className='swiper-slide__imagen__img'>
 
-											<Molecules/>
+											<Molecules />
 
 										</div>
 
@@ -101,7 +101,7 @@ const Benefits: NextPage = () => {
 
 										<div className='swiper-slide__imagen__img'>
 
-											<Shield/>
+											<Shield />
 
 										</div>
 
@@ -116,7 +116,7 @@ const Benefits: NextPage = () => {
 									<div className="swiper-slide__imagen">
 
 										<div className='swiper-slide__imagen__img'>
-											<PeopleTwo/>
+											<PeopleTwo />
 
 										</div>
 
@@ -126,12 +126,12 @@ const Benefits: NextPage = () => {
 										<p>Mediante la recopilación de datos relevantes de los usuarios creamos estrategias de publicidad más eficaces.</p>
 									</div>
 								</SwiperSlide>
-								
+
 								<SwiperSlide>
 									<div className="swiper-slide__imagen">
 										<div className='swiper-slide__imagen__img'>
 
-											<Media/>
+											<Media />
 
 										</div>
 
@@ -161,8 +161,8 @@ const Benefits: NextPage = () => {
 								<SwiperSlide>
 									<div className="swiper-slide__imagen">
 
-										<People/>
-										
+										<People />
+
 									</div>
 									<div className="swiper-slide__text">
 										<p>HIPERSEGMENTACIÓN:</p>
@@ -172,7 +172,7 @@ const Benefits: NextPage = () => {
 								<SwiperSlide>
 									<div className="swiper-slide__imagen">
 
-										<Molecules/>
+										<Molecules />
 
 									</div>
 									<div className="swiper-slide__text">
@@ -183,7 +183,7 @@ const Benefits: NextPage = () => {
 								<SwiperSlide>
 									<div className="swiper-slide__imagen">
 
-										<Shield/>
+										<Shield />
 
 									</div>
 									<div className="swiper-slide__text">
@@ -194,7 +194,7 @@ const Benefits: NextPage = () => {
 								<SwiperSlide>
 									<div className="swiper-slide__imagen">
 
-										<PeopleTwo/>
+										<PeopleTwo />
 
 									</div>
 									<div className="swiper-slide__text">
@@ -205,8 +205,8 @@ const Benefits: NextPage = () => {
 								<SwiperSlide>
 									<div className="swiper-slide__imagen">
 
-										<Media/>
-							
+										<Media />
+
 									</div>
 									<div className="swiper-slide__text">
 										<p>RICH MEDIA:</p>
@@ -218,7 +218,7 @@ const Benefits: NextPage = () => {
 						</div>
 					</div>
 				</div>
-				
+
 			</div>
 		</div>
 

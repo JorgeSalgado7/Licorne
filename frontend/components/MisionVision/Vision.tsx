@@ -18,20 +18,20 @@ const Vision: NextPage = () => {
 				<div className='container'>
 					<div className='vision__contenedor'>
 
-						<Titulo 
+						<Titulo
 							alternativo=""
-							superior="Visión"
-							inferior=""
+							title="Visión"
+							subtitle=""
 							invertido={false}
 						/>
 
 						<div className='vision__contenedor__text'>
-							<p>Innovar con estrategias, metodologías, tecnologías y marketing digital para ayudar a nuestros clientes 
-			a <span>construir y potenciar compañías exitosas y disruptoras. </span></p>
+							<p>Innovar con estrategias, metodologías, tecnologías y marketing digital para ayudar a nuestros clientes
+								a <span>construir y potenciar compañías exitosas y disruptoras. </span></p>
 						</div>
 					</div>
 				</div>
-				
+
 			</div>
 		</div>
 

@@ -2,29 +2,30 @@
 import type { NextPage } from 'next'
 
 //* Interfaces
-import { Title } from '../../interfaces/title'
+interface Title{
+	title: string,
+	subtitle: string,
+	text?: string,
+	principal?: boolean,
+}
 
-const Title: NextPage <Title>  = ({ superior, inferior, alternativo, invertido }) => {
+const Title: NextPage <Title>  = ({ title, subtitle, text = null, principal = false }) => {
 
 	return (
 		<>
 
 			{
-				!invertido ? (
-					<div className="title">
-						<p>{alternativo}</p>
-						<div className='display'>
-							<h1 className='title__top'>{superior}</h1>
-							<h1 className='title__low'>{inferior}</h1>
-						</div>
+				!principal ? (
+					<div className='title'>
+						{ text !== null && <p className='title__text'></p> }
+						<h1 className='title__title'>{title}</h1>
+						<h2 className='title__subtitle'>{subtitle}</h2>
 					</div>
 				) : (
 					<div className='title'>
-						<p>{alternativo}</p>
-						<div className='display'>
-							<h1 className='title__low'>{superior}</h1>
-							<h1 className='title__top'>{inferior}</h1>
-						</div>
+						{ text !== null && <p className='title__text'></p> }
+						<h2 className='title__subtitle'>{subtitle}</h2>
+						<h1 className='title__title'>{title}</h1>
 					</div>
 				)
 			}

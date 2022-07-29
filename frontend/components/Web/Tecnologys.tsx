@@ -17,22 +17,22 @@ import Titulo from '../Common/Title'
 const Tecnology: NextPage = () => {
 
 	return (
-		
+
 		<div>
 			<div className='tecnology'>
 				<div className='container'>
 					<div className='tecnology__container'>
 
-						<Titulo 
+						<Titulo
 							alternativo=""
-							superior="Usamos tecnologías" 
-							inferior="seguras y dinámicas"
+							title="Usamos tecnologías"
+							subtitle="seguras y dinámicas"
 							invertido={false}
 						/>
 
 						<div className='tecnology__container__wordpress'>
 							<div className='tecnology__container__wordpress__imgTec'>
-								<WordPress/>
+								<WordPress />
 							</div>
 							<div className='tecnology__container__wordpress__txtTec'>
 								<h3>WordPress.</h3>
@@ -41,7 +41,7 @@ const Tecnology: NextPage = () => {
 						</div>
 						<div className='tecnology__container__meter'>
 							<div className='tecnology__container__meter__imgTec'>
-								<Meter/>
+								<Meter />
 							</div>
 							<div className='tecnology__container__meter__txtTec'>
 								<h3>A la medida.</h3>
@@ -50,11 +50,11 @@ const Tecnology: NextPage = () => {
 						</div>
 					</div>
 				</div>
-			
+
 			</div>
-			
+
 		</div>
-		
+
 	)
 }
 

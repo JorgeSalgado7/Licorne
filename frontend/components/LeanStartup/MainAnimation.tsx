@@ -22,8 +22,8 @@ const MainAnimation: NextPage = () => {
 		<div className='main_animation'>
 			<div className='main_animation__container container'>
 				<Titulo
-					superior="¡Llega más lejos "
-					inferior="con lean startup!"
+					title="¡Llega más lejos "
+					subtitle="con lean startup!"
 					alternativo=""
 					invertido={false}
 				/>

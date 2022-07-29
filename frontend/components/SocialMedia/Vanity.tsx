@@ -30,7 +30,7 @@ const Vanity: NextPage = () => {
 
 	useEffect(() => {
 
-		const Tl = gsap.timeline({  
+		const Tl = gsap.timeline({
 			scrollTrigger: {
 				trigger: vanity.current,
 				markers: false,
@@ -40,13 +40,13 @@ const Vanity: NextPage = () => {
 				pin: true,
 			}
 		})
- 
+
 		Tl
 			.to('.one', { opacity: 0, duration: 1 }, '+=2')
 			.to('.two', { opacity: 1, duration: 1 })
 			.to('.two', { opacity: 0, duration: 1 }, '+=2')
 			.to('.three', { opacity: 1, duration: 1 })
-			.to('.vanity', { background:'linear-gradient(rgb(0, 226, 207), rgb(255, 223, 23))', duration: 1 }, '+=10')
+			.to('.vanity', { background: 'linear-gradient(rgb(0, 226, 207), rgb(255, 223, 23))', duration: 1 }, '+=10')
 
 	}, [])
 
@@ -59,8 +59,8 @@ const Vanity: NextPage = () => {
 				<div className='vanity__container container'>
 
 					<Titulo
-						superior="Olvídate de las vanity metrics y"
-						inferior="dile ¡hola! a las actionable metrics."
+						title="Olvídate de las vanity metrics y"
+						subtitle="dile ¡hola! a las actionable metrics."
 						alternativo=""
 						invertido={false}
 					/>
@@ -73,7 +73,7 @@ const Vanity: NextPage = () => {
 
 						<div className='vanity__container__animation__pack one'>
 							<div className='vanity__container__animation__pack__hand'>
-								<Hand/>
+								<Hand />
 							</div>
 							<div className='vanity__container__animation__pack__movement'>
 								<Movement />
@@ -85,19 +85,19 @@ const Vanity: NextPage = () => {
 
 						<div className='vanity__container__animation__pack two'>
 							<div className='vanity__container__animation__pack__hand_closed'>
-								<HandClosed/>
+								<HandClosed />
 							</div>
 						</div>
 
 						<div className='vanity__container__animation__pack three'>
-							<div className='vanity__container__animation__pack__hand'>	
+							<div className='vanity__container__animation__pack__hand'>
 								<Hand />
 							</div>
 							<div className='vanity__container__animation__pack__movement'>
 								<Movement />
 							</div>
 							<div className='vanity__container__animation__pack__text'>
-								<Hello/>
+								<Hello />
 							</div>
 						</div>
 

@@ -25,10 +25,10 @@ const Creative: NextPage = () => {
 				<div className='container'>
 					<div className='creative__contenedor'>
 
-						<Titulo 
+						<Titulo
 							alternativo="CREAMOS"
-							superior="Sitios web creativos" 
-							inferior="que conectan con tus usuarios"
+							title="Sitios web creativos"
+							subtitle="que conectan con tus usuarios"
 							invertido={false}
 						/>
 
@@ -41,54 +41,54 @@ const Creative: NextPage = () => {
 							<div className="creative__contenedor__menuCreative__workshops">
 								<div className="creative__contenedor__menuCreative__workshops__imgWorkshops">
 									<div className='creative__contenedor__menuCreative__workshops__imgWorkshops__imagenWorkshopsBlock'>
-										<Point/>
+										<Point />
 									</div>
 								</div>
 								<h3>WORKSHOPS & BRAINSTORMING</h3>
 								<div className="creative__contenedor__menuCreative__workshops__imagenWorkshops">
-									<WorkShops/>
+									<WorkShops />
 								</div>
 							</div>
 
 							<div className="creative__contenedor__menuCreative__ux">
 								<div className="creative__contenedor__menuCreative__ux__imgUx">
 									<div className='creative__contenedor__menuCreative__ux__imgUx__imagenUxBlock'>
-										<Point/>
+										<Point />
 									</div>
 								</div>
 								<h3>WIREFRAMING & UX DESING</h3>
-								<div className="creative__contenedor__menuCreative__ux__imagenUx"> 
-									<Ux/>
+								<div className="creative__contenedor__menuCreative__ux__imagenUx">
+									<Ux />
 								</div>
 							</div>
 
 							<div className="creative__contenedor__menuCreative__ui">
 								<div className="creative__contenedor__menuCreative__ui__imgUi">
 									<div className='creative__contenedor__menuCreative__ui__imgUi__imagenUiBlock'>
-										<Point/>
+										<Point />
 									</div>
 								</div>
 								<h3>UI DESING CONCEPT & PROTOTYPING</h3>
-								<div className="creative__contenedor__menuCreative__ui__imagenUi"> 
-									<Ui/>
+								<div className="creative__contenedor__menuCreative__ui__imagenUi">
+									<Ui />
 								</div>
 							</div>
 
 							<div className="creative__contenedor__menuCreative__illustration">
 								<div className="creative__contenedor__menuCreative__illustration__imgIllustration">
 									<div className='creative__contenedor__menuCreative__illustration__imgIllustration__imagenIllustrationBlock'>
-										<Point/>
-									</div>  
+										<Point />
+									</div>
 								</div>
 								<h3>ICONOGRAPHY & ILLUSTRATION</h3>
-								<div className="creative__contenedor__menuCreative__illustration__imagenIllustration"> 
-									<Illustration/>
+								<div className="creative__contenedor__menuCreative__illustration__imagenIllustration">
+									<Illustration />
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			
+
 			</div>
 		</div>
 

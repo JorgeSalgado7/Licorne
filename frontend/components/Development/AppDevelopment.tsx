@@ -40,8 +40,8 @@ const AppDevelopment: NextPage = () => {
 				<div className="app_development__content__container container">
 
 					<Titulo
-						superior="Desarrollo de"
-						inferior="aplicaciones web."
+						title="Desarrollo de"
+						subtitle="aplicaciones web."
 						alternativo=""
 						invertido={false}
 					/>
@@ -165,7 +165,7 @@ const AppDevelopment: NextPage = () => {
 			</div>
 
 		</div>
-		
+
 	)
 
 }

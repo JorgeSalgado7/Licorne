@@ -1,5 +1,7 @@
 ///* Next components
 import type { NextPage } from 'next'
+
+//* React components
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 
@@ -11,19 +13,16 @@ import Title from '../components/Common/Title'
 
 //*interface
 interface Project{
-	key:string
+	key: string,
 	content:{
-		rendered:string
-	}
-
+		rendered: string,
+	},
 	title:{
-		rendered:string
-	}
-	
-	slug:string
-	url:string
-	primary_thumbnail_url:string
-
+		rendered: string,
+	},
+	slug: string,
+	url: string,
+	primary_thumbnail_url: string,
 }
 
 const briefcase: NextPage =() => {

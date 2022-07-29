@@ -29,7 +29,7 @@ const Requirements: NextPage = () => {
 
 	useEffect(() => {
 
-		const tl= gsap.timeline({
+		const tl = gsap.timeline({
 			scrollTrigger: {
 				trigger: animation.current,
 				markers: false,
@@ -63,16 +63,16 @@ const Requirements: NextPage = () => {
 			<div className='requirements' ref={animation}>
 
 				<div className='container'>
-					
+
 					<Titulo
 						alternativo=""
-						superior="¡Así lo"
-						inferior="hacemos!"
+						title="¡Así lo"
+						subtitle="hacemos!"
 						invertido={false}
 					/>
 
 					{/**PARRAFO */}
-					
+
 					<div className='requirements__text'>
 						<p>Aplicamos las mejores metodologías en beneficio de tu marca: Scrum, Agile, Lean Startup, Inbound y Outbound Marketing.</p>
 					</div>
@@ -81,7 +81,7 @@ const Requirements: NextPage = () => {
 					<div className='requirements__cero'>
 
 						<div className='requirements__cero__image'>
-							<Circle/>
+							<Circle />
 						</div>
 
 						<div className='requirements__cero__text_cero'>
@@ -94,7 +94,7 @@ const Requirements: NextPage = () => {
 					<div className='requirements__uno'>
 
 						<div className='requirements__uno__image'>
-							<PhoneArrows/>
+							<PhoneArrows />
 						</div>
 
 						<div className='requirements__uno__text_uno'>
@@ -106,7 +106,7 @@ const Requirements: NextPage = () => {
 					{/**PARRAFO-DOS */}
 					<div className='requirements__dos'>
 						<div className='requirements__dos__image'>
-							<PhoneMessange/>
+							<PhoneMessange />
 						</div>
 						<div className='requirements__dos__text_dos'>
 							<p className='salto'>Prototipo: </p>
@@ -117,7 +117,7 @@ const Requirements: NextPage = () => {
 					{/**PARRAFO-TRES */}
 					<div className='requirements__tres'>
 						<div className='requirements__tres__image'>
-							<People/>
+							<People />
 						</div>
 						<div className='requirements__tres__text_tres'>
 							<p className='salto'>Desarrollo:</p>
@@ -128,7 +128,7 @@ const Requirements: NextPage = () => {
 					{/**PARRAFO-CUARTO */}
 					<div className='requirements__cuarto'>
 						<div className='requirements__cuarto__image'>
-							<PhoneCheck/>
+							<PhoneCheck />
 						</div>
 						<div className='requirements__cuarto__text_cuarto'>
 							<p className='salto'>Control de calidad:</p>
@@ -139,7 +139,7 @@ const Requirements: NextPage = () => {
 					{/**PARRAFO-QUINTO */}
 					<div className='requirements__quinto'>
 						<div className='requirements__quinto__image'>
-							<AppStore/>
+							<AppStore />
 						</div>
 						<div className='requirements__quinto__text_quinto'>
 							<p className='salto'>Deployment:</p>
@@ -150,14 +150,14 @@ const Requirements: NextPage = () => {
 					{/**PARRAFO-SEXTO */}
 					<div className='requirements__sexto'>
 						<div className='requirements__sexto__image'>
-							<Headphones/>
+							<Headphones />
 						</div>
 						<div className='requirements__sexto__text_sexto'>
 							<p className='salto'>Soporte y mantenimiento: </p>
 							<p>Una <span>app es un ente vivo</span>, por lo cual <span>necesita atención y cuidados...</span> ¡Despreocúpate! nuestro equipo se hará cargo de este proceso.</p>
 						</div>
 					</div>
-						
+
 				</div>
 
 			</div>
