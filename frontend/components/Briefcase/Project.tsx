@@ -2,38 +2,40 @@
 import type { NextPage } from 'next'
 import { useState } from 'react'
 
-//* Interfaces
-import { project } from '../../interfaces/project'
+//*interface
+interface projects{
+	content:string
+	title:string
+	url:string
+	primary_thumbnail_url:string
+	slug:string
+}
 
-const Proyecto: NextPage <project> = ({ content, title, url, primary_thumbnail_url }) => {
+const Project: NextPage <projects> = ({ content, title, url, primary_thumbnail_url }) => {
 
-	const [mostrarInfo, setMostrarInfo] = useState(false)
+	const [getInfo, setGetInfo] = useState(false)
 	
 	return (
 
 		<div >
-			
-			<div className={ (mostrarInfo ? 'portafolio_proyecto_individual_active ' : ' ') + 'portafolio_proyecto_individual'}>
-				<div className="portafolio_proyecto_individual_imagen">
+			<div className={ (getInfo? 'indivudual_project_active ' : ' ') + 'individual_project'}>
+				<div className="individual_project__imagen">
 					<img src={primary_thumbnail_url} alt="" />
-
-					<button  className="link-personalizado" onClick={() => { setMostrarInfo( mostrarInfo => { return !mostrarInfo })}}>
-						<div className="texto">SABER MÁS</div>
-						<div className="icono">
-							<div className="linea"></div>
-							<div className="circulo">
-								<div className="flecha"></div>
-							</div>
+				
+					<button  className='individual_project__button' onClick={() => { setGetInfo( getInfo=> { return !getInfo})}}>
+						<div className="individual_project__button__text">SABER MÁS</div>
+						<div className="individual_project__button__icon">
+							<div className="individual_project__button__icon__flecha"></div>
 						</div>
 					</button>
 
 				</div>
 				
-				<article className="portafolio_proyecto_individual_info">
+				<article className="individual_project__info">
 					
-					<div className='contenidoProyecto'>
+					<div className='individual_project__info__container'>
 
-						<div className='textoProyectos'>
+						<div className='individual_project__info__container__text'>
 
 							<h3>{title}</h3>
 
@@ -43,24 +45,21 @@ const Proyecto: NextPage <project> = ({ content, title, url, primary_thumbnail_u
 
 						</div>
 
-						<button className="link_personalizado dos" onClick={() => { setMostrarInfo( mostrarInfo => { return !mostrarInfo }) }}>
-
-							<div className="link_personalizado__texto">REGRESAR</div>
-							<div className="link_personalizado__icono">
-								<div className="linea"></div>
-							
+						<button className="individual_project__button two" onClick={() => { setGetInfo( getInfo=> { return !getInfo}) }}>
+							<div className="individual_project__button__icon">
+								<div className="individual_project__button__icon__flecha"></div>
 							</div>
-
+							<div className="individual_project__button__text">REGRESAR</div>
+							
 						</button>
 
 					</div>
 				</article>
 			</div>
-			
 		</div>
 
 	)
 
 }
 
-export default Proyecto
+export default Project

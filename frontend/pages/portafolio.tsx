@@ -1,54 +1,75 @@
+///* Next components
+import type { NextPage } from 'next'
+
+//* React components
 import { useEffect, useState } from 'react'
 import axios from 'axios'
-import MainLayout from '../layouts/MainLayout'
-import Proyecto from '../components/Briefcase/Project'
-import Titulo from '../components/Common/Title'
 
-const portafolio = () => {
+//*Components
+import MainLayout from '../layouts/MainLayout'
+import Project from '../components/Briefcase/Project'
+import Title from '../components/Common/Title'
+// import Link from '../layouts/LinkPersonalizado'
+
+//*interface
+interface Project{
+	key: string,
+	content:{
+		rendered: string,
+	},
+	title:{
+		rendered: string,
+	},
+	slug: string,
+	url: string,
+	primary_thumbnail_url: string,
+}
+
+const briefcase: NextPage =() => {
 	const title = 'Lo más top de nuestro portafolio de proyectos ¡está aquí!'
 	const description = 'Generamos estrategias de marketing digital que generan éxito. ¡Descubre a detalle nuestro portafolio de clientes ganadores y sé uno de ellos!'
 
-	const [proyectos, setProyectos] = useState([])
+	const [projects, seProjects] = useState<Array<Project>>([])
 
-	const OBTENER_PROYECTOS = () => {
-		axios.get('projects').then((response) => { setProyectos(response.data) })
+	const GET_PROJECT = () => {
+		axios.get('https://admin.licorne.mx/wp-json/wp/v2/projects').then((response)=>{seProjects(response.data)}) 
+   
 	}
 
 	useEffect(() => {
-		OBTENER_PROYECTOS()
+		GET_PROJECT ()
 	}, [])
 
 	return (
 
-		<MainLayout title={title} description={description}>
+		<MainLayout  title ={title} description={description}>
 
-			<div className="portafolio">
+			<div className="briefcase">
+				
+				<div className="briefcase__innovating">
 
-				{/** INOVANDO MARCAS */}
-				<div className="portafolio_inovando_marcas">
-
-					<div className="portafolio_titulo_inovando_marcas">
-						<Titulo
+					<div className="briefcase__innovating__container">
+						<Title 
 							alternativo=""
-							title="Innovando en"
-							subtitle="las marcas"
+							superior="Innovando en"
+							inferior="las marcas"
 							invertido={false}
 						/>
 
-						{/* <LinkPersonalizado
+						{/* <Link
 							url="/contacto"
-							texto="¡QUIERO INICIAR!"
+							text="¡QUIERO INICIAR!"
 						/> */}
 
-						<div className="contenidoPortada">
-							<div className="grupo">
+						<div className="briefcase__innovating__container__hero">
+							<div className="briefcase__innovating__container__hero__group">
 								<h3>SKILLS</h3>
 								<p>Lean startup</p>
 								<p>Tecnología</p>
 								<p>Marketing Digital</p>
 							</div>
 
-							<div className="grupo">
+							<div className="briefcase__innovating__container__hero__group">
 								<h3>CLIENTES</h3>
 								<p>Albya</p>
 								<p>Kaloni</p>
@@ -56,7 +77,7 @@ const portafolio = () => {
 								<a href="/contacto">¡Tú! </a>
 							</div>
 
-							<div className="grupo">
+							<div className="briefcase__innovating__container__hero__group">
 								<h3>CONTACTO</h3>
 								<p>hola@licorne.mx</p>
 								<p>55 4335 9023</p>
@@ -66,12 +87,12 @@ const portafolio = () => {
 					</div>
 
 				</div>
-
-				<div className="portafolio_proyectos">
+				
+				<div className="briefcase__projects">
 					{
-						proyectos.map((proyecto, index) => (
+						projects.map((proyecto, index) => (
 
-							<Proyecto
+							<Project
 								key={index}
 								content={proyecto.content.rendered}
 								title={proyecto.title.rendered}
@@ -81,7 +102,7 @@ const portafolio = () => {
 							/>
 
 						))
-					}
+					}	
 				</div>
 
 			</div>
@@ -92,4 +113,4 @@ const portafolio = () => {
 
 }
 
-export default portafolio
+export default briefcase
