@@ -22,20 +22,20 @@ const Home: NextPage = () => {
 
 					<Titulo
 						alternativo=""
-						superior="¡Sí le"
-						inferior="Sabemos!"
+						title="¡Sí le"
+						subtitle="Sabemos!"
 						invertido={true}
 					/>
 
 					<div className='know__animation'>
-						<img src="https://licorne-web.s3.us-east-2.amazonaws.com/home/telefono.svg"	alt="tecnologia digital"/>
+						<img src="https://licorne-web.s3.us-east-2.amazonaws.com/home/telefono.svg" alt="tecnologia digital" />
 						<div className='know__animation__conversations'>
 							<div className="know__animation__conversations__scroll">
-						
-								<Conversation1/>
-					
-								<Conversation2/>
-				
+
+								<Conversation1 />
+
+								<Conversation2 />
+
 							</div>
 						</div>
 					</div>

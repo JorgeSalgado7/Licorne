@@ -24,7 +24,7 @@ const Hero: NextPage = () => {
 
 	gsap.registerPlugin(ScrollTrigger)
 	const animation = useRef(null)
-	
+
 	useEffect(() => {
 
 		const tl = gsap.timeline({
@@ -55,19 +55,19 @@ const Hero: NextPage = () => {
 
 						<Titulo
 							alternativo=""
-							superior="Más vivos"
-							inferior="que nunca"
+							title="Más vivos"
+							subtitle="que nunca"
 							invertido={false}
 						/>
 
 						<div className='hero_mantenance__container__animacionPortada'>
 							<div className='hero_mantenance__container__animacionPortada__cruces'>
-								<Crosses/>
+								<Crosses />
 
 							</div>
 
 							<div className='hero_mantenance__container__animacionPortada__mano'>
-								
+
 								<Image
 									className="imgMano"
 									src="https://licorne-web.s3.us-east-2.amazonaws.com/mantenimiento/mano.png"

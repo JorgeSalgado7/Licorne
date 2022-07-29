@@ -25,7 +25,7 @@ const Hero: NextPage = () => {
 
 	gsap.registerPlugin(ScrollTrigger)
 	const animation = useRef(null)
-	
+
 	useEffect(() => {
 
 		const tl = gsap.timeline({
@@ -40,53 +40,53 @@ const Hero: NextPage = () => {
 		})
 
 		tl
-			.to('.hero_mision', { background:'linear-gradient(rgb(0, 226, 207),rgb(255, 223, 23))' }, '+=5')
-			.to('.hero_mision__animation__head', { top:'-150%', opacity: 0, duration: 1 }, '-=1')
-			.to('.hero_mision__animation__pc', { left:'-600%', duration: 5 }, '+=2')
-			.to('.hero_mision', { background:'linear-gradient(rgb(255, 223, 23),rgb(0, 226, 207))' }, '+=3')
-			.to('.hero_mision__animation__pc', { top:'-250%', opacity: 0, duration: 5 }, '+=2')
-			.to('.hero_mision__animation__speaker', { left:'-500%', duration: 7 }, '+=1')
+			.to('.hero_mision', { background: 'linear-gradient(rgb(0, 226, 207),rgb(255, 223, 23))' }, '+=5')
+			.to('.hero_mision__animation__head', { top: '-150%', opacity: 0, duration: 1 }, '-=1')
+			.to('.hero_mision__animation__pc', { left: '-600%', duration: 5 }, '+=2')
+			.to('.hero_mision', { background: 'linear-gradient(rgb(255, 223, 23),rgb(0, 226, 207))' }, '+=3')
+			.to('.hero_mision__animation__pc', { top: '-250%', opacity: 0, duration: 5 }, '+=2')
+			.to('.hero_mision__animation__speaker', { left: '-500%', duration: 7 }, '+=1')
 
 	}, [])
 
 	return (
 		<div>
 			<div className='hero_mision' ref={animation}>
-				
+
 				<div className='container'>
 
-					<Titulo 
+					<Titulo
 						alternativo="CONSOLIDAMOS COMPAÑÍAS MEDIANTE"
-						superior="Lean Startup, tecnología" 
-						inferior="y marketing digital"
+						title="Lean Startup, tecnología"
+						subtitle="y marketing digital"
 						invertido={false}
 					/>
 
 					<div className='hero_mision__animation'>
 						<div className='hero_mision__animation__face'>
-			
-							<Face/>
-			
+
+							<Face />
+
 						</div>
 						<div className='hero_mision__animation__head'>
 
-							<Head/>
-			
+							<Head />
+
 						</div>
 						<div className='hero_mision__animation__speaker'>
 
-							<Speaker/>
-			
+							<Speaker />
+
 						</div>
 						<div className='hero_mision__animation__pc'>
 
-							<Pc/>
-			
+							<Pc />
+
 						</div>
 					</div>
 				</div>
 			</div>
-		
+
 		</div>
 
 	)

@@ -4,23 +4,22 @@
 //* Mixins
 @import 'mixins/flex';
 
-//*Container
+//* Container
 @import 'global/container';
 
-//* Nav
-@import 'components/nav/licorne_header';
-@import 'components/nav/licorne_menu';
-@import 'components/nav/lateral';
-@import 'components/nav/menu_movil';
-@import 'components/nav/buscador';
+//* Layout
+@import 'layouts/licorne_header';
+@import 'layouts/licorne_menu';
+@import 'layouts/menu_movil';
+@import 'layouts/lateral';
+@import 'layouts/footer/footer';
+@import 'layouts/footer/footer_top';
+@import 'layouts/footer/footer_lower';
+@import 'layouts/buscador';
 
-//* Text
-@import 'components/text/title';
-
-//* Footer
-@import 'components/footer/footer';
-@import 'components/footer/footer_top';
-@import 'components/footer/footer_lower';
+//* Common
+@import 'components/common/title';
+@import 'components/common/licorne_link';
 
 //* Home
 @import 'components/home/hero';
@@ -30,15 +29,6 @@
 @import 'components/home/focus';
 @import 'components/home/know';
 @import 'components/home/digitise';
-
-//*Web
-@import 'components/web/hero';
-@import 'components/web/creative';
-@import 'components/web/menuCreative';
-@import 'components/web/infomationWeb';
-@import 'components/web/tecnolys';
-@import 'components/web/ocean';
-
 
 //* LeanStartup
 @import 'components/leanStartup/mainAnimation';
@@ -56,11 +46,13 @@
 @import 'components/development/cybersecurity';
 @import 'components/development/audit';
 
-//*App
-@import 'components/app/hero';
-@import 'components/app/methology';
-@import 'components/app/requirements';
-@import 'components/app/we_know';
+//*Web
+@import 'components/web/hero';
+@import 'components/web/creative';
+@import 'components/web/menuCreative';
+@import 'components/web/infomationWeb';
+@import 'components/web/tecnolys';
+@import 'components/web/ocean';
 
 //*Ecommerce
 @import 'components/ecommerce/conversion';
@@ -70,19 +62,17 @@
 @import 'components/ecommerce/wireframing';
 @import 'components/ecommerce/workshop';
 
+//*App
+@import 'components/app/hero';
+@import 'components/app/methology';
+@import 'components/app/requirements';
+@import 'components/app/we_know';
+
 //*Maintenance
 @import 'components/maintenance/hero';
 @import 'components/maintenance/update';
 @import 'components/maintenance/policy';
 @import 'components/maintenance/since';
-
-//*Google Ads
-@import 'components/google/hero';
-@import 'components/google/wallet';
-@import 'components/google/google';
-@import 'components/google/click';
-@import 'components/google/road';
-@import 'components/google/present';
 
 //* Inbound Marketing
 @import 'components/inboundMarketing/fit';
@@ -97,6 +87,21 @@
 @import 'components/seo/quality';
 @import 'components/seo/qualified';
 
+//* Social Media
+@import 'components/socialMedia/discover';
+@import 'components/socialMedia/worth';
+@import 'components/socialMedia/vanity';
+@import 'components/socialMedia/content';
+@import 'components/socialMedia/paid';
+
+//*Google Ads
+@import 'components/google/hero';
+@import 'components/google/wallet';
+@import 'components/google/google';
+@import 'components/google/click';
+@import 'components/google/road';
+@import 'components/google/present';
+
 //*Social Ads
 @import 'components/socialAds/hero';
 @import 'components/socialAds/bells';
@@ -105,12 +110,20 @@
 @import 'components/socialAds/need';
 @import 'components/socialAds/social_networks';
 
-//* Social Media
-@import 'components/socialMedia/discover';
-@import 'components/socialMedia/worth';
-@import 'components/socialMedia/vanity';
-@import 'components/socialMedia/content';
-@import 'components/socialMedia/paid';
+//*Programatic
+@import 'components/programatic/hero';
+@import 'components/programatic/programatics';
+@import 'components/programatic/traditional';
+@import 'components/programatic/menu';
+@import 'components/programatic/benefits';
+
+//*Wo Do It
+@import 'components/weDoIt/how';
+@import 'components/weDoIt/discover';
+@import 'components/weDoIt/consultancy';
+@import 'components/weDoIt/market_fit';
+@import 'components/weDoIt/maximize';
+@import 'components/weDoIt/scalability';
 
 //*Mision y vision
 @import 'components/MisionVision/hero';
@@ -119,14 +132,6 @@
 @import 'components/MisionVision/values';
 @import 'components/MisionVision/partners';
 @import 'components/MisionVision/media';
-
-
-//*Programatic
-@import 'components/programatic/hero';
-@import 'components/programatic/programatics';
-@import 'components/programatic/traditional';
-@import 'components/programatic/menu';
-@import 'components/programatic/benefits';
 
 //* History
 @import 'components/history/history';
@@ -142,14 +147,9 @@
 @import 'components/history/chapter_nine';
 @import 'components/history/chapter_ten';
 
-//*Wo Do It
-@import 'components/weDoIt/how';
-@import 'components/weDoIt/discover';
-@import 'components/weDoIt/consultancy';
-@import 'components/weDoIt/market_fit';
-@import 'components/weDoIt/maximize';
-@import 'components/weDoIt/scalability';
-
+//*Briefcase
+@import 'components/briefcase/project';
+@import 'components/briefcase/portafolio';
 
 //* Tipografía
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');

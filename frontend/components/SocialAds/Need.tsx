@@ -20,14 +20,14 @@ const Need: NextPage = () => {
 			<div className='need'>
 				<div className='container'>
 					<div className='need__container'>
-						<Titulo 
+						<Titulo
 							alternativo=""
-							superior="All you need is"
-							inferior="Social Ads"
+							title="All you need is"
+							subtitle="Social Ads"
 							invertido={false}
 						/>
 						<div className='need__container__image'>
-							<NeedImage/>
+							<NeedImage />
 						</div>
 						<div className='need__container__text'>
 							<p>Impactar de manera precisa, profesional y positiva con las personas que desean conocerte o están buscando el servicio que ofreces es nuestra máxima misión; para ello, desarrollaremos la estrategia indicada que te proporcione resultados medibles a través del tiempo, contenido de valor para tu target y comunicación asertiva que genere contactos de calidad y posicione a tu marca en la red social objetivo.</p>
@@ -39,7 +39,7 @@ const Need: NextPage = () => {
 
 					</div>
 				</div>
-				
+
 			</div>
 		</div>
 

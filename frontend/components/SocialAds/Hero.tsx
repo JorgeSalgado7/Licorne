@@ -29,12 +29,12 @@ const Hero: NextPage = () => {
 	const animation = useRef(null)
 
 	useEffect(() => {
-        
+
 		ScrollTrigger.matchMedia({
 
-			'(max-width: 1200px)': function(){
+			'(max-width: 1200px)': function () {
 
-				const tl = gsap.timeline({  
+				const tl = gsap.timeline({
 					scrollTrigger: {
 						trigger: animation.current,
 						markers: false,
@@ -59,9 +59,9 @@ const Hero: NextPage = () => {
 					.to('.hero_social_ads__contenedor__animation_two', { opacity: 1, duration: 1 })
 
 			},
-			'(min-width: 1199px)': function(){
+			'(min-width: 1199px)': function () {
 
-				const tl = gsap.timeline({  
+				const tl = gsap.timeline({
 					scrollTrigger: {
 						trigger: '.hero_social_ads',
 						markers: false,
@@ -99,41 +99,41 @@ const Hero: NextPage = () => {
 
 						<Titulo
 							alternativo="CREAMOS Y GESTIONAMOS"
-							superior="campañas que atraen,"
-							inferior="conectan y fidelizan clientes"
+							title="campañas que atraen,"
+							subtitle="conectan y fidelizan clientes"
 							invertido={false}
 						/>
 
 						<div className='hero_social_ads__contenedor__animation'>
 							<div className='hero_social_ads__contenedor__animation__magnet'>
-								<Magnetic/>
+								<Magnetic />
 							</div>
 							<div className='hero_social_ads__contenedor__animation__one'>
-								<Lightning/>
+								<Lightning />
 							</div>
 							<div className='hero_social_ads__contenedor__animation__two'>
-								<Lightning2/>
+								<Lightning2 />
 							</div>
 							<div className='hero_social_ads__contenedor__animation__heart'>
-								<Heart/>
+								<Heart />
 							</div>
 							<div className='hero_social_ads__contenedor__animation__brain'>
-								<Brain/>
+								<Brain />
 							</div>
 						</div>
 
 						<div className='hero_social_ads__contenedor__animation_two'>
 							<div className='hero_social_ads__contenedor__animation_two__heart_two'>
-								<Heart/>
+								<Heart />
 							</div>
 							<div className='hero_social_ads__contenedor__animation_two__brain_two'>
-								<Brain/>
+								<Brain />
 							</div>
 						</div>
 
 					</div>
 				</div>
-				
+
 			</div>
 		</div>
 

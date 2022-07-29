@@ -26,7 +26,7 @@ const Hero: NextPage = () => {
 
 	gsap.registerPlugin(ScrollTrigger)
 	const animation = useRef(null)
-	
+
 	useEffect(() => {
 		const tl = gsap.timeline({
 			scrollTrigger: {
@@ -38,7 +38,7 @@ const Hero: NextPage = () => {
 				pin: true,
 			}
 		})
-		
+
 		tl
 			.to('.hero_programatic_animation__face', { opacity: 0, duration: 1 }, '+=1')
 			.to('.hero_programatic_animation__right_key', { opacity: 1, duration: 1 })
@@ -58,44 +58,44 @@ const Hero: NextPage = () => {
 				<div className='container'>
 					<Titulo
 						alternativo="CONSOLIDAMOS COMPAÑÍAS MEDIANTE"
-						superior="Programamos la mente"
-						inferior="del usuario en la venta de tu producto"
+						title="Programamos la mente"
+						subtitle="del usuario en la venta de tu producto"
 						invertido={false}
 					/>
 					<div className='hero_programatic_animation'>
 						<div className='hero_programatic_animation__right_hand'>
 
-							<RightHand/>
+							<RightHand />
 
 						</div>
 						<div className='hero_programatic_animation__left_hand'>
 
-							<LeftHand/>
+							<LeftHand />
 
 						</div>
 						<div className='hero_programatic_animation___robot'>
 
-							<Robot/>
+							<Robot />
 
 						</div>
 						<div className='hero_programatic_animation__face'>
 
-							<Face/>
+							<Face />
 
 						</div>
 						<div className='hero_programatic_animation__right_key'>
 
-							<RightKey/>
+							<RightKey />
 
 						</div>
 						<div className='hero_programatic_animation__left_key'>
 
-							<LeftKey/>
+							<LeftKey />
 
 						</div>
 						<div className='hero_programatic_animation__dolar'>
 
-							<Money/>
+							<Money />
 
 						</div>
 					</div>

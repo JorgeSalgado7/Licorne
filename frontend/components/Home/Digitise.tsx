@@ -20,8 +20,8 @@ const Digitise: NextPage = () => {
 
 					<Titulo
 						alternativo=""
-						superior="Digitalízate"
-						inferior=""
+						title="Digitalízate"
+						subtitle=""
 						invertido={false}
 					/>
 

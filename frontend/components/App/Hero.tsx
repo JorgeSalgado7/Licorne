@@ -62,40 +62,40 @@ const Hero: NextPage = () => {
 
 					<Titulo
 						alternativo=""
-						superior="Convertimos tu sueño en"
-						inferior="una app"
+						title="Convertimos tu sueño en"
+						subtitle="una app"
 						invertido={false}
 					/>
 					{/**PORTADA */}
 					<div className='hero_app__animation'>
 						{/**CELL */}
 						<div className='hero_app__animation__phone'>
-							<Phone/>
+							<Phone />
 						</div>
 
 						<div className='hero_app__animation__one'>
-							<PhoneOne/>
+							<PhoneOne />
 						</div>
 
 						<div className='hero_app__animation__two'>
-							<PhoneTwo/>
+							<PhoneTwo />
 						</div>
 
 						<div className='hero_app__animation__three'>
-							<PhoneThree/>
+							<PhoneThree />
 						</div>
 
 						<div className='hero_app__animation__four'>
-							<PhoneFour/>
+							<PhoneFour />
 						</div>
 
 						<div className='hero_app__animation__five'>
-							<PhoneFive/>
+							<PhoneFive />
 						</div>
 
 						{/**Mano */}
 						<div className='hero_app__animation__hand'>
-							<Hand/>
+							<Hand />
 						</div>
 
 					</div>
@@ -104,7 +104,7 @@ const Hero: NextPage = () => {
 
 			</div>
 		</div>
-	
+
 	)
 }
 

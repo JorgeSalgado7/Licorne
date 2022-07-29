@@ -17,10 +17,10 @@ const Hero: NextPage = () => {
 			<div className='hero_google_ads'>
 				<div className='container'>
 					<div className='hero_google_ads__container'>
-						<Titulo 
+						<Titulo
 							alternativo="CREAMOS CAMPAÑAS EN"
-							superior="Google Ads para que"
-							inferior="tu marca triunfe online"
+							title="Google Ads para que"
+							subtitle="tu marca triunfe online"
 							invertido={false}
 						/>
 						<div className='hero_google_ads__container__animation'>
@@ -30,7 +30,7 @@ const Hero: NextPage = () => {
 						</div>
 					</div>
 				</div>
-				
+
 			</div>
 		</div>
 

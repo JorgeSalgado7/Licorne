@@ -17,19 +17,19 @@ const Mision: NextPage = () => {
 			<div className='mision'>
 				<div className='container'>
 					<div className='mision__contenedor'>
-						<Titulo 
+						<Titulo
 							alternativo=""
-							superior="" 
-							inferior="Misión"
+							title=""
+							subtitle="Misión"
 							invertido={false}
 						/>
 						<div className='mision__contenedor__text'>
 							<p><span>Desarrollar y potenciar compañias sin importar la fase en que se encuantren, </span>
-                            cimentados en nuestros pilares: Lean startup, tecnología y marketing digital</p>
+								cimentados en nuestros pilares: Lean startup, tecnología y marketing digital</p>
 						</div>
 					</div>
 				</div>
-				
+
 			</div>
 		</div>
 

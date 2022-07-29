@@ -17,14 +17,14 @@ const Cloud: NextPage = () => {
 	return (
 
 		<div className='cloud'>
-			
+
 			<div className="cloud__content">
 
 				<div className="cloud__content__container container">
 
 					<Titulo
-						superior="Cloud"
-						inferior="Services"
+						title="Cloud"
+						subtitle="Services"
 						alternativo=""
 						invertido={false}
 					/>
@@ -54,7 +54,7 @@ const Cloud: NextPage = () => {
 				</div>
 
 			</div>
-			
+
 		</div>
 
 	)

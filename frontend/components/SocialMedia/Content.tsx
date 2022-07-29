@@ -29,7 +29,7 @@ const Content: NextPage = () => {
 
 	useEffect(() => {
 
-		const Tl = gsap.timeline({  
+		const Tl = gsap.timeline({
 			scrollTrigger: {
 				trigger: content.current,
 				markers: false,
@@ -58,8 +58,8 @@ const Content: NextPage = () => {
 				<div className='content__container container'>
 
 					<Titulo
-						superior="Content Marketing"
-						inferior=""
+						title="Content Marketing"
+						subtitle=""
 						alternativo=""
 						invertido={false}
 					/>
@@ -73,7 +73,7 @@ const Content: NextPage = () => {
 						<div className='content__container__animation__image_pop'>
 							<Pop />
 						</div>
-						
+
 						<div className='content__container__animation__image_person'>
 							<Person />
 						</div>

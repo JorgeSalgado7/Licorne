@@ -42,8 +42,8 @@ const Partners: NextPage = () => {
 					<div className='partners__content__container__slide'>
 
 						<Titulo
-							superior="Socios"
-							inferior="Estrategicos"
+							title="Socios"
+							subtitle="Estrategicos"
 							alternativo=""
 							invertido={false}
 						/>
@@ -65,7 +65,7 @@ const Partners: NextPage = () => {
 								}}
 								navigation={false}
 								className="mySwiper"
-			
+
 							>
 
 								<SwiperSlide>
@@ -193,8 +193,8 @@ const Partners: NextPage = () => {
 					<div className='partners__content__container__hastags'>
 						<div>
 							<Titulo
-								superior="Expertos"
-								inferior=""
+								title="Expertos"
+								subtitle=""
 								alternativo=""
 								invertido={false}
 							/>

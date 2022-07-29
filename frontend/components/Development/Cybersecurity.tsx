@@ -20,14 +20,14 @@ const Cybersecurity: NextPage = () => {
 	return (
 
 		<div className='cybersecurity'>
-			
+
 			<div className="cybersecurity__content">
 
 				<div className="cybersecurity__content__container container">
 
 					<Titulo
-						superior="Ciberseguridad"
-						inferior="y protección"
+						title="Ciberseguridad"
+						subtitle="y protección"
 						alternativo=""
 						invertido={false}
 					/>
@@ -57,7 +57,7 @@ const Cybersecurity: NextPage = () => {
 				</div>
 
 			</div>
-			
+
 		</div>
 
 	)

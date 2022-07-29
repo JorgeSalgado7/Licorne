@@ -20,16 +20,16 @@ import Government from '../../svg/Development/Government'
 const Audit: NextPage = () => {
 
 	return (
-		
+
 		<div className='audit'>
 
 			<div className="audit__content">
 
 				<div className="audit__content__container container">
 
-					<Titulo 
-						superior="Auditorías" 
-						inferior=""
+					<Titulo
+						title="Auditorías"
+						subtitle=""
 						alternativo=""
 						invertido={false}
 					/>

@@ -29,8 +29,8 @@ const Road: NextPage = () => {
 						<div className='road__roadDesktop__contenedor'>
 							<Titulo
 								alternativo=""
-								superior="El camino hacia tu éxito"
-								inferior="comienza aquí: "
+								title="El camino hacia tu éxito"
+								subtitle="comienza aquí: "
 								invertido={false}
 							/>
 							<div className="road__roadDesktop__contenedor__text">
@@ -40,48 +40,48 @@ const Road: NextPage = () => {
 								<div className="road__roadDesktop__contenedor__menu__opciones">
 									<div className="road__roadDesktop__contenedor__menu__opciones__search">
 										<h3>Google search</h3>
-										<div className="road__roadDesktop__contenedor__menu__opciones__search__imagenSearch"> 
-											<Glass/>
+										<div className="road__roadDesktop__contenedor__menu__opciones__search__imagenSearch">
+											<Glass />
 										</div>
 									</div>
 									<div className="road__roadDesktop__contenedor__menu__opciones__display">
 										<h3>Display</h3>
-										<div className="road__roadDesktop__contenedor__menu__opciones__display__imagenDisplay"> 
-											<Scenery/>                        
+										<div className="road__roadDesktop__contenedor__menu__opciones__display__imagenDisplay">
+											<Scenery />
 										</div>
 									</div>
 									<div className="road__roadDesktop__contenedor__menu__opciones__video">
 										<h3>Video</h3>
-										<div className="road__roadDesktop__contenedor__menu__opciones__video__imagenVideo"> 
-											<Video/>              
+										<div className="road__roadDesktop__contenedor__menu__opciones__video__imagenVideo">
+											<Video />
 										</div>
 									</div>
 									<div className="road__roadDesktop__contenedor__menu__opciones__shopping">
 										<h3>Shopping</h3>
-										<div className="road__roadDesktop__contenedor__menu__opciones__shopping__imagenShopping"> 
-											<Tag/>   
+										<div className="road__roadDesktop__contenedor__menu__opciones__shopping__imagenShopping">
+											<Tag />
 										</div>
 									</div>
 									<div className="road__roadDesktop__contenedor__menu__opciones__youtube">
 										<h3>Youtube</h3>
-										<div className="road__roadDesktop__contenedor__menu__opciones__youtube__imagenYoutube"> 
-											<Youtube/>
-                                        
+										<div className="road__roadDesktop__contenedor__menu__opciones__youtube__imagenYoutube">
+											<Youtube />
+
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				
+
 				</div>
 
 				<div className='road__roadResponsive'>
 					<div className='container'>
 						<Titulo
 							alternativo=""
-							superior="El camino hacia tu éxito"
-							inferior="comienza aquí: "
+							title="El camino hacia tu éxito"
+							subtitle="comienza aquí: "
 							invertido={false}
 						/>
 						<div className='road__roadResponsive__contenedor'>
@@ -89,42 +89,42 @@ const Road: NextPage = () => {
 								<div className="road__roadResponsive__contenedor__menu__opciones">
 									<div className="road__roadResponsive__contenedor__menu__opciones__search">
 										<h3>Google search</h3>
-										<div className="road__roadResponsive__contenedor__menu__opciones__search__imagenSearch"> 
-											<Glass/>
+										<div className="road__roadResponsive__contenedor__menu__opciones__search__imagenSearch">
+											<Glass />
 										</div>
 									</div>
 									<div className="road__roadResponsive__contenedor__menu__opciones__display">
 										<h3>Display</h3>
-										<div className="road__roadResponsive__contenedor__menu__opciones__display__imagenDisplay"> 
-											<Scenery/>
+										<div className="road__roadResponsive__contenedor__menu__opciones__display__imagenDisplay">
+											<Scenery />
 										</div>
 									</div>
 									<div className="road__roadResponsive__contenedor__menu__opciones__video">
 										<h3>Video</h3>
-										<div className="road__roadResponsive__contenedor__menu__opciones__video__imagenVideo"> 
-											<Video/>
+										<div className="road__roadResponsive__contenedor__menu__opciones__video__imagenVideo">
+											<Video />
 										</div>
 									</div>
 									<div className="road__roadResponsive__contenedor__menu__opciones__shopping">
 										<h3>Shopping</h3>
-										<div className="road__roadResponsive__contenedor__menu__opciones__shopping__imagenShopping"> 
-											<Tag/>
+										<div className="road__roadResponsive__contenedor__menu__opciones__shopping__imagenShopping">
+											<Tag />
 										</div>
 									</div>
 									<div className="road__roadResponsive__contenedor__menu__opciones__youtube">
 										<h3>Youtube</h3>
-										<div className="road__roadResponsive__contenedor__menu__opciones__youtube__imagenYoutube"> 
-											<Youtube/>
+										<div className="road__roadResponsive__contenedor__menu__opciones__youtube__imagenYoutube">
+											<Youtube />
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					
+
 				</div>
 			</div>
-		
+
 		</div>
 
 	)
