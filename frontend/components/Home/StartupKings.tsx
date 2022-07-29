@@ -87,6 +87,7 @@ const StartKings: NextPage = () => {
 				<div className='container'>
 
 					<Titulo
+						text=""
 						title="Licorne"
 						subtitle="Startup Kings"
 					/>

@@ -20,6 +20,7 @@ const Digitise: NextPage = () => {
 				<div className='container'>
 
 					<Title
+						text=""
 						title="Digitalízate"
 						subtitle=""
 						alternative={false}

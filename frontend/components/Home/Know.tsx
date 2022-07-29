@@ -21,6 +21,7 @@ const Home: NextPage = () => {
 				<div className='container'>
 
 					<Title
+						text=""
 						title="¡Sí le"
 						subtitle="Sabemos!"
 						alternative={true}
