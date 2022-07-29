@@ -47,10 +47,10 @@ const Benefits: NextPage = () => {
 				<div className='container'>
 					<div className='benefits__contenedor'>
 						<Titulo
-							alternativo=""
+							text=""
 							title="Beneficios del marketing programático"
 							subtitle=""
-							invertido={false}
+							alternative={false}
 						/>
 						<div className='benefits__contenedor__slide'>
 							<Swiper effect={'flip'}

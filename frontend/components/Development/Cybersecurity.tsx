@@ -28,8 +28,8 @@ const Cybersecurity: NextPage = () => {
 					<Titulo
 						title="Ciberseguridad"
 						subtitle="y protección"
-						alternativo=""
-						invertido={false}
+						text=""
+						alternative={false}
 					/>
 
 					<p className="cybersecurity__content__container__text">Tu aplicación siguiendo <span>estándares mundiales en ciberseguridad como ISO 27000 y OWASP Top 10,</span> protegiendo tu información y la de tus clientes en todo momento.</p>

@@ -30,7 +30,7 @@ const History: NextPage = () => {
 
 	useEffect(() => {
 
-		const Tl = gsap.timeline({  
+		const Tl = gsap.timeline({
 			scrollTrigger: {
 				trigger: history.current,
 				markers: false,
@@ -43,12 +43,12 @@ const History: NextPage = () => {
 
 		ScrollTrigger.matchMedia({
 
-			'(max-width: 1200px)': function(){
+			'(max-width: 1200px)': function () {
 
 				Tl
 					.to('.history__container__time', { opacity: 0, duration: 1 })
-					.to('.history__container__circle', { top:'46%', duration: 1 })
-					.to('.history__container__triangle', { top:'80%', duration: 1 }, '-=1')
+					.to('.history__container__circle', { top: '46%', duration: 1 })
+					.to('.history__container__triangle', { top: '80%', duration: 1 }, '-=1')
 					.to('.title', { opacity: 1, duration: 1 })
 					.to('.history__container__circle', { opacity: 0, duration: 1 })
 					.to('.history__container__triangle', { opacity: 0, duration: 1 }, '-=1')
@@ -59,14 +59,14 @@ const History: NextPage = () => {
 					.to('.history__container__book_three', { opacity: 1, duration: 1 }, '-=1')
 					.to('.history__container__book_three', { opacity: 0, duration: 1 }, '+=1')
 					.to('.history__container__book_four', { opacity: 1, duration: 1 }, '-=1')
-            
+
 			},
-			'(min-width: 1199px)': function(){
+			'(min-width: 1199px)': function () {
 
 				Tl
 					.to('.history__container__time', { opacity: 0, duration: 1 })
-					.to('.history__container__circle', { left:'56%', duration: 1 })
-					.to('.history__container__triangle', { left:'100%', duration: 1 }, '-=1')
+					.to('.history__container__circle', { left: '56%', duration: 1 })
+					.to('.history__container__triangle', { left: '100%', duration: 1 }, '-=1')
 					.to('.title', { opacity: 1, duration: 1 })
 					.to('.history__container__circle', { opacity: 0, duration: 1 })
 					.to('.history__container__triangle', { opacity: 0, duration: 1 }, '-=1')
@@ -117,10 +117,10 @@ const History: NextPage = () => {
 					</div>
 
 					<Titulo
-						alternativo="NUESTRAS MEMORIAS"
+						text="NUESTRAS MEMORIAS"
 						superior="Esta es la historia"
 						inferior="de Licorne"
-						invertido={false}
+						alternative={false}
 					/>
 
 				</div>

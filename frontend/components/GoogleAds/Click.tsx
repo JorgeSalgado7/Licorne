@@ -24,10 +24,10 @@ const Click: NextPage = () => {
 					<div className='click__container'>
 						<div className='parrafoClick'>
 							<Titulo
-								alternativo=""
+								text=""
 								title="¡Conviérte en el click más deseado!"
 								subtitle=""
-								invertido={false}
+								alternative={false}
 							/>
 						</div>
 						<div className='click__container__animation'>

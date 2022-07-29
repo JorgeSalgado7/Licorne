@@ -9,7 +9,7 @@ import Hand from '../../svg/LeanStartup/Hand'
 /**
  * @author Iván Sánchez
  * @name SnapAnimation
- * @description Página principal del sitio web
+ * @description Página alternative del sitio web
  */
 const SnapAnimation: NextPage = () => {
 
@@ -27,13 +27,13 @@ const SnapAnimation: NextPage = () => {
 						<div className='snap_animation__container__animation__hand__image'>
 							<Hand />
 						</div>
-					
+
 					</div>
 					<div className="snap_animation__container__animation__thumb">
 						<div className='snap_animation__container__animation__thumb__image'>
 							<Finger />
 						</div>
-						
+
 					</div>
 					<div className="snap_animation__container__animation__index"></div>
 					<div className="snap_animation__container__animation__snap">

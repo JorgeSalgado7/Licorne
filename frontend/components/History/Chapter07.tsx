@@ -27,7 +27,7 @@ const Chapter07: NextPage = () => {
 
 	useEffect(() => {
 
-		const Tl= gsap.timeline({  
+		const Tl = gsap.timeline({
 			scrollTrigger: {
 				trigger: chapter07.current,
 				markers: false,
@@ -39,9 +39,9 @@ const Chapter07: NextPage = () => {
 		})
 
 		Tl
-			.to('.chapter_seven__container__section', { opacity: 0, duration: 1 }, '+=1')        
+			.to('.chapter_seven__container__section', { opacity: 0, duration: 1 }, '+=1')
 			.to('.chapter_seven__container__animation__world', { opacity: 1, duration: 1 }, '-=1')
-			.to('.chapter_seven__container__animation__world', { opacity: 0, duration: 1 }, '+=2')       
+			.to('.chapter_seven__container__animation__world', { opacity: 0, duration: 1 }, '+=2')
 			.to('.chapter_seven__container__animation__world_two', { opacity: 1, duration: 1 }, '-=1')
 			.to('.chapter_seven__container__animation__point', { opacity: 1, duration: 1 })
 			.to('.chapter_seven__container__animation__point_two', { opacity: 1, duration: 1 })
@@ -66,8 +66,8 @@ const Chapter07: NextPage = () => {
 					<Titulo
 						superior="Capítulo"
 						inferior="07"
-						alternativo=""
-						invertido={false}
+						text=""
+						alternative={false}
 					/>
 
 					<div className='chapter_seven__container__animation'>

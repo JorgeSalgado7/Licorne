@@ -26,8 +26,8 @@ const Chapter06: NextPage = () => {
 					<Titulo
 						superior="Capítulo"
 						inferior="06"
-						alternativo=""
-						invertido={false}
+						text=""
+						alternative={false}
 					/>
 
 					<div className='chapter_six__container__animation'>

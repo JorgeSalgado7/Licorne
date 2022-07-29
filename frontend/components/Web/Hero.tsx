@@ -27,10 +27,10 @@ const Hero: NextPage = () => {
 				<div className='container'>
 
 					<Titulo
-						alternativo=""
+						text=""
 						title="Diseño"
 						subtitle="Web"
-						invertido={false}
+						alternative={false}
 					/>
 
 					<div className="hero__figCirculo"></div>

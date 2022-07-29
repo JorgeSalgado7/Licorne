@@ -25,8 +25,8 @@ const Cloud: NextPage = () => {
 					<Titulo
 						title="Cloud"
 						subtitle="Services"
-						alternativo=""
-						invertido={false}
+						text=""
+						alternative={false}
 					/>
 
 					<p className="cloud__content__container__text">Tu aplicación en un <span>entorno rápido, estable y seguro</span> trabajando sin interrupciones 24/7/365</p>

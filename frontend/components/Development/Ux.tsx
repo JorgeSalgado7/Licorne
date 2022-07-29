@@ -30,8 +30,8 @@ const Ux: NextPage = () => {
 					<Titulo
 						title="UX User"
 						subtitle="Experience."
-						alternativo=""
-						invertido={false}
+						text=""
+						alternative={false}
 					/>
 
 					<p className="ux__content__container__text">Estrategia, tecnología y creatividad; todo lo que necesitas para <span>pasar del océano rojo al océano azul</span> mediante una aplicación funcional que posea un hermoso diseño, el cual se vea y se sienta fácil de usar para que resuelva las necesidades de tus clientes potenciales.</p>

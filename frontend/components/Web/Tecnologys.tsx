@@ -24,10 +24,10 @@ const Tecnology: NextPage = () => {
 					<div className='tecnology__container'>
 
 						<Titulo
-							alternativo=""
+							text=""
 							title="Usamos tecnologías"
 							subtitle="seguras y dinámicas"
-							invertido={false}
+							alternative={false}
 						/>
 
 						<div className='tecnology__container__wordpress'>

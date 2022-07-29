@@ -31,8 +31,8 @@ const Fit: NextPage = () => {
 					<Titulo
 						title="Inbound marketing"
 						subtitle="FIT."
-						alternativo=""
-						invertido={false}
+						text=""
+						alternative={false}
 					/>
 
 					<div className='fit__container__section'>

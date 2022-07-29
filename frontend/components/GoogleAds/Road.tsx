@@ -28,10 +28,10 @@ const Road: NextPage = () => {
 					<div className='container'>
 						<div className='road__roadDesktop__contenedor'>
 							<Titulo
-								alternativo=""
+								text=""
 								title="El camino hacia tu éxito"
 								subtitle="comienza aquí: "
-								invertido={false}
+								alternative={false}
 							/>
 							<div className="road__roadDesktop__contenedor__text">
 								<p>Te brindamos total transparencia en tu inversión, reportes con información precisa, mejora continua y un equipo internacional certificado y avalado por Google Ads en su programa <span>Google Partners.</span></p>
@@ -79,10 +79,10 @@ const Road: NextPage = () => {
 				<div className='road__roadResponsive'>
 					<div className='container'>
 						<Titulo
-							alternativo=""
+							text=""
 							title="El camino hacia tu éxito"
 							subtitle="comienza aquí: "
-							invertido={false}
+							alternative={false}
 						/>
 						<div className='road__roadResponsive__contenedor'>
 							<div className='road__roadResponsive__contenedor__menu'>

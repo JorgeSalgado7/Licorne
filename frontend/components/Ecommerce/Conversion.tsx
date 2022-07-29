@@ -63,8 +63,8 @@ const Conversion: NextPage = () => {
 					<Titulo
 						title="Poderosas tiendas en linea que convierten"
 						subtitle="visitantes en clientes."
-						alternativo=""
-						invertido={false}
+						text=""
+						alternative={false}
 					/>
 
 					<div className='conversion__container__animation'>

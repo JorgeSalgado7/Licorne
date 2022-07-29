@@ -42,8 +42,8 @@ const AppDevelopment: NextPage = () => {
 					<Titulo
 						title="Desarrollo de"
 						subtitle="aplicaciones web."
-						alternativo=""
-						invertido={false}
+						text=""
+						alternative={false}
 					/>
 
 					<div className="app_development__content__container__text">Tu aplicación web enfocada en <span>la experiencia del usuario</span> y un <span>armonioso</span> funcionamiento entre <span>backend y frontend.</span> Deja en tus visitantes experiencias únicas, experiencias que convierten <span>visitas en clientes.</span></div>

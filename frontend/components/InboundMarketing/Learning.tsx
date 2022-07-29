@@ -86,8 +86,8 @@ const Learning: NextPage = () => {
 						<Titulo
 							title="Aprendizaje y "
 							subtitle="descubrimiento"
-							alternativo=""
-							invertido={false}
+							text=""
+							alternative={false}
 						/>
 
 						<p>Se despierta interés en el usuario con marketing de contenidos, Google Ads,  Social Media y vídeo mediante temáticas de interés para el usuario. </p>
@@ -100,8 +100,8 @@ const Learning: NextPage = () => {
 						<Titulo
 							title="Consideración"
 							subtitle="de la solución"
-							alternativo=""
-							invertido={false}
+							text=""
+							alternative={false}
 						/>
 
 						<p>Da respuesta a la duda o interés del lead calificado y con ello, promover el deseo e interés hacia tu marca como una solución. </p>
@@ -114,8 +114,8 @@ const Learning: NextPage = () => {
 						<Titulo
 							title="Reconocimiento"
 							subtitle="del problema"
-							alternativo=""
-							invertido={false}
+							text=""
+							alternative={false}
 						/>
 
 						<p>Hace consciente al lead de que su dolor debe ser atendido, generando intriga para que continúe avanzando en el embudo de ventas. </p>
@@ -128,8 +128,8 @@ const Learning: NextPage = () => {
 						<Titulo
 							title="Decisión"
 							subtitle="de compra"
-							alternativo=""
-							invertido={false}
+							text=""
+							alternative={false}
 						/>
 
 						<p>Aquí tu producto o servicio se muestra como la primera y mejor opción para dar solución al dolor del lead para convertirlo en una oportunidad de venta generada. Es un proceso continuo con la fidelización, posventa y recomendación mediante la automatización, acompañamiento y nutrición.</p>

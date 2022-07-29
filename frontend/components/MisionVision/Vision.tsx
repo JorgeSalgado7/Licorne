@@ -19,10 +19,10 @@ const Vision: NextPage = () => {
 					<div className='vision__contenedor'>
 
 						<Titulo
-							alternativo=""
+							text=""
 							title="Visión"
 							subtitle=""
-							invertido={false}
+							alternative={false}
 						/>
 
 						<div className='vision__contenedor__text'>

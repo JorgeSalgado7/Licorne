@@ -9,7 +9,7 @@ import MainLayout from '../layouts/MainLayout'
 import Hero from '../components/Home/Hero'
 import StartKings from '../components/Home/StartupKings'
 import LeanStartup from '../components/Home/LeanStartup'
-import Slide from '../components/Home/SlideHome'
+import SlideHome from '../components/Home/SlideHome'
 import Focus from '../components/Home/Focus'
 import Know from '../components/Home/Know'
 import Digitise from '../components/Home/Digitise'
@@ -17,7 +17,7 @@ import Digitise from '../components/Home/Digitise'
 /**
  * @author Jorge Salgado
  * @name Home
- * @description Página principal del sitio web
+ * @description Página alternative del sitio web
  */
 
 const Home: NextPage = () => {
@@ -30,10 +30,13 @@ const Home: NextPage = () => {
 	return (
 
 		<MainLayout title={title} description={description}>
-
 			<Hero />
-			<StartKings/>
-
+			<StartKings />
+			<LeanStartup />
+			<SlideHome />
+			<Focus />
+			<Know />
+			<Digitise />
 		</MainLayout>
 
 	)

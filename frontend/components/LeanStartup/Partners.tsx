@@ -44,8 +44,8 @@ const Partners: NextPage = () => {
 						<Titulo
 							title="Socios"
 							subtitle="Estrategicos"
-							alternativo=""
-							invertido={false}
+							text=""
+							alternative={false}
 						/>
 
 						<div className='partners__content__container__slide__content'>
@@ -195,8 +195,8 @@ const Partners: NextPage = () => {
 							<Titulo
 								title="Expertos"
 								subtitle=""
-								alternativo=""
-								invertido={false}
+								text=""
+								alternative={false}
 							/>
 						</div>
 						<div className='partners__content__container__hastags__content'>

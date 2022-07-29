@@ -26,14 +26,14 @@ const Chapter10: NextPage = () => {
 					<Titulo
 						superior="Capítulo"
 						inferior="10"
-						alternativo=""
-						invertido={false}
+						text=""
+						alternative={false}
 					/>
 
 					<div className='chapter_ten__container__animation'>
 						<div className='chapter_ten__container__animation__left'>
 							<HandLeftTwo />
-						</div>  
+						</div>
 						<div className='chapter_ten__container__animation__rigth'>
 							<HandRigthTwo />
 						</div>

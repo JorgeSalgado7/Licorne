@@ -12,12 +12,12 @@ import Title from '../components/Common/Title'
 // import Link from '../layouts/LinkPersonalizado'
 
 //*interface
-interface Project{
+interface Project {
 	key: string,
-	content:{
+	content: {
 		rendered: string,
 	},
-	title:{
+	title: {
 		rendered: string,
 	},
 	slug: string,
@@ -25,35 +25,35 @@ interface Project{
 	primary_thumbnail_url: string,
 }
 
-const briefcase: NextPage =() => {
+const briefcase: NextPage = () => {
 	const title = 'Lo más top de nuestro portafolio de proyectos ¡está aquí!'
 	const description = 'Generamos estrategias de marketing digital que generan éxito. ¡Descubre a detalle nuestro portafolio de clientes ganadores y sé uno de ellos!'
 
 	const [projects, seProjects] = useState<Array<Project>>([])
 
 	const GET_PROJECT = () => {
-		axios.get('https://admin.licorne.mx/wp-json/wp/v2/projects').then((response)=>{seProjects(response.data)}) 
-   
+		axios.get('https://admin.licorne.mx/wp-json/wp/v2/projects').then((response) => { seProjects(response.data) })
+
 	}
 
 	useEffect(() => {
-		GET_PROJECT ()
+		GET_PROJECT()
 	}, [])
 
 	return (
 
-		<MainLayout  title ={title} description={description}>
+		<MainLayout title={title} description={description}>
 
 			<div className="briefcase">
-				
+
 				<div className="briefcase__innovating">
 
 					<div className="briefcase__innovating__container">
-						<Title 
-							alternativo=""
+						<Title
+							text=""
 							superior="Innovando en"
 							inferior="las marcas"
-							invertido={false}
+							alternative={false}
 						/>
 
 						{/* <Link
@@ -87,7 +87,7 @@ const briefcase: NextPage =() => {
 					</div>
 
 				</div>
-				
+
 				<div className="briefcase__projects">
 					{
 						projects.map((proyecto, index) => (
@@ -102,7 +102,7 @@ const briefcase: NextPage =() => {
 							/>
 
 						))
-					}	
+					}
 				</div>
 
 			</div>

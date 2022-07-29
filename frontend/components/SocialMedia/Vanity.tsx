@@ -61,8 +61,8 @@ const Vanity: NextPage = () => {
 					<Titulo
 						title="Olvídate de las vanity metrics y"
 						subtitle="dile ¡hola! a las actionable metrics."
-						alternativo=""
-						invertido={false}
+						text=""
+						alternative={false}
 					/>
 
 					<div className='vanity__container__section'>

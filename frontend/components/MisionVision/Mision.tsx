@@ -18,10 +18,10 @@ const Mision: NextPage = () => {
 				<div className='container'>
 					<div className='mision__contenedor'>
 						<Titulo
-							alternativo=""
+							text=""
 							title=""
 							subtitle="Misión"
-							invertido={false}
+							alternative={false}
 						/>
 						<div className='mision__contenedor__text'>
 							<p><span>Desarrollar y potenciar compañias sin importar la fase en que se encuantren, </span>

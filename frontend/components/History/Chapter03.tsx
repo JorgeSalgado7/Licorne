@@ -27,7 +27,7 @@ const Chapter03: NextPage = () => {
 
 	useEffect(() => {
 
-		const Tl = gsap.timeline({  
+		const Tl = gsap.timeline({
 			scrollTrigger: {
 				trigger: chapter03.current,
 				markers: false,
@@ -55,8 +55,8 @@ const Chapter03: NextPage = () => {
 					<Titulo
 						superior="Capítulo"
 						inferior="03"
-						alternativo=""
-						invertido={false}
+						text=""
+						alternative={false}
 					/>
 
 					<div className='chapter_three__container__animation'>

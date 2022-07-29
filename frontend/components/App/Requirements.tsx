@@ -65,10 +65,10 @@ const Requirements: NextPage = () => {
 				<div className='container'>
 
 					<Titulo
-						alternativo=""
+						text=""
 						title="¡Así lo"
 						subtitle="hacemos!"
-						invertido={false}
+						alternative={false}
 					/>
 
 					{/**PARRAFO */}

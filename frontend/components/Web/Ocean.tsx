@@ -61,10 +61,10 @@ const Ocean: NextPage = () => {
 						<div className='ocean__web__contenedor'>
 
 							<Titulo
-								alternativo=""
+								text=""
 								title="El primer gran paso para llegar al"
 								subtitle="océano azul es un sitio web único."
-								invertido={false}
+								alternative={false}
 							/>
 
 							<div className="ocean__web__contenedor__bird_two">

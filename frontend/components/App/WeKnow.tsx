@@ -22,10 +22,10 @@ const WeKnow: NextPage = () => {
 				<div className='container'>
 
 					<Titulo
-						alternativo=""
+						text=""
 						title="Sí le sabemos:"
 						subtitle=""
-						invertido={false}
+						alternative={false}
 					/>
 
 					<div className='we_know__swift'>

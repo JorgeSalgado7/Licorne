@@ -54,10 +54,10 @@ const Hero: NextPage = () => {
 					<div className='hero_mantenance__container'>
 
 						<Titulo
-							alternativo=""
+							text=""
 							title="Más vivos"
 							subtitle="que nunca"
-							invertido={false}
+							alternative={false}
 						/>
 
 						<div className='hero_mantenance__container__animacionPortada'>

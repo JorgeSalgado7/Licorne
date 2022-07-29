@@ -15,7 +15,7 @@ import Shop from '../components/Ecommerce/Shop'
 /**
  * @author Iván Sánchez
  * @name Ecommerce
- * @description Página principal de ecommerce
+ * @description Página alternative de ecommerce
  */
 const Ecommerce: NextPage = () => {
 
@@ -30,7 +30,7 @@ const Ecommerce: NextPage = () => {
 			<Conversion />
 			<Responsive />
 			<Workshop />
-			<Wireframing/>
+			<Wireframing />
 			<Management />
 			<Shop />
 		</MainLayout>

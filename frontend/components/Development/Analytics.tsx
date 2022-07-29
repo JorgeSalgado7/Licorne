@@ -28,8 +28,8 @@ const Analytics: NextPage = () => {
 					<Titulo
 						title="Analítica"
 						subtitle="Web"
-						alternativo=""
-						invertido={false}
+						text=""
+						alternative={false}
 					/>
 
 					<p className="analytics__content__container__text"><span>Soluciones analíticas business intelligence</span> que te ayudarán a conocer a tus usuarios; como sus hábitos de consumo y todos los datos que permitan la mejora continua para tu marca.</p>

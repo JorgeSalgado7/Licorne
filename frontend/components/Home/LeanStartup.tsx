@@ -8,6 +8,7 @@ import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 
 //*Components
 import Titulo from '../Common/Title'
+import LicorneLink from '../Common/LicorneLink'
 
 /**
  * @author Maria Meza
@@ -110,10 +111,10 @@ const StartKings: NextPage = () => {
 				<div className='container'>
 
 					<Titulo
-						alternativo="LA DIFERENCIA ENTRE"
+						text="LA DIFERENCIA ENTRE"
 						title="Escalar o morir se llama"
 						subtitle="Lean Startup"
-						invertido={false}
+						alternative={true}
 					/>
 
 					<div className='lean_startup__animation'>
@@ -128,10 +129,10 @@ const StartKings: NextPage = () => {
 						<div className="lean_startup__animation__bocaLean"></div>
 					</div>
 
-					{/* <LinkPersonalizado
+					<LicorneLink
 						url="/asi-lo-hacemos"
-						texto="¿CÓMO LO HACEN?"
-					/> */}
+						text='¿CÓMO LO HACEN?'
+					/>
 
 				</div>
 

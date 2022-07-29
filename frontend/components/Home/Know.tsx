@@ -21,10 +21,10 @@ const Home: NextPage = () => {
 				<div className='container'>
 
 					<Titulo
-						alternativo=""
+						text=""
 						title="¡Sí le"
 						subtitle="Sabemos!"
-						invertido={true}
+						alternative={true}
 					/>
 
 					<div className='know__animation'>

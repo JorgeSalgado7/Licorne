@@ -21,10 +21,10 @@ const Need: NextPage = () => {
 				<div className='container'>
 					<div className='need__container'>
 						<Titulo
-							alternativo=""
+							text=""
 							title="All you need is"
 							subtitle="Social Ads"
-							invertido={false}
+							alternative={false}
 						/>
 						<div className='need__container__image'>
 							<NeedImage />

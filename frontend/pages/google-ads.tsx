@@ -16,7 +16,7 @@ import Present from '../components/GoogleAds/Present'
 /**
  * @author Maria Meza
  * @name GoogleAds
- * @description Página principal del sitio web
+ * @description Página alternative del sitio web
  */
 
 const GoogleAds: NextPage = () => {
@@ -29,12 +29,12 @@ const GoogleAds: NextPage = () => {
 	return (
 
 		<MainLayout title={title} description={description}>
-			<Hero/>
-			<Wallet/>
-			<Google/>
-			<Click/>
-			<Road/>
-			<Present/>
+			<Hero />
+			<Wallet />
+			<Google />
+			<Click />
+			<Road />
+			<Present />
 		</MainLayout>
 
 	)

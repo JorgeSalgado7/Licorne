@@ -57,10 +57,10 @@ const Hero: NextPage = () => {
 			<div className='hero_programatic' ref={animation}>
 				<div className='container'>
 					<Titulo
-						alternativo="CONSOLIDAMOS COMPAÑÍAS MEDIANTE"
+						text="CONSOLIDAMOS COMPAÑÍAS MEDIANTE"
 						title="Programamos la mente"
 						subtitle="del usuario en la venta de tu producto"
-						invertido={false}
+						alternative={false}
 					/>
 					<div className='hero_programatic_animation'>
 						<div className='hero_programatic_animation__right_hand'>

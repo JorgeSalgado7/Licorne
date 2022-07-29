@@ -26,10 +26,10 @@ const Creative: NextPage = () => {
 					<div className='creative__contenedor'>
 
 						<Titulo
-							alternativo="CREAMOS"
+							text="CREAMOS"
 							title="Sitios web creativos"
 							subtitle="que conectan con tus usuarios"
-							invertido={false}
+							alternative={false}
 						/>
 
 						<div className='creative__contenedor__parrafoCreativos'>

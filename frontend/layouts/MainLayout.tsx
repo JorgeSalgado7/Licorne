@@ -15,7 +15,7 @@ import MenuMovil from './Menu/MenuMovil'
 /**
  * @author Jorge Salgado
  * @name MainLayout
- * @description Plantilla principal del sitio
+ * @description Plantilla alternative del sitio
  */
 const MainLayout: NextPage<LayoutProps> = ({ title, description, children }) => {
 

@@ -19,10 +19,10 @@ const Digitise: NextPage = () => {
 				<div className='container'>
 
 					<Titulo
-						alternativo=""
+						text=""
 						title="Digitalízate"
 						subtitle=""
-						invertido={false}
+						alternative={false}
 					/>
 
 					<div className="digitise__menu">

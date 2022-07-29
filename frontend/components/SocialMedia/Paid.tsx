@@ -67,8 +67,8 @@ const Paid: NextPage = () => {
 					<Titulo
 						title="Paid Media"
 						subtitle=""
-						alternativo=""
-						invertido={false}
+						text=""
+						alternative={false}
 					/>
 
 					<div className="paid__container__section">

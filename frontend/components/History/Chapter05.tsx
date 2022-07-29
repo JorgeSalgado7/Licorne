@@ -25,8 +25,8 @@ const Chapter05: NextPage = () => {
 					<Titulo
 						superior="Capítulo"
 						inferior="05"
-						alternativo=""
-						invertido={false}
+						text=""
+						alternative={false}
 					/>
 
 					<div className='chapter_five__container__animation'>
@@ -34,7 +34,7 @@ const Chapter05: NextPage = () => {
 					</div>
 
 					<div className='chapter_five__container__section'>
-						<p>Obedeciendo a nuestro valor <span>“innovación”,</span> convertimos a la tecnología de <span>automatización</span> en uno de los principales desarrolladores de éxito para nuestros clientes, centralizando Google Ads, Facebook, Ads, SEO, mailing, Linkedin y un largo etc., que crece constantemente.</p>
+						<p>Obedeciendo a nuestro valor <span>“innovación”,</span> convertimos a la tecnología de <span>automatización</span> en uno de los alternativees desarrolladores de éxito para nuestros clientes, centralizando Google Ads, Facebook, Ads, SEO, mailing, Linkedin y un largo etc., que crece constantemente.</p>
 					</div>
 
 				</div>

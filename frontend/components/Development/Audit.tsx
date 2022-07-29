@@ -30,8 +30,8 @@ const Audit: NextPage = () => {
 					<Titulo
 						title="Auditorías"
 						subtitle=""
-						alternativo=""
-						invertido={false}
+						text=""
+						alternative={false}
 					/>
 
 					<p className="audit__content__container__text"><span>Hackeo Ético</span> a tu aplicación <span>para detectar las vulnerabilidades y los riesgos informáticos</span> que un ciberdelincuente podría utilizar en tu contra o en contra de tus clientes.</p>

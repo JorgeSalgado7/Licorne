@@ -60,8 +60,8 @@ const Content: NextPage = () => {
 					<Titulo
 						title="Content Marketing"
 						subtitle=""
-						alternativo=""
-						invertido={false}
+						text=""
+						alternative={false}
 					/>
 
 					<div className='content__container__section'>

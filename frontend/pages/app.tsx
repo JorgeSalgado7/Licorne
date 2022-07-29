@@ -14,7 +14,7 @@ import WeKnow from '../components/App/WeKnow'
 /**
  * @author Maria Meza 
  * @name App
- * @description Página principal del sitio web
+ * @description Página alternative del sitio web
  */
 
 const App: NextPage = () => {
@@ -27,10 +27,10 @@ const App: NextPage = () => {
 	return (
 
 		<MainLayout title={title} description={description}>
-			<Hero/>
-			<Methodology/>
-			<Requirements/>
-			<WeKnow/>
+			<Hero />
+			<Methodology />
+			<Requirements />
+			<WeKnow />
 		</MainLayout>
 
 	)

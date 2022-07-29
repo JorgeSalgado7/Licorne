@@ -22,7 +22,7 @@ import Chapter10 from '../components/History/Chapter10'
 /**
  * @author Iván Sánchez	
  * @name Historia
- * @description Página principal de Historia
+ * @description Página alternative de Historia
 */
 const Historia: NextPage = () => {
 

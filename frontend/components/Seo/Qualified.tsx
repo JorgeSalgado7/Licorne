@@ -58,8 +58,8 @@ const Qualified: NextPage = () => {
 					<Titulo
 						title="Licorne® Startup Kings siempre estará capacitado"
 						subtitle="para aplicar constantes mejoras"
-						alternativo=""
-						invertido={false}
+						text=""
+						alternative={false}
 					/>
 
 					<div className='qualified__container__change tecnico'>

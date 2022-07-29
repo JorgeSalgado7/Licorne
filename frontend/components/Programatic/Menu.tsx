@@ -26,10 +26,10 @@ const Menu: NextPage = () => {
 					<div className='menu__container'>
 
 						<Titulo
-							alternativo=""
+							text=""
 							title="Soluciones programáticas a la medida de tus éxitos"
 							subtitle=""
-							invertido={false}
+							alternative={false}
 						/>
 						<div className='menu__container__text'>
 							<p>Generamos estrategias personalizadas que promueven tu empresa en los espacios de mayor demanda publicitaria en internet con la firme intención de destacar a tu marca en el ecosistema digital y llegar al usuario que te permita generar ganancias y no te ignore como en la publicidad tradicional.</p>

@@ -61,10 +61,10 @@ const Hero: NextPage = () => {
 				<div className='container'>
 
 					<Titulo
-						alternativo=""
+						text=""
 						title="Convertimos tu sueño en"
 						subtitle="una app"
-						invertido={false}
+						alternative={false}
 					/>
 					{/**PORTADA */}
 					<div className='hero_app__animation'>

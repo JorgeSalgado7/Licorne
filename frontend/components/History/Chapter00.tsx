@@ -27,7 +27,7 @@ const Chapter00: NextPage = () => {
 
 	useEffect(() => {
 
-		const Tl = gsap.timeline({  
+		const Tl = gsap.timeline({
 			scrollTrigger: {
 				trigger: chapter00.current,
 				markers: false,
@@ -41,7 +41,7 @@ const Chapter00: NextPage = () => {
 		Tl
 			.to('.chapter_zero__container__animation__mountain', { opacity: 0, duration: 1 }, '+=2')
 			.to('.chapter_zero__container__animation__sing', { opacity: 0, duration: 1 }, '-=1')
-			.to('.chapter_zero__container__animation__mountain_two', { transform: 'rotate(45deg)', top:'50%', left: '30%', duration: 1 })
+			.to('.chapter_zero__container__animation__mountain_two', { transform: 'rotate(45deg)', top: '50%', left: '30%', duration: 1 })
 			.to('.chapter_zero__container__animation__eye', { opacity: 1, duration: 1 })
 			.to('.chapter_zero__container__animation__eye_two', { opacity: 1, duration: 1 }, '-=1')
 			.to('.chapter_zero__container__animation__crown', { opacity: 1, duration: 1 })
@@ -59,8 +59,8 @@ const Chapter00: NextPage = () => {
 					<Titulo
 						superior="Capítulo"
 						inferior="00"
-						alternativo=""
-						invertido={false}
+						text=""
+						alternative={false}
 					/>
 
 					<div className='chapter_zero__container__section'>
@@ -78,11 +78,11 @@ const Chapter00: NextPage = () => {
 						<div className='chapter_zero__container__animation__eye_two'></div>
 
 						<div className="chapter_zero__container__animation__sing">
-							<Sing />    
+							<Sing />
 						</div>
 
 						<div className='chapter_zero__container__animation__crown'>
-							<Crown />    
+							<Crown />
 						</div>
 
 					</div>

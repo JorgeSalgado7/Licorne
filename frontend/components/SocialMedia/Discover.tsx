@@ -24,8 +24,8 @@ const Discover: NextPage = () => {
 				<Titulo
 					title="42.5 de los usuarios de internet descubren a las marcas mediante"
 					subtitle="sus redes sociales."
-					alternativo=""
-					invertido={false}
+					text=""
+					alternative={false}
 				/>
 
 				<div className='discover__container__animation'>

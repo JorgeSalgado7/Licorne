@@ -56,10 +56,10 @@ const Hero: NextPage = () => {
 				<div className='container'>
 
 					<Titulo
-						alternativo="CONSOLIDAMOS COMPAÑÍAS MEDIANTE"
+						text="CONSOLIDAMOS COMPAÑÍAS MEDIANTE"
 						title="Lean Startup, tecnología"
 						subtitle="y marketing digital"
-						invertido={false}
+						alternative={false}
 					/>
 
 					<div className='hero_mision__animation'>

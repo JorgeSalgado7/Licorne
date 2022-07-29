@@ -98,10 +98,10 @@ const Hero: NextPage = () => {
 					<div className='hero_social_ads__contenedor'>
 
 						<Titulo
-							alternativo="CREAMOS Y GESTIONAMOS"
+							text="CREAMOS Y GESTIONAMOS"
 							title="campañas que atraen,"
 							subtitle="conectan y fidelizan clientes"
-							invertido={false}
+							alternative={false}
 						/>
 
 						<div className='hero_social_ads__contenedor__animation'>
