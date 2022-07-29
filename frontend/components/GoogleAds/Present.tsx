@@ -13,6 +13,9 @@ import Location from '../../svg/Google/Location'
 import Arrow from '../../svg/Google/Arrow'
 import Money from '../../svg/Google/Money'
 
+//*Components
+import LinkPersonalizado from '../../layouts/LinkPersonalizado'
+
 /**
  * @author Maria Meza
  * @name Present
@@ -165,8 +168,8 @@ const Present: NextPage = () => {
                     
 						{/* <LinkPersonalizado 
 							url="/contacto"
-							texto="¡QUIERO ESTAR EN EL TOP!"
-						/> */}
+							text="¡QUIERO ESTAR EN EL TOP!"
+						/>  */}
                     
 					</div>
 				</div>

@@ -1,0 +1,132 @@
+.link_personalizado{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 67px;
+    left: -8px;
+    // z-index: 100;
+
+    @media(min-width: 1200px){
+        max-width: 400px;
+        bottom: 30%;
+    }
+
+    &__texto{
+        color: $black;
+        font-size: 18px;
+        font-weight: bold;
+        transition: 0.6s;
+        position: absolute;
+        left: 3%;
+
+        @media(min-width: 300px){
+            font-size: 20px;
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        @media(min-width: 576px){
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+		&:hover{
+			padding-left: 20px;
+		}
+
+    }
+
+    &__icono{
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        border: 2px solid $black;
+        transition: 0.6s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right: 0%;
+
+        &:hover{
+            background-color: $black;
+        }
+
+        &__flecha{
+            position: absolute;
+            height: 2px;
+            width: 150%;
+            background-color: $black;
+            top: 50%;
+            left: -15%;
+            transform: translate(-50%, -50%);
+            transition: 0.10s;
+
+            &::before{
+                content: '';
+                width: 15px;
+                height: 2px;
+                background-color: $black;
+                position: absolute;
+                top: -5px;
+                right: -5px;
+                transform: translate(-50%, -50%) rotate(45deg);
+                transition: 0.6s;
+                @media(max-width: 577px){
+                content: "";
+                width: 12px;
+                height: 2px;
+                background-color: #000;
+                position: absolute;
+                top: -4px;
+                right: -7px;
+                transform: translate(-50%,-50%) rotate(45deg);
+                transition: .6s;
+                    }
+                @media(min-width: 578px){
+                    width: 15px;
+                    top: -4px;
+                    right: -10px;
+                }
+
+            }
+
+            &::after{
+                content: '';
+                width: 10px;
+                height: 2px;
+                background-color: $black;
+                position: absolute;
+                top: 5px;
+                right: -5px;
+                transform: translate(-50%, -50%) rotate(-45deg);
+                transition: 0.6s;
+
+            }
+
+            
+
+        }
+
+    }
+
+    &:hover{        
+
+            .link_personalizado__icono__flecha{
+                background-color: $licorne_yellow;
+                width: 70%;
+                left: 25%;
+
+                &::before, &::after{
+                background-color: $licorne_yellow;
+                }
+        }
+
+    }
+   
+
+}       

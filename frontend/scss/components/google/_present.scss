@@ -583,7 +583,7 @@
 				}
 			}
 		}
-		.link-personalizado{
+		.link_personalizado{
 			@media (min-width: 50px) {
 				top: 89% !important;
 				display: none;
@@ -603,11 +603,11 @@
 			   display:inherit;
 			}
 			@media (min-width: 1350px) {
-				top: 82% !important;
+				top: 303% !important;
 				left: 37%;
 				display:inherit;
 			 }
-			.texto{
+			&__text{
 				font-size: 20px;
 				left: -7%;
 				@media (max-width: 1200px) {
@@ -626,7 +626,7 @@
 				}
 				
 			}
-			.icono{
+			&__icono{
 		
 				@media (max-width: 1200px) {
 					right: 30%; 
