@@ -14,7 +14,7 @@ import Road from '../components/GoogleAds/Road'
 import Present from '../components/GoogleAds/Present'
 
 /**
- * @author Jorge Salgado
+ * @author Maria Meza
  * @name GoogleAds
  * @description Página principal del sitio web
  */
