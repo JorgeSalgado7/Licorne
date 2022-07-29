@@ -1,4 +1,4 @@
-.portafolio_proyecto_individual{
+.individual_project{
 	width: 100%;
 	height: 100vh;
 	background-color: blue;
@@ -7,8 +7,9 @@
 	transition: 0.3s;
 	border-bottom: 1px solid #d9dce0;
 	position: relative;
+
 	
-	.portafolio_proyecto_individual_imagen{
+	&__imagen{
 		height: 100%;
 		width: 100%;
 		background-color: #d9dce0;
@@ -33,33 +34,154 @@
 
 	}
 
-	.link-personalizado{
-		top: 85%;
-		left: 30%;
+	&__button{
 		width: 40%;
-		
-		@media (max-width: 991px) {
-			width: 75%;
-			left: 10%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: absolute;
+		bottom: 67px;
+		left: 30%;
+
+		@media(min-width: 1200px){
+			max-width: 400px;
+			bottom: 10%;
 		}
 
-		@media (max-width: 281px) {
-			width: 85%;
-			left: 10%;
+
+		@media(min-width: 1600px){
+			width: 30%;
+			left: 40%;
 		}
 	
+		&__text{
+			color: $black;
+			font-size: 18px;
+			font-weight: bold;
+			transition: 0.6s;
+			position: absolute;			
+			left: 3%;
+	
+			@media(min-width: 300px){
+				font-size: 20px;
+				font-size: 20px;
+				font-weight: 700;
+				letter-spacing: 1px;
+				left: -15%;
+			}
+	
+			@media(min-width: 576px){
+				font-size: 20px;
+				font-weight: 700;
+				letter-spacing: 1px;
+			}
+	
+			&:hover{
+				padding-left: 20px;
+			}
+	
+		}
+	
+		&__icon{
+			width: 65px;
+			height: 65px;
+			border-radius: 50%;
+			border: 2px solid $black;
+			transition: 0.6s;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: absolute;
+			right: 0%;
+	
+			&:hover{
+				background-color: $black;
+			}
+	
+			&__flecha{
+				position: absolute;
+				height: 2px;
+				width: 150%;
+				background-color: $black;
+				top: 50%;
+				left: -15%;
+				transform: translate(-50%, -50%);
+				transition: 0.10s;
+	
+				&::before{
+					content: '';
+					width: 15px;
+					height: 2px;
+					background-color: $black;
+					position: absolute;
+					top: -5px;
+					right: -5px;
+					transform: translate(-50%, -50%) rotate(45deg);
+					transition: 0.6s;
+					@media(max-width: 577px){
+					content: "";
+					width: 12px;
+					height: 2px;
+					background-color: #000;
+					position: absolute;
+					top: -4px;
+					right: -7px;
+					transform: translate(-50%,-50%) rotate(45deg);
+					transition: .6s;
+						}
+					@media(min-width: 578px){
+						width: 15px;
+						top: -4px;
+						right: -10px;
+					}
+	
+				}
+	
+				&::after{
+					content: '';
+					width: 10px;
+					height: 2px;
+					background-color: $black;
+					position: absolute;
+					top: 5px;
+					right: -5px;
+					transform: translate(-50%, -50%) rotate(-45deg);
+					transition: 0.6s;
+	
+				}
+	
+				
+	
+			}
+	
+		}
+	
+		&:hover{        
+	
+				.individual_project__button__icon__flecha{
+					background-color: $licorne_yellow;
+					width: 70%;
+					left: 25%;
+	
+					&::before, &::after{
+					background-color: $licorne_yellow;
+					}
+			}
+	
+		}
+	   
 	}
 
-	.portafolio_proyecto_individual_info{
+	&__info{
 		height: 100%;
 		width: 100%;
 		background: linear-gradient(
-			$azul2,	
-			$amarillo   
+			$licorne_BrightTurquoise,	
+			$licorne_yellow  
         );
 		
 
-		.contenidoProyecto{
+		&__container{
 			width: 100%;
 			height: 100%;
 			position: absolute;
@@ -68,7 +190,7 @@
 			transition: 500ms;
 			z-index: 0;
 	
-			.textoProyectos{
+			&__text{
 				position: absolute;
 				width: 70%;
 				height: 45%;
@@ -92,7 +214,7 @@
 					}
 					@media (min-width: 750px) {
 						font-size: 20px;
-    font-weight: 700;
+    					font-weight: 700;
 					}
 				}
 				p{
@@ -116,20 +238,20 @@
 	
 			button{
 				position: relative;
-				top: 87%;
+				top: 94%;
 				left: 40%;
 				transform: translate(-40%,-87%);
-				.texto{
+				.individual_project__button__text{
 					transform: rotateY(180deg);
 				}
 				&:hover{
-					.texto{
+					.individual_project__button__text{
 						left: 20%;
 					}
 				}
 			}
 			
-			.dos{
+			.two{
 				transform: rotateY(180deg) ;
 				width: 40%;
 				@media (max-width: 991px) {
@@ -149,12 +271,10 @@
 
 }
 
-
-
-.portafolio_proyecto_individual_active{
+.indivudual_project_active{
 	
 
-	.portafolio_proyecto_individual_imagen{
+	.individual_project__imagen{
 		left: -100%;
 		@media(max-width: 1199px){
 			left: -90%;
@@ -165,9 +285,17 @@
 	button{
 		display: none;
 	}
-	.dos{
+	.two{
 		display:flex;
-		
+		left: 34%;
+		width: 35%;
+		@media(max-width: 1200px){
+			bottom: 10%;
+			left: 15%;
+			width: 60%;
+			
+		}
+	
 	}
 
 
