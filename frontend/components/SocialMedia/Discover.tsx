@@ -21,9 +21,9 @@ const Discover: NextPage = () => {
 
 			<div className='discover__container container'>
 
-				<Titulo 
-					superior="42.5 de los usuarios de internet descubren a las marcas mediante" 
-					inferior="sus redes sociales."
+				<Titulo
+					title="42.5 de los usuarios de internet descubren a las marcas mediante"
+					subtitle="sus redes sociales."
 					alternativo=""
 					invertido={false}
 				/>

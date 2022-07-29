@@ -27,8 +27,8 @@ const Menu: NextPage = () => {
 
 						<Titulo
 							alternativo=""
-							superior="Soluciones programáticas a la medida de tus éxitos"
-							inferior=""
+							title="Soluciones programáticas a la medida de tus éxitos"
+							subtitle=""
 							invertido={false}
 						/>
 						<div className='menu__container__text'>
@@ -43,49 +43,49 @@ const Menu: NextPage = () => {
 
 								<div className="menu__container__contenido_list__option__responsive">
 									<div className="menu__container__contenido_list__option__responsive__image">
-										<Point/>
+										<Point />
 									</div>
 									<h3>IMPACTA AL USUARIO ADECUADO</h3>
 
 									<div className="menu__container__contenido_list__option__responsive__img">
 
-										<Pow/>
+										<Pow />
 
 									</div>
 								</div>
-								
+
 								<div className="menu__container__contenido_list__option__measure">
 									<div className="menu__container__contenido_list__option__measure__img">
-										<Point/>
+										<Point />
 									</div>
 									<h3>VENTAJAS PUBLICITARIAS COMPETITIVAS</h3>
 									<div className="menu__container__contenido_list__option__measure__imagen">
 
-										<Speaker/>
+										<Speaker />
 
 									</div>
 								</div>
 
 								<div className="menu__container__contenido_list__option__segurity">
 									<div className="menu__container__contenido_list__option__segurity__img">
-										<Point/>
+										<Point />
 									</div>
 									<h3>SEGURIDAD PARA TU MARCA</h3>
 									<div className="menu__container__contenido_list__option__segurity__imagen">
-										
-										<Padlock/>
+
+										<Padlock />
 
 									</div>
 								</div>
 
 								<div className="menu__container__contenido_list__option__support">
 									<div className="menu__container__contenido_list__option__support__img">
-										<Point/>
+										<Point />
 									</div>
 									<h3>FORMATOS REALMENTE ATRACTIVOS</h3>
 									<div className="menu__container__contenido_list__option__support__imagen">
 
-										<Form/>
+										<Form />
 
 									</div>
 								</div>
@@ -93,7 +93,7 @@ const Menu: NextPage = () => {
 						</div>
 					</div>
 				</div>
-				
+
 			</div>
 		</div>
 

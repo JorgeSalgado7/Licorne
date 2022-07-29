@@ -39,21 +39,21 @@ const StartKings: NextPage = () => {
 				tl
 					.from('.lean_startup__animation__ojoLean', { top: '-100%', left: '-30%', opacity: '0', duration: 1 }, '-=1')
 					.to('.lean_startup__animation__ojoLean', { top: '0', left: '-30%', opacity: '1', duration: 1 }, '-=1')
-				
+
 					.from('.lean_startup__animation__ojoGuiñoLean', { top: '-100%', left: '20%', opacity: '0', duration: 1 }, '-=2')
 					.to('.lean_startup__animation__ojoGuiñoLean', { top: '0', left: '20%', opacity: '1', duration: 1 }, '-=2')
 
 					.from('.lean_startup__animation__bocaLean', { top: '-100%', left: '35%', opacity: '0', duration: 1 }, '-=3')
 					.to('.lean_startup__animation__bocaLean', { top: '50%', left: '15%', opacity: '1', duration: 1 }, '-=3')
-	
-					.to('.lean_startup__animation__ojoLean', { height: '80px', transform: 'rotate(45deg)', top: '10%', opacity: '1'  }, '+=1')
+
+					.to('.lean_startup__animation__ojoLean', { height: '80px', transform: 'rotate(45deg)', top: '10%', opacity: '1' }, '+=1')
 					.to('.lean_startup__animation__bocaLean', { left: '-30%', top: '70%', transform: 'rotate(225deg)', opacity: '1' })
 					.to('.lean_startup__animation__ojoGuiñoLean', { height: '30px', width: '80px', transform: 'rotate(-45deg)', top: '25%', opacity: '1' }, '+=1')
-				
+
 					.from('.lean_startup__animation__ojoDosLean', { opacity: '0' }, '+=1')
-					.to('.lean_startup__animation__ojoDosLean', { opacity: '1', left: '-30%', top:'10%' }, '+=1')
+					.to('.lean_startup__animation__ojoDosLean', { opacity: '1', left: '-30%', top: '10%' }, '+=1')
 					.from('.lean_startup__animation__ojoGuiñoDosLean', { opacity: '0' }, '+=1')
-					.to('.lean_startup__animation__ojoGuiñoDosLean', { opacity: '1', left: '35%', top:'10%'  }, '+=1')
+					.to('.lean_startup__animation__ojoGuiñoDosLean', { opacity: '1', left: '35%', top: '10%' }, '+=1')
 
 					.to('.lean_startup__animation__bocaLean', { left: '-30%', top: '70%', transform: 'rotate(225deg)', opacity: '1' })
 
@@ -62,7 +62,7 @@ const StartKings: NextPage = () => {
 
 			'(min-width: 1199px)': function () {
 
-				const tl= gsap.timeline({
+				const tl = gsap.timeline({
 					scrollTrigger: {
 						trigger: animation.current,
 						markers: false,
@@ -76,24 +76,24 @@ const StartKings: NextPage = () => {
 				tl
 					.from('.lean_startup__animation__ojoLean', { top: '-100%', left: '-30%', opacity: '0', duration: 1 }, '-=1')
 					.to('.lean_startup__animation__ojoLean', { top: '0', left: '-30%', opacity: '1', duration: 1 }, '-=1')
-					
+
 					.from('.lean_startup__animation__ojoGuiñoLean', { top: '-100%', left: '20%', opacity: '0', duration: 1 }, '-=2')
 					.to('.lean_startup__animation__ojoGuiñoLean', { top: '0', left: '20%', opacity: '1', duration: 1 }, '-=2')
 
 					.from('.lean_startup__animation__bocaLean', { top: '-100%', left: '35%', opacity: '0', duration: 1 }, '-=3')
 					.to('.lean_startup__animation__bocaLean', { top: '50%', left: '15%', opacity: '1', duration: 1 }, '-=3')
-					
-					.to('.lean_startup__animation__ojoLean', { height: '160px', transform: 'rotate(45deg)', top: '10%', opacity: '1'  }, '+=1')
+
+					.to('.lean_startup__animation__ojoLean', { height: '160px', transform: 'rotate(45deg)', top: '10%', opacity: '1' }, '+=1')
 					.to('.lean_startup__animation__bocaLean', { left: '-30%', top: '70%', transform: 'rotate(225deg)', opacity: '1' })
 					.to('.lean_startup__animation__ojoGuiñoLean', { height: '60px', width: '160px', transform: 'rotate(-45deg)', top: '25%', opacity: '1' }, '+=1')
-					
+
 					.from('.lean_startup__animation__ojoDosLean', { opacity: '0' }, '+=1')
 					.to('.lean_startup__animation__ojoDosLean', { opacity: '1', left: '-30%' }, '+=1')
 					.from('.lean_startup__animation__ojoGuiñoDosLean', { opacity: '0' }, '+=1')
-					.to('.lean_startup__animation__ojoGuiñoDosLean', { opacity: '1', left: '35%'  }, '+=1')
+					.to('.lean_startup__animation__ojoGuiñoDosLean', { opacity: '1', left: '35%' }, '+=1')
 
 					.to('.lean_startup__animation__bocaLean', { left: '-30%', top: '70%', transform: 'rotate(225deg)', opacity: '1' })
-					
+
 					.from('.lean_startup__animation__mosca', { opacity: '0' }, '+=1')
 					.to('.lean_startup__animation__mosca', { opacity: '1', top: '-50%', left: '15%' }, '+=1')
 
@@ -111,14 +111,14 @@ const StartKings: NextPage = () => {
 
 					<Titulo
 						alternativo="LA DIFERENCIA ENTRE"
-						superior="Escalar o morir se llama"
-						inferior="Lean Startup"
+						title="Escalar o morir se llama"
+						subtitle="Lean Startup"
 						invertido={false}
 					/>
 
 					<div className='lean_startup__animation'>
 						<div className='lean_startup__animation__mosca'>
-							<img src="https://licorne-web.s3.us-east-2.amazonaws.com/home/moscas.svg" alt="marketing digital"/>
+							<img src="https://licorne-web.s3.us-east-2.amazonaws.com/home/moscas.svg" alt="marketing digital" />
 						</div>
 
 						<div className="lean_startup__animation__ojoLean"></div>

@@ -36,10 +36,10 @@ const Ocean: NextPage = () => {
 
 		ScrollTrigger.matchMedia({
 
-			'(max-width: 576px)': function(){
+			'(max-width: 576px)': function () {
 
 				const tl = gsap.timeline({
-         
+
 				})
 
 				tl
@@ -52,7 +52,7 @@ const Ocean: NextPage = () => {
 	}, [])
 
 	return (
-		
+
 		<div>
 			<div className='ocean'>
 				{/* OCEANO */}
@@ -60,70 +60,70 @@ const Ocean: NextPage = () => {
 					<div className='container'>
 						<div className='ocean__web__contenedor'>
 
-							<Titulo 
+							<Titulo
 								alternativo=""
-								superior="El primer gran paso para llegar al" 
-								inferior="océano azul es un sitio web único."
+								title="El primer gran paso para llegar al"
+								subtitle="océano azul es un sitio web único."
 								invertido={false}
 							/>
 
 							<div className="ocean__web__contenedor__bird_two">
-								<Bird/>
+								<Bird />
 							</div>
 							<div className="ocean__web__contenedor__bird">
-								<BirdTwo/>
+								<BirdTwo />
 							</div>
 
 							<div className="ocean__web__contenedor__shell">
-								<Shell/>
+								<Shell />
 							</div>
 							<div className='ocean__web__contenedor__table_lenguajes'>
 								<div className='ocean__web__contenedor__table_lenguajes__fila'>
 									<div className="ocean__web__contenedor__table_lenguajes__fila__column">
-										<Vue/>
+										<Vue />
 									</div>
 									<div className="ocean__web__contenedor__table_lenguajes__fila__column">
-										<React/>
-									</div>
-								</div>
-								<div className='ocean__web__contenedor__table_lenguajes__fila'>
-									<div className="ocean__web__contenedor__table_lenguajes__fila__column">
-										<Node/>
-									</div>
-									<div className="ocean__web__contenedor__table_lenguajes__fila__column">
-										<Postgre/>
+										<React />
 									</div>
 								</div>
 								<div className='ocean__web__contenedor__table_lenguajes__fila'>
 									<div className="ocean__web__contenedor__table_lenguajes__fila__column">
-										<Postgre/>
+										<Node />
 									</div>
 									<div className="ocean__web__contenedor__table_lenguajes__fila__column">
-										<Mongo/>
+										<Postgre />
 									</div>
 								</div>
 								<div className='ocean__web__contenedor__table_lenguajes__fila'>
 									<div className="ocean__web__contenedor__table_lenguajes__fila__column">
-										<span><MySQL/></span>
+										<Postgre />
 									</div>
 									<div className="ocean__web__contenedor__table_lenguajes__fila__column">
-										<span><Php/></span>
+										<Mongo />
+									</div>
+								</div>
+								<div className='ocean__web__contenedor__table_lenguajes__fila'>
+									<div className="ocean__web__contenedor__table_lenguajes__fila__column">
+										<span><MySQL /></span>
+									</div>
+									<div className="ocean__web__contenedor__table_lenguajes__fila__column">
+										<span><Php /></span>
 									</div>
 								</div>
 								<div className='ocean__web__contenedor__table_lenguajes__fila'>
 									<div className="ocean__web__contenedor__table_lenguajes__fila__column_two">
-										<Python/>
+										<Python />
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					
+
 				</div>
 			</div>
-			
+
 		</div>
-		
+
 	)
 }
 

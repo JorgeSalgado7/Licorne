@@ -22,14 +22,14 @@ const Ux: NextPage = () => {
 	return (
 
 		<div className='ux'>
-			
+
 			<div className="ux__content">
 
 				<div className="ux__content__container container">
 
 					<Titulo
-						superior="UX User"
-						inferior="Experience."
+						title="UX User"
+						subtitle="Experience."
 						alternativo=""
 						invertido={false}
 					/>
@@ -73,7 +73,7 @@ const Ux: NextPage = () => {
 				</div>
 
 			</div>
-			
+
 		</div>
 
 	)

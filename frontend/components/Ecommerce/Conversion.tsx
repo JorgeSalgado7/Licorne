@@ -55,14 +55,14 @@ const Conversion: NextPage = () => {
 	return (
 
 		<div>
-			
+
 			<div className='conversion' ref={conversion}>
 
 				<div className='conversion__container container'>
 
 					<Titulo
-						superior="Poderosas tiendas en linea que convierten"
-						inferior="visitantes en clientes."
+						title="Poderosas tiendas en linea que convierten"
+						subtitle="visitantes en clientes."
 						alternativo=""
 						invertido={false}
 					/>
@@ -84,7 +84,7 @@ const Conversion: NextPage = () => {
 							<div className='conversion__container__animation__car__cube_two'></div>
 
 							<div className='conversion__container__animation__car__hashtag'>
-								<Hashtag/>
+								<Hashtag />
 							</div>
 
 							<div className='conversion__container__animation__car__streak'>
@@ -92,7 +92,7 @@ const Conversion: NextPage = () => {
 							</div>
 
 							<div className='conversion__container__animation__car__card'>
-								<Card/>
+								<Card />
 							</div>
 
 						</div>

@@ -26,8 +26,8 @@ const Analytics: NextPage = () => {
 				<div className="analytics__content__container container">
 
 					<Titulo
-						superior="Analítica"
-						inferior="Web"
+						title="Analítica"
+						subtitle="Web"
 						alternativo=""
 						invertido={false}
 					/>

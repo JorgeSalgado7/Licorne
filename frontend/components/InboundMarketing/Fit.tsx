@@ -28,13 +28,13 @@ const Fit: NextPage = () => {
 
 				<div className="fit__container container">
 
-					<Titulo 
-						superior="Inbound marketing" 
-						inferior="FIT."
+					<Titulo
+						title="Inbound marketing"
+						subtitle="FIT."
 						alternativo=""
 						invertido={false}
 					/>
-					
+
 					<div className='fit__container__section'>
 						<p>Imagina que <span>vas a una fiesta</span> y <span>observas a una persona</span> que te atrae.</p>
 					</div>
@@ -48,7 +48,7 @@ const Fit: NextPage = () => {
 					</div>
 
 					<div className='fit__container__section_four'>
-						<p>Lo mismo pasa en una estrategia de marketing digital cuando tratas 
+						<p>Lo mismo pasa en una estrategia de marketing digital cuando tratas
 							de venderle a tus visitantes desde la primera interacción, <span>¡te batearán!</span></p>
 					</div>
 

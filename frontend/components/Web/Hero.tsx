@@ -26,16 +26,16 @@ const Hero: NextPage = () => {
 			<div className='hero'>
 				<div className='container'>
 
-					<Titulo 
+					<Titulo
 						alternativo=""
-						superior="Diseño" 
-						inferior="Web"
+						title="Diseño"
+						subtitle="Web"
 						invertido={false}
 					/>
-				
+
 					<div className="hero__figCirculo"></div>
 					<div className="hero__imgCirculo">
-						<Circle/>
+						<Circle />
 					</div>
 
 					<div className="hero__uiux">
@@ -45,14 +45,14 @@ const Hero: NextPage = () => {
 							</div>
 							<div className="hero__uiux__abajo">
 								<div className='hero__uiux__abajo__boton'>
-									<Button/>
+									<Button />
 								</div>
 								<div className='hero__uiux__abajo__botellas'>
-									<Bottle/>
+									<Bottle />
 								</div>
-							
+
 								<div className="hero__uiux__abajo__galletas__img">
-									<Cookie/>
+									<Cookie />
 								</div>
 							</div>
 						</div>
@@ -62,19 +62,19 @@ const Hero: NextPage = () => {
 							</div>
 							<div className="hero__uiux__abajo">
 								<div className='hero__uiux__abajo__botonDos'>
-									<Closing/>
+									<Closing />
 								</div>
 
 								<div className='hero__uiux__abajo__botellasDos'>
-									<BottleTwo/>
+									<BottleTwo />
 								</div>
-							
+
 								<div className="hero__uiux__abajo__galletas__imgDos">
-									<CookieTwo/>
+									<CookieTwo />
 								</div>
 							</div>
 						</div>
-					</div> 
+					</div>
 				</div>
 			</div>
 		</div>

@@ -28,7 +28,7 @@ const Qualified: NextPage = () => {
 
 	useEffect(() => {
 
-		const Tl = gsap.timeline({  
+		const Tl = gsap.timeline({
 			scrollTrigger: {
 				trigger: qualified.current,
 				markers: false,
@@ -55,9 +55,9 @@ const Qualified: NextPage = () => {
 
 				<div className='qualified__container container'>
 
-					<Titulo 
-						superior="Licorne® Startup Kings siempre estará capacitado"
-						inferior="para aplicar constantes mejoras"
+					<Titulo
+						title="Licorne® Startup Kings siempre estará capacitado"
+						subtitle="para aplicar constantes mejoras"
 						alternativo=""
 						invertido={false}
 					/>

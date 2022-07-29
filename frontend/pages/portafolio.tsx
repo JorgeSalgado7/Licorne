@@ -11,16 +11,16 @@ const portafolio = () => {
 	const [proyectos, setProyectos] = useState([])
 
 	const OBTENER_PROYECTOS = () => {
-		axios.get('projects').then((response)=>{setProyectos(response.data)})      
+		axios.get('projects').then((response) => { setProyectos(response.data) })
 	}
 
 	useEffect(() => {
-		OBTENER_PROYECTOS ()
+		OBTENER_PROYECTOS()
 	}, [])
 
 	return (
 
-		<MainLayout  title ={title} description={description}>
+		<MainLayout title={title} description={description}>
 
 			<div className="portafolio">
 
@@ -28,10 +28,10 @@ const portafolio = () => {
 				<div className="portafolio_inovando_marcas">
 
 					<div className="portafolio_titulo_inovando_marcas">
-						<Titulo 
+						<Titulo
 							alternativo=""
-							superior="Innovando en"
-							inferior="las marcas"
+							title="Innovando en"
+							subtitle="las marcas"
 							invertido={false}
 						/>
 
@@ -66,7 +66,7 @@ const portafolio = () => {
 					</div>
 
 				</div>
-				
+
 				<div className="portafolio_proyectos">
 					{
 						proyectos.map((proyecto, index) => (
@@ -81,7 +81,7 @@ const portafolio = () => {
 							/>
 
 						))
-					}	
+					}
 				</div>
 
 			</div>
