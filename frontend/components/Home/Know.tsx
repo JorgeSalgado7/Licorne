@@ -10,7 +10,7 @@ import Conversation2 from '../../svg/home/Conversation2'
  */
 
 //*Components
-import Titulo from '../Common/Title'
+import Title from '../Common/Title'
 
 const Home: NextPage = () => {
 
@@ -20,8 +20,7 @@ const Home: NextPage = () => {
 
 				<div className='container'>
 
-					<Titulo
-						text=""
+					<Title
 						title="¡Sí le"
 						subtitle="Sabemos!"
 						alternative={true}
