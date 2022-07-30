@@ -1,6 +1,7 @@
-const linkedln= () => {
+const Linkedin = () => {
 
 	return (
+
 		<svg xmlns="http://www.w3.org/2000/svg" width="69.398" height="58.21" viewBox="0 0 69.398 58.21">
 			<g id="b" transform="translate(0.017)">
 				<g id="c">
@@ -13,7 +14,8 @@ const linkedln= () => {
 				</g>
 			</g>
 		</svg>
+
 	)
 
 }
-export default  linkedln
+export default Linkedin

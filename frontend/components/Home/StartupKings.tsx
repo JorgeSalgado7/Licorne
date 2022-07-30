@@ -9,7 +9,7 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 
 //* Components
-import Titulo from '../Common/Title'
+import Titulo from '../Common/LicorneTitle'
 
 //* SVG
 import Queen from '../../svg/home/Queen'

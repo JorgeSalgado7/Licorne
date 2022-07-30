@@ -10,7 +10,7 @@ import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 //*Components
-import Titulo from '../Common/Title'
+import Titulo from '../Common/LicorneTitle'
 import Eu from '../../svg/History/Eu'
 import EuTwo from '../../svg/History/EuTwo'
 

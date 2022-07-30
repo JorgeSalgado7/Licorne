@@ -10,7 +10,7 @@ gsap.registerPlugin(ScrollTrigger)
 import type { NextPage } from 'next'
 
 //*Components
-import Titulo from '../Common/Title'
+import Titulo from '../Common/LicorneTitle'
 
 //*SVG
 import Google from '../../svg/History/Google'

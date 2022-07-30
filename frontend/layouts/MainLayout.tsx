@@ -1,4 +1,4 @@
-///* Next components
+//* Next components
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Script from 'next/script'
@@ -8,9 +8,10 @@ import { LayoutProps } from '../interfaces/layout'
 
 //* Components
 import Header from './Header'
-import Footer from './Footer/Footer'
 import Lateral from './Lateral'
 import MenuMovil from './Menu/MenuMovil'
+import Footer from './Footer'
+import FooterLower from './FooterLower'
 
 /**
  * @author Jorge Salgado
@@ -49,7 +50,7 @@ const MainLayout: NextPage<LayoutProps> = ({ title, description, children }) => 
 			{children}
 			<MenuMovil />
 			<Footer />
-
+			<FooterLower />
 		</>
 
 	)

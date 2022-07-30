@@ -7,7 +7,7 @@ import { gsap } from 'gsap/dist/gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 
 //*Components
-import Titulo from '../Common/Title'
+import Titulo from '../Common/LicorneTitle'
 import RightHand from '../../svg/Programatic/RightHand'
 import LeftHand from '../../svg/Programatic/LeftHand'
 import Robot from '../../svg/Programatic/Robot'

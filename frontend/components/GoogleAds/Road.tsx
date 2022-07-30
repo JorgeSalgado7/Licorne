@@ -3,7 +3,7 @@ import type { NextPage } from 'next'
 import Image from 'next/image'
 
 //*Components
-import Titulo from '../Common/Title'
+import Titulo from '../Common/LicorneTitle'
 
 //*Image
 import Glass from '../../svg/Google/Glass'

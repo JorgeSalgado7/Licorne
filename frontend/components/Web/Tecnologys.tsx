@@ -6,7 +6,7 @@ import Meter from '../../svg/Web/Meter'
 import WordPress from '../../svg/Web/Wordpress'
 
 //*Components
-import Titulo from '../Common/Title'
+import Titulo from '../Common/LicorneTitle'
 
 /**
  * @author Maria Meza

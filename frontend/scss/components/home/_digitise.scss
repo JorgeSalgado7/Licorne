@@ -7,21 +7,7 @@
 		$licorne_yellow,
 		$licorne_BrightTurquoise
 	);
-	@media (min-width: 380px) {
-		height: 80vh ;
-	}
-	@media (min-width: 500px) {
-		height: 66vh ;
-	}
-	@media (min-width: 900px) {
-		height: 84vh ;
-	}
-	@media (min-width: 1000px) {
-		height: 100vh ;
-	}
-	@media(min-width: 1400px){
-		height: 78vh;
-	}
+
 	&__menu{
 		position: relative;
 		top: 80%;
@@ -29,6 +15,7 @@
 		transform: translate(-50%,-80%);
 		width: 100%;
 		height: 500px;
+		
 		@media(min-width: 647px){
 			width: 60%;
 		}
@@ -159,4 +146,5 @@
 
 		}
 	}
+
 }

@@ -8,7 +8,7 @@ import { gsap } from 'gsap/dist/gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 
 //*Components
-import Titulo from '../Common/Title'
+import Titulo from '../Common/LicorneTitle'
 import Magnetic from '../../svg/SocialAds/Magnetic'
 import Lightning from '../../svg/SocialAds/Lightning '
 import Lightning2 from '../../svg/SocialAds/Lightning2'

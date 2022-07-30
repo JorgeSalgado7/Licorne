@@ -8,7 +8,7 @@ import axios from 'axios'
 //*Components
 import MainLayout from '../layouts/MainLayout'
 import Project from '../components/Briefcase/Project'
-import Title from '../components/Common/Title'
+import Title from '../components/Common/LicorneTitle'
 // import Link from '../layouts/LinkPersonalizado'
 
 //*interface

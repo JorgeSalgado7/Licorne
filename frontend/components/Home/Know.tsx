@@ -10,38 +10,37 @@ import Conversation2 from '../../svg/home/Conversation2'
  */
 
 //*Components
-import Title from '../Common/Title'
+import Title from '../Common/LicorneTitle'
 
 const Home: NextPage = () => {
 
 	return (
+
 		<div>
 			<div className='know'>
 
 				<div className='container'>
 
 					<Title
-						text=""
 						title="¡Sí le"
 						subtitle="Sabemos!"
 						alternative={true}
 					/>
 
 					<div className='know__animation'>
+
 						<img src="https://licorne-web.s3.us-east-2.amazonaws.com/home/telefono.svg" alt="tecnologia digital" />
-						<div className='know__animation__conversations'>
-							<div className="know__animation__conversations__scroll">
 
-								<Conversation1 />
-
-								<Conversation2 />
-
-							</div>
+						<div className='know__animation__scroll'>
+							<Conversation1 />
+							<Conversation2 />
 						</div>
+
 					</div>
 
 				</div>
 			</div>
+
 		</div>
 
 	)

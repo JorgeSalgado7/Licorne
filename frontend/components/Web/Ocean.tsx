@@ -10,7 +10,7 @@ import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 import Vue from '../../svg/Development/Vue'
 
 //*Components
-import Titulo from '../Common/Title'
+import Titulo from '../Common/LicorneTitle'
 import React from '../../svg/Development/React'
 import Postgre from '../../svg/Development/Postgre'
 import Mongo from '../../svg/Development/Mongo'

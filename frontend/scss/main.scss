@@ -12,8 +12,7 @@
 @import 'layouts/licorne_menu';
 @import 'layouts/menu_movil';
 @import 'layouts/lateral';
-@import 'layouts/footer/footer';
-@import 'layouts/footer/footer_top';
+@import 'layouts/footer';
 @import 'layouts/footer/footer_lower';
 @import 'layouts/buscador';
 
@@ -30,7 +29,7 @@
 @import 'components/home/know';
 @import 'components/home/digitise';
 
-//* lean-startup
+//* Lean Startup
 @import 'components/lean-startup/mainAnimation';
 @import 'components/lean-startup/seedAnimation';
 @import 'components/lean-startup/snapAnimation';
@@ -46,7 +45,7 @@
 @import 'components/development/cybersecurity';
 @import 'components/development/audit';
 
-//*Web
+//* Web
 @import 'components/web/hero';
 @import 'components/web/creative';
 @import 'components/web/menuCreative';
@@ -54,7 +53,7 @@
 @import 'components/web/tecnolys';
 @import 'components/web/ocean';
 
-//*Ecommerce
+//* Ecommerce
 @import 'components/ecommerce/conversion';
 @import 'components/ecommerce/management';
 @import 'components/ecommerce/responsive';
@@ -62,13 +61,13 @@
 @import 'components/ecommerce/wireframing';
 @import 'components/ecommerce/workshop';
 
-//*App
+//* App
 @import 'components/app/hero';
 @import 'components/app/methology';
 @import 'components/app/requirements';
 @import 'components/app/we_know';
 
-//*Maintenance
+//* Maintenance
 @import 'components/maintenance/hero';
 @import 'components/maintenance/update';
 @import 'components/maintenance/policy';
@@ -82,7 +81,7 @@
 @import 'components/inbound-marketing/responsive';
 @import 'components/inbound-marketing/learning';
 
-//*SEO
+//* SEO
 @import 'components/seo/google';
 @import 'components/seo/quality';
 @import 'components/seo/qualified';
@@ -94,7 +93,7 @@
 @import 'components/social-media/content';
 @import 'components/social-media/paid';
 
-//*Google Ads
+//* Google Ads
 @import 'components/google/hero';
 @import 'components/google/wallet';
 @import 'components/google/google';
@@ -102,7 +101,7 @@
 @import 'components/google/road';
 @import 'components/google/present';
 
-//*Social Ads
+//* Social Ads
 @import 'components/social-ads/hero';
 @import 'components/social-ads/bells';
 @import 'components/social-ads/segmentation';
@@ -110,14 +109,14 @@
 @import 'components/social-ads/need';
 @import 'components/social-ads/social_networks';
 
-//*Programatic
+//* Programatic
 @import 'components/programatic/hero';
 @import 'components/programatic/programatics';
 @import 'components/programatic/traditional';
 @import 'components/programatic/menu';
 @import 'components/programatic/benefits';
 
-//*Wo Do It
+//* We Do It
 @import 'components/we-do-it/how';
 @import 'components/we-do-it/discover';
 @import 'components/we-do-it/consultancy';
@@ -125,7 +124,7 @@
 @import 'components/we-do-it/maximize';
 @import 'components/we-do-it/scalability';
 
-//*Mision y vision
+//* Mision y vision
 @import 'components/mision-vision/hero';
 @import 'components/mision-vision/mision';
 @import 'components/mision-vision/vision';

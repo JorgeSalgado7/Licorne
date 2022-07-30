@@ -3,7 +3,7 @@ import type { NextPage } from 'next'
 import Link from 'next/link'
 
 //*Components
-import Title from '../Common/Title'
+import Title from '../Common/LicorneTitle'
 
 /**
  * @author Maria Meza

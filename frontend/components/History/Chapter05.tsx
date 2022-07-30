@@ -2,7 +2,7 @@
 import type { NextPage } from 'next'
 
 //*Components
-import Titulo from '../Common/Title'
+import Titulo from '../Common/LicorneTitle'
 
 //*SVG
 import Mesh from '../../svg/History/Mesh'

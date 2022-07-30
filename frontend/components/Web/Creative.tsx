@@ -9,7 +9,7 @@ import WorkShops from '../../svg/Web/Workshop'
 import Illustration from '../../svg/Web/Illustration'
 
 //*Components
-import Titulo from '../Common/Title'
+import Titulo from '../Common/LicorneTitle'
 
 /**
  * @author Maria Meza

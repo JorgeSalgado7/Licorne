@@ -7,7 +7,7 @@ import { gsap } from 'gsap/dist/gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 
 //*Image
-import Titulo from '../Common/Title'
+import Titulo from '../Common/LicorneTitle'
 import PhoneArrows from '../../svg/App/PhoneArrows'
 import People from '../../svg/App/People'
 import PhoneCheck from '../../svg/App/PhoneCheck'

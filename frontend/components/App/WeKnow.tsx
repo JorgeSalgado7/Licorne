@@ -2,7 +2,7 @@
 import type { NextPage } from 'next'
 
 //*Image
-import Titulo from '../Common/Title'
+import Titulo from '../Common/LicorneTitle'
 import Swift from '../../svg/App/Swift'
 import Flutter from '../../svg/App/Flutter'
 import React from '../../svg/Development/React'

@@ -7,12 +7,11 @@ import React from 'react'
 //* Swiper components
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
-import 'swiper/css/effect-cube'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'
 
 //* Components
-import Titulo from '../Common/Title'
+import Title from '../Common/LicorneTitle'
 
 //* SVG
 import GooglePartners from '../../svg/SlidePartners/GooglePartners'
@@ -41,11 +40,9 @@ const Partners: NextPage = () => {
 
 					<div className='partners__content__container__slide'>
 
-						<Titulo
+						<Title
 							title="Socios"
 							subtitle="Estrategicos"
-							text=""
-							alternative={false}
 						/>
 
 						<div className='partners__content__container__slide__content'>
@@ -53,19 +50,8 @@ const Partners: NextPage = () => {
 							<Swiper
 								centeredSlides={false}
 								slidesPerView={'auto'}
-								coverflowEffect={{
-									'rotate': 0,
-									'stretch': 0,
-									'depth': 1,
-									'modifier': 1,
-									'slideShadows': false
-								}}
-								hashNavigation={{
-									'watchState': false
-								}}
 								navigation={false}
 								className="mySwiper"
-
 							>
 
 								<SwiperSlide>
@@ -191,14 +177,14 @@ const Partners: NextPage = () => {
 					</div>
 
 					<div className='partners__content__container__hastags'>
+
 						<div>
-							<Titulo
+							<Title
 								title="Expertos"
 								subtitle=""
-								text=""
-								alternative={false}
 							/>
 						</div>
+
 						<div className='partners__content__container__hastags__content'>
 							<div className="partners__content__container__hastags__content__one">
 								<p>#LeanStartup <span> #EstrategiaDeNegocio </span> #OKR <span> #Scrum </span> #Agile <span> #InboundMarketing </span> #GoogleAds <span> #SocialMedia </span> #SocialMedia <span> #PlaneaciónEstratégica </span> #LeanStartup <span> #EstrategiaDeNegocio </span> #OKR <span> #Scrum </span> #Agile <span> #InboundMarketing </span> #GoogleAds <span> #SocialMedia </span> #PlaneaciónEstratégica <span> #LeanStartup </span> #EstrategiaDeNegocio <span> #OKR </span> #Scrum <span> #Agile </span> #InboundMarketing <span> #GoogleAds </span></p>
@@ -207,6 +193,7 @@ const Partners: NextPage = () => {
 								<p>#Vue.js <span> #React </span> #Node <span> #Django </span> #PostgreSQL <span> #MongoDB </span> #MySQL <span> #Python </span> #Php <span> #Vue.js </span> #React <span> #Node </span> #Django <span> #PostgreSQL </span> #MongoDB <span> #MySQL </span> #Python <span> #Php </span> #Vue.js <span> #React </span> #Node <span> #Django </span> #PostgreSQL <span> #MongoDB </span> #MySQL <span> #Python </span> #Php <span> #Vue.js </span> #React <span> #Node </span> #Django <span> #PostgreSQL </span> #MongoDB <span> #MySQL </span> #Python <span> #Php </span> #Vue.js <span> #React </span> #Node <span> #MySQL </span> #Python <span> #Php </span></p>
 							</div>
 						</div>
+						
 					</div>
 				</div>
 			</div>

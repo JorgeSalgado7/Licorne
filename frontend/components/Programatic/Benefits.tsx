@@ -24,7 +24,7 @@ SwiperCore.use([
 ])
 
 //*Components
-import Titulo from '../Common/Title'
+import Titulo from '../Common/LicorneTitle'
 import People from '../../svg/Programatic/People'
 import Molecules from '../../svg/Programatic/Molecules'
 import Shield from '../../svg/Programatic/Shield'

@@ -11,7 +11,7 @@ import Cookie from '../../svg/Web/Cookie'
 import CookieTwo from '../../svg/Web/CookiesTwo'
 
 //*Components
-import Titulo from '../Common/Title'
+import Titulo from '../Common/LicorneTitle'
 
 /**
  * @author Maria Meza
