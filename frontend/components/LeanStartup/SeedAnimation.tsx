@@ -14,7 +14,6 @@ import PlantFive from '../../svg/LeanStartup/PlantFive'
 //* Animations components
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
-gsap.registerPlugin(ScrollTrigger)
 
 /**
  * @author Iván Sánchez
@@ -24,6 +23,7 @@ gsap.registerPlugin(ScrollTrigger)
 const SeedAnimation: NextPage = () => {
 
 	const seed = useRef<HTMLDivElement>(null)
+	gsap.registerPlugin(ScrollTrigger)
 
 	useEffect(() => {
 
