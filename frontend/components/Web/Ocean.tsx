@@ -67,16 +67,20 @@ const Ocean: NextPage = () => {
 								alternative={false}
 							/>
 
-							<div className="ocean__web__contenedor__bird_two">
-								<Bird />
-							</div>
-							<div className="ocean__web__contenedor__bird">
-								<BirdTwo />
+							<div className="ocean__web__contenedor__animation">
+
+								<div className="ocean__web__contenedor__animation__bird_two">
+									<Bird />
+								</div>
+								<div className="ocean__web__contenedor__animation__bird">
+									<BirdTwo />
+								</div>
+
+								<div className="ocean__web__contenedor__animation__shell">
+									<Shell />
+								</div>
 							</div>
 
-							<div className="ocean__web__contenedor__shell">
-								<Shell />
-							</div>
 							<div className='ocean__web__contenedor__table_lenguajes'>
 								<div className='ocean__web__contenedor__table_lenguajes__fila'>
 									<div className="ocean__web__contenedor__table_lenguajes__fila__column">

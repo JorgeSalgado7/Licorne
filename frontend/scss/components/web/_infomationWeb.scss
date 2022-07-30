@@ -1,7 +1,8 @@
 .information{
 	&__web{
         background: $white;
-        height: 100vh;
+		height: 100vh;
+		height: calc(var(--vh, 1vh) * 100);
 
             &__parrafoInformacion{
                 width: 95%;

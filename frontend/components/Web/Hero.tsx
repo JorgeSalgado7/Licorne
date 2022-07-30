@@ -11,7 +11,7 @@ import Cookie from '../../svg/Web/Cookie'
 import CookieTwo from '../../svg/Web/CookiesTwo'
 
 //*Components
-import Titulo from '../Common/LicorneTitle'
+import Title from '../Common/LicorneTitle'
 
 /**
  * @author Maria Meza
@@ -26,7 +26,7 @@ const Hero: NextPage = () => {
 			<div className='hero'>
 				<div className='container'>
 
-					<Titulo
+					<Title
 						text=""
 						title="Diseño"
 						subtitle="Web"
