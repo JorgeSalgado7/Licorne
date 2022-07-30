@@ -2,7 +2,7 @@
 import type { NextPage } from 'next'
 
 //* Components
-import Titulo from '../Common/LicorneTitle'
+import Title from '../Common/LicorneTitle'
 
 //* SVG
 import Power from '../../svg/Development/Power'
@@ -25,7 +25,7 @@ const Analytics: NextPage = () => {
 
 				<div className="analytics__content__container container">
 
-					<Titulo
+					<Title
 						title="Analítica"
 						subtitle="Web"
 						text=""

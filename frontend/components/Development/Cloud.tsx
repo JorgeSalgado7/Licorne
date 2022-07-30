@@ -2,7 +2,7 @@
 import type { NextPage } from 'next'
 
 //* Components
-import Titulo from '../Common/LicorneTitle'
+import Title from '../Common/LicorneTitle'
 
 //* SVG
 import AmazonS3 from '../../svg/Development/AmazonS3'
@@ -22,7 +22,7 @@ const Cloud: NextPage = () => {
 
 				<div className="cloud__content__container container">
 
-					<Titulo
+					<Title
 						title="Cloud"
 						subtitle="Services"
 						text=""

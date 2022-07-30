@@ -2,7 +2,7 @@
 import type { NextPage } from 'next'
 
 //* Components
-import Titulo from '../Common/LicorneTitle'
+import Title from '../Common/LicorneTitle'
 
 //* SVG
 import Analitycs from '../../svg/Development/Analitycs'
@@ -27,7 +27,7 @@ const Audit: NextPage = () => {
 
 				<div className="audit__content__container container">
 
-					<Titulo
+					<Title
 						title="Auditorías"
 						subtitle=""
 						text=""

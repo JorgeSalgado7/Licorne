@@ -12,12 +12,22 @@
             height: 100vh;
         }
 
+		.licorne_title{
+			
+			&__title{
+				@media (max-width:1200px){
+					font-size: 39px;
+				}
+				
+			}
+		}
+
         &__container{
             min-height: 100vh;
 
         	&__text{
                 font-size: 20px;
-                padding-top: 192px;
+                padding-top: 10%;
                 font-weight: 300;
 
                 @media(min-width: 1400px){
@@ -73,9 +83,9 @@
                         transform: scale(1.2);
                     }
 
-                    img{
-                        max-height: 100%;
-                        max-width: 100%;
+                    svg{
+                        height: 100%;
+                        width: 100%;
                     }
 
                 }

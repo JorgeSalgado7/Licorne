@@ -2,7 +2,7 @@
 import type { NextPage } from 'next'
 
 //* Components
-import Titulo from '../Common/LicorneTitle'
+import Title from '../Common/LicorneTitle'
 
 //* SVG
 import Test from '../../svg/Development/Test'
@@ -27,7 +27,7 @@ const Ux: NextPage = () => {
 
 				<div className="ux__content__container container">
 
-					<Titulo
+					<Title
 						title="UX User"
 						subtitle="Experience."
 						text=""
