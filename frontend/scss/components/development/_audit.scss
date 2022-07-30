@@ -21,7 +21,7 @@
                 font-weight: 300;
 
                 @media(min-width: 200px){
-                    padding-top: 135px;
+                    padding-top: 10%;
                 }
 
                 @media(min-width: 1400px){
@@ -36,7 +36,7 @@
                     max-width: 55%;
                     position: absolute;
                     left: 0;
-                    bottom: 64%;
+                    bottom: 48%;
                     padding-top: 35px;
                     padding-right: 40px;
                 }
@@ -64,7 +64,7 @@
                     max-width: 55%;
                     position: absolute;
                     left: 0;
-                    bottom: 57%;
+                    bottom: 41%;
                     padding-top: 0;
                 }
 
@@ -133,8 +133,8 @@
                     }
 
                     svg{
-                        max-height: 100%;
-                        max-width: 100%;
+                        height: 100%;
+                        width: 100%;
                     }
 
                     p{

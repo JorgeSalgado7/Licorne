@@ -2,7 +2,7 @@
 import type { NextPage } from 'next'
 
 //* Components
-import Titulo from '../Common/LicorneTitle'
+import Title from '../Common/LicorneTitle'
 
 //* SVG
 import Html from '../../svg/Development/Html'
@@ -39,7 +39,7 @@ const AppDevelopment: NextPage = () => {
 
 				<div className="app_development__content__container container">
 
-					<Titulo
+					<Title
 						title="Desarrollo de"
 						subtitle="aplicaciones web."
 						text=""

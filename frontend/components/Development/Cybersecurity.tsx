@@ -2,7 +2,7 @@
 import type { NextPage } from 'next'
 
 //* Components
-import Titulo from '../Common/LicorneTitle'
+import Title from '../Common/LicorneTitle'
 
 //* SVG
 import Ssl from '../../svg/Development/Ssl'
@@ -25,7 +25,7 @@ const Cybersecurity: NextPage = () => {
 
 				<div className="cybersecurity__content__container container">
 
-					<Titulo
+					<Title
 						title="Ciberseguridad"
 						subtitle="y protección"
 						text=""
