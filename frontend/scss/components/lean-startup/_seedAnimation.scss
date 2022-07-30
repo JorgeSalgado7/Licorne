@@ -22,30 +22,35 @@
 		
 		&__text{
 			position: absolute;
-			width: 100%;
+			width: calc(100% - 30px);
 			top: 10%;
 			left: 50%;
 			transform: translate(-50%,-10%);
+
 			@media (min-width: 576px) {
 				width: 70%;
 			}
+
 			@media (min-width: 1199px) {
 				width: 56%;
 				top: 50%;
 				left: 0%;
 				transform: translate(-0%,-50%);
 			}
+
 			p{
 				font-size: 18px;
 				font-weight: 300;
 				margin-bottom: 20px;
 				letter-spacing: 1px;
+
 				@media (min-width: 576px) {
 					font-size: 18px;
 					font-weight: 300;
 					margin-bottom: 20px;
 					letter-spacing: 1px;
 				}
+				
 				@media (min-width: 1199px) {
 					font-size: 18px;
 					font-weight: 300;
