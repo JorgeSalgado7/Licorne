@@ -15,7 +15,11 @@
 		.licorne_title{
 			
 			&__title{
-				@media (max-width:1200px){
+
+				@media (max-width:400px){
+					font-size: 37px;
+				}
+				@media(min-width:401px) and (max-width:1200px){
 					font-size: 39px;
 				}
 				
