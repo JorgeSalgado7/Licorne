@@ -5,8 +5,11 @@ import type { NextPage } from 'next'
 import React from 'react'
 
 //* Swiper components
+import SwiperCore, { Autoplay, Pagination, Navigation, EffectCoverflow, EffectCube } from 'swiper'
+SwiperCore.use([Autoplay, Pagination, Navigation, EffectCoverflow, EffectCube])
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
+import 'swiper/css/effect-cube'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'
 
@@ -14,7 +17,7 @@ import 'swiper/css/navigation'
 import Title from '../Common/LicorneTitle'
 
 //* SVG
-import GooglePartners from '../../svg/SlidePartners/GooglePartners'
+import GooglePartners from '../../svg/MisionVision/GoogleP'
 import Paypal from '../../svg/SlidePartners/Paypal'
 import Hubspot from '../../svg/SlidePartners/Hubspot'
 import GoogleAnalytics from '../../svg/SlidePartners/GoogleAnalytics'

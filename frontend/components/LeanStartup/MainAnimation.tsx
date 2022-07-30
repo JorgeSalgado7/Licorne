@@ -20,46 +20,47 @@ const MainAnimation: NextPage = () => {
 	return (
 
 		<div className='main_animation'>
+			<div className='container'>
+				<div className='main_animation__container'>
 
-			<div className='main_animation__container container'>
+					<Title
+						title="¡Llega más lejos "
+						subtitle="con lean startup!"
+					/>
 
-				<Title
-					title="¡Llega más lejos "
-					subtitle="con lean startup!"
-				/>
+					<div className='main_animation__container__animation'>
 
-				<div className='main_animation__container__animation'>
+						<div className="main_animation__container__animation__cycle">
 
-					<div className="main_animation__container__animation__cycle">
+							<div className="main_animation__container__animation__cycle__lens">
+								<Lens />
+							</div>
 
-						<div className="main_animation__container__animation__cycle__lens">
-							<Lens />
-						</div>
+							<div className="main_animation__container__animation__cycle__arrow_one">
+								<Arrow />
+							</div>
 
-						<div className="main_animation__container__animation__cycle__arrow_one">
-							<Arrow />
-						</div>
+							<div className="main_animation__container__animation__cycle__wall">
+								<Wall />
+							</div>
 
-						<div className="main_animation__container__animation__cycle__wall">
-							<Wall />
-						</div>
+							<div className="main_animation__container__animation__cycle__arrow_two">
+								<Arrow />
+							</div>
 
-						<div className="main_animation__container__animation__cycle__arrow_two">
-							<Arrow />
-						</div>
+							<div className="main_animation__container__animation__cycle__ruler">
+								<Ruler />
+							</div>
 
-						<div className="main_animation__container__animation__cycle__ruler">
-							<Ruler />
-						</div>
+							<div className="main_animation__container__animation__cycle__arrow_three">
+								<Arrow />
+							</div>
 
-						<div className="main_animation__container__animation__cycle__arrow_three">
-							<Arrow />
 						</div>
 
 					</div>
 
 				</div>
-
 			</div>
 			
 		</div>
